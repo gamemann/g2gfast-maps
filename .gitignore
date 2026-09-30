@@ -1,0 +1,4 @@
+# Signed packs and CDN mirrors are derived; the maps are the source.
+/dist/
+/mirror/
+__pycache__/

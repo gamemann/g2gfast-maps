@@ -1,0 +1,10398 @@
+{
+ "id": "bhop_badges_mini",
+ "source": "bhop_badges_mini.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 2,
+ "bounds": {
+  "min": [
+   -1728.0,
+   960.0,
+   16192.0
+  ],
+  "max": [
+   15680.0,
+   15360.0,
+   128.0
+  ]
+ },
+ "lightmap": {
+  "file": "bhop_badges_mini_lightmap.png",
+  "width": 1024,
+  "height": 2048
+ },
+ "lighting": {
+  "sky_name": "sky_day01_01",
+  "baked_light_count": 213
+ },
+ "surfaces": [
+  {
+   "material": "cs_italy/black",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 0,
+   "vertex_count": 468,
+   "index_offset": 18720,
+   "index_count": 756,
+   "colour": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/black",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 21744,
+   "vertex_count": 124,
+   "index_offset": 26704,
+   "index_count": 222,
+   "colour": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/reflectivity_70b",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 27592,
+   "vertex_count": 9416,
+   "index_offset": 404232,
+   "index_count": 15165,
+   "colour": [
+    0.8542,
+    0.8539,
+    0.854
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/reflectivity_70b",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 464892,
+   "vertex_count": 377,
+   "index_offset": 479972,
+   "index_count": 741,
+   "colour": [
+    0.8542,
+    0.8539,
+    0.854
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/reflectivity_70b",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 482936,
+   "vertex_count": 40,
+   "index_offset": 484536,
+   "index_count": 66,
+   "colour": [
+    0.8542,
+    0.8539,
+    0.854
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "devneons/blue_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 484800,
+   "vertex_count": 86,
+   "index_offset": 488240,
+   "index_count": 153,
+   "colour": [
+    0.0,
+    0.6802,
+    0.9354
+   ],
+   "texture": "devneons_blue_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/blue_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 488852,
+   "vertex_count": 96,
+   "index_offset": 492692,
+   "index_count": 240,
+   "colour": [
+    0.0,
+    0.6802,
+    0.9354
+   ],
+   "texture": "devneons_blue_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/blue_neon",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 493652,
+   "vertex_count": 8,
+   "index_offset": 493972,
+   "index_count": 18,
+   "colour": [
+    0.0,
+    0.6802,
+    0.9354
+   ],
+   "texture": "devneons_blue_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/green_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 494044,
+   "vertex_count": 40,
+   "index_offset": 495644,
+   "index_count": 60,
+   "colour": [
+    0.0,
+    0.9965,
+    0.0
+   ],
+   "texture": "devneons_green_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/green_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 495884,
+   "vertex_count": 16,
+   "index_offset": 496524,
+   "index_count": 24,
+   "colour": [
+    0.0,
+    0.9965,
+    0.0
+   ],
+   "texture": "devneons_green_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/orange_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 496620,
+   "vertex_count": 510,
+   "index_offset": 517020,
+   "index_count": 786,
+   "colour": [
+    0.9698,
+    0.5777,
+    0.0843
+   ],
+   "texture": "devneons_orange_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/orange_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 520164,
+   "vertex_count": 126,
+   "index_offset": 525204,
+   "index_count": 210,
+   "colour": [
+    0.9698,
+    0.5777,
+    0.0843
+   ],
+   "texture": "devneons_orange_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/orange_neon",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 526044,
+   "vertex_count": 8,
+   "index_offset": 526364,
+   "index_count": 12,
+   "colour": [
+    0.9698,
+    0.5777,
+    0.0843
+   ],
+   "texture": "devneons_orange_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/pink_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 526412,
+   "vertex_count": 147,
+   "index_offset": 532292,
+   "index_count": 237,
+   "colour": [
+    0.9354,
+    0.425,
+    0.6645
+   ],
+   "texture": "devneons_pink_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/pink_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 533240,
+   "vertex_count": 37,
+   "index_offset": 534720,
+   "index_count": 57,
+   "colour": [
+    0.9354,
+    0.425,
+    0.6645
+   ],
+   "texture": "devneons_pink_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/red_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 534948,
+   "vertex_count": 20,
+   "index_offset": 535748,
+   "index_count": 30,
+   "colour": [
+    0.9927,
+    0.0,
+    0.0
+   ],
+   "texture": "devneons_red_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/red_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 535868,
+   "vertex_count": 52,
+   "index_offset": 537948,
+   "index_count": 78,
+   "colour": [
+    0.9927,
+    0.0,
+    0.0
+   ],
+   "texture": "devneons_red_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/white_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 538260,
+   "vertex_count": 872,
+   "index_offset": 573140,
+   "index_count": 1452,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": "devneons_white_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/white_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 578948,
+   "vertex_count": 180,
+   "index_offset": 586148,
+   "index_count": 414,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": "devneons_white_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/yellow_neon",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 587804,
+   "vertex_count": 240,
+   "index_offset": 597404,
+   "index_count": 360,
+   "colour": [
+    0.9965,
+    0.9965,
+    0.0
+   ],
+   "texture": "devneons_yellow_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "devneons/yellow_neon",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 598844,
+   "vertex_count": 48,
+   "index_offset": 600764,
+   "index_count": 72,
+   "colour": [
+    0.9965,
+    0.9965,
+    0.0
+   ],
+   "texture": "devneons_yellow_neon.png",
+   "translucent": false
+  },
+  {
+   "material": "glass/glasswindow070c",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 601052,
+   "vertex_count": 24,
+   "index_offset": 602012,
+   "index_count": 36,
+   "colour": [
+    0.0001,
+    0.1292,
+    0.1817
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "gum/mappby",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 602156,
+   "vertex_count": 4,
+   "index_offset": 602316,
+   "index_count": 6,
+   "colour": [
+    0.384,
+    0.384,
+    0.384
+   ],
+   "texture": "gum_mappby.png",
+   "translucent": true
+  },
+  {
+   "material": "reacz/portal/dark/thick_framed/wall_black_large1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 602340,
+   "vertex_count": 6584,
+   "index_offset": 865700,
+   "index_count": 11574,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thick_framed_wall_black_large1.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thick_framed/wall_black_large1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 911996,
+   "vertex_count": 16,
+   "index_offset": 912636,
+   "index_count": 24,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thick_framed_wall_black_large1.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/medium_clean",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 912732,
+   "vertex_count": 4084,
+   "index_offset": 1076092,
+   "index_count": 6774,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_medium_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/medium_clean",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1103188,
+   "vertex_count": 39,
+   "index_offset": 1104748,
+   "index_count": 90,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_medium_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/medium_clean",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1105108,
+   "vertex_count": 30,
+   "index_offset": 1106308,
+   "index_count": 54,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_medium_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/small_clean",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1106524,
+   "vertex_count": 813,
+   "index_offset": 1139044,
+   "index_count": 1335,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_small_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/small_clean",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1144384,
+   "vertex_count": 1958,
+   "index_offset": 1222704,
+   "index_count": 3198,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_small_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/dark/thin_framed/clean/small_clean",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1235496,
+   "vertex_count": 44,
+   "index_offset": 1237256,
+   "index_count": 66,
+   "colour": [
+    0.6262,
+    0.5838,
+    0.5564
+   ],
+   "texture": "reacz_portal_dark_thin_framed_clean_small_clean.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/glass/refractive/glass_refract01",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 1237520,
+   "vertex_count": 387,
+   "index_offset": 1253000,
+   "index_count": 723,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/glass/refractive/glass_refract01",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 1255892,
+   "vertex_count": 70,
+   "index_offset": 1258692,
+   "index_count": 189,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/cthybrid/grey/small_textured",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1259448,
+   "vertex_count": 1109,
+   "index_offset": 1303808,
+   "index_count": 2025,
+   "colour": [
+    0.7417,
+    0.7417,
+    0.7417
+   ],
+   "texture": "reacz_portal_light_textured_grey_small_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/cthybrid/grey/small_textured",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1311908,
+   "vertex_count": 1431,
+   "index_offset": 1369148,
+   "index_count": 2559,
+   "colour": [
+    0.7417,
+    0.7417,
+    0.7417
+   ],
+   "texture": "reacz_portal_light_textured_grey_small_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/cthybrid/grey/small_textured",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1379384,
+   "vertex_count": 382,
+   "index_offset": 1394664,
+   "index_count": 867,
+   "colour": [
+    0.7417,
+    0.7417,
+    0.7417
+   ],
+   "texture": "reacz_portal_light_textured_grey_small_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/textured/grey/small_textured",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1398132,
+   "vertex_count": 12,
+   "index_offset": 1398612,
+   "index_count": 24,
+   "colour": [
+    0.7417,
+    0.7417,
+    0.7417
+   ],
+   "texture": "reacz_portal_light_textured_grey_small_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/textured/grey/small_textured",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1398708,
+   "vertex_count": 4,
+   "index_offset": 1398868,
+   "index_count": 6,
+   "colour": [
+    0.7417,
+    0.7417,
+    0.7417
+   ],
+   "texture": "reacz_portal_light_textured_grey_small_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/textured/white/large_thin_textured",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1398892,
+   "vertex_count": 5080,
+   "index_offset": 1602092,
+   "index_count": 8886,
+   "colour": [
+    0.8926,
+    0.8926,
+    0.8926
+   ],
+   "texture": "reacz_portal_light_textured_white_large_thin_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/textured/white/medium_textured",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1637636,
+   "vertex_count": 2764,
+   "index_offset": 1748196,
+   "index_count": 4842,
+   "colour": [
+    0.8912,
+    0.8912,
+    0.8912
+   ],
+   "texture": "reacz_portal_light_textured_white_medium_textured.png",
+   "translucent": false
+  },
+  {
+   "material": "reacz/portal/light/textured/white/medium_textured",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1767564,
+   "vertex_count": 2255,
+   "index_offset": 1857764,
+   "index_count": 4209,
+   "colour": [
+    0.8912,
+    0.8912,
+    0.8912
+   ],
+   "texture": "reacz_portal_light_textured_white_medium_textured.png",
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 2109,
+  "hull_offset": 1874600,
+  "displacement_vertex_offset": 2084396,
+  "displacement_vertex_count": 0,
+  "displacement_index_offset": 2084396,
+  "displacement_index_count": 0,
+  "playerclip_hulls": 45,
+  "prop_hulls": 0
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 0,
+  "drawn": 0,
+  "stock_models": 0,
+  "surfaces": 0
+ },
+ "brush_entities": {
+  "solid": 15,
+  "faces_drawn": 381
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   1728,
+   14952.0,
+   2688
+  ],
+  "yaw": 0.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2112.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1984.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1856.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1216.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1344.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1472.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2496.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2880.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2816.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2752.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2688.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2624.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    1600.0,
+    14928.0,
+    2560.0
+   ],
+   "yaw": -90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "START",
+   "track": 0,
+   "min": [
+    1088,
+    14768,
+    2432
+   ],
+   "max": [
+    2368,
+    15088,
+    2944
+   ],
+   "inflated": false,
+   "comment": "the spawn block: the bounding box of all 56 info_player_terrorist entities, plus margin; stops short of the 64x24 door at y -2988 behind it"
+  },
+  {
+   "kind": "SPAWN",
+   "track": 0,
+   "destination": [
+    1728,
+    14952.0,
+    2688
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the middle of the spawn block, on the floor the 56 spawns stand on, facing +y down section 1"
+  },
+  {
+   "kind": "END",
+   "track": 0,
+   "min": [
+    15200.0,
+    2608.0,
+    11264.0
+   ],
+   "max": [
+    15392.0,
+    2800.0,
+    11456.0
+   ],
+   "inflated": true,
+   "comment": "the single 64x64 pad aimed at `ziel`, past the last section return `51`"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    1632.0,
+    14464.0,
+    1120.0
+   ],
+   "max": [
+    1824.0,
+    14656.0,
+    1312.0
+   ],
+   "inflated": true,
+   "destination": [
+    4096.0,
+    14528.0,
+    2656.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 4"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    5088.0,
+    14464.0,
+    256.0
+   ],
+   "max": [
+    5280.0,
+    14656.0,
+    448.0
+   ],
+   "inflated": true,
+   "destination": [
+    6464.0,
+    15072.0,
+    2592.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 10"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    4000.0,
+    14720.0,
+    1344.0
+   ],
+   "max": [
+    4192.0,
+    14912.0,
+    1536.0
+   ],
+   "inflated": true,
+   "destination": [
+    5184.0,
+    14528.0,
+    2592.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 9"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    6640.0,
+    13388.0,
+    1520.0
+   ],
+   "max": [
+    6832.0,
+    13580.0,
+    1712.0
+   ],
+   "inflated": true,
+   "destination": [
+    7936.0,
+    14976.0,
+    416.0
+   ],
+   "destination_yaw": 180.0,
+   "comment": "through to 13"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    7840.0,
+    14912.0,
+    4800.0
+   ],
+   "max": [
+    8032.0,
+    15104.0,
+    4992.0
+   ],
+   "inflated": true,
+   "destination": [
+    8640.0,
+    12128.0,
+    512.0
+   ],
+   "destination_yaw": 180.0,
+   "comment": "through to 17"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    8864.0,
+    10912.0,
+    704.0
+   ],
+   "max": [
+    9056.0,
+    11104.0,
+    896.0
+   ],
+   "inflated": true,
+   "destination": [
+    10624.0,
+    12192.0,
+    4544.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 20"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    13696.0,
+    11392.0,
+    3680.0
+   ],
+   "max": [
+    13888.0,
+    11584.0,
+    3872.0
+   ],
+   "inflated": true,
+   "destination": [
+    1280.0,
+    11200.0,
+    6880.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "through to 24"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    3264.0,
+    11616.0,
+    9088.0
+   ],
+   "max": [
+    3456.0,
+    11808.0,
+    9280.0
+   ],
+   "inflated": true,
+   "destination": [
+    10656.0,
+    5900.0,
+    10944.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 32"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    7616.0,
+    3936.0,
+    10336.0
+   ],
+   "max": [
+    7808.0,
+    4128.0,
+    10528.0
+   ],
+   "inflated": true,
+   "destination": [
+    3392.0,
+    2876.0,
+    10240.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 38"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    1824.0,
+    2144.0,
+    8928.0
+   ],
+   "max": [
+    2016.0,
+    2336.0,
+    9120.0
+   ],
+   "inflated": true,
+   "destination": [
+    1984.0,
+    6810.0,
+    6528.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 42"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    6432.0,
+    1952.0,
+    15744.0
+   ],
+   "max": [
+    6624.0,
+    2144.0,
+    15936.0
+   ],
+   "inflated": true,
+   "destination": [
+    13312.0,
+    2396.0,
+    12416.0
+   ],
+   "destination_yaw": 180.0,
+   "comment": "through to 50"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    13536.0,
+    2792.0,
+    13504.0
+   ],
+   "max": [
+    13728.0,
+    2984.0,
+    13696.0
+   ],
+   "inflated": true,
+   "destination": [
+    15296.0,
+    2396.0,
+    12256.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 51"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    1472.0,
+    6752.0,
+    6432.0
+   ],
+   "max": [
+    1664.0,
+    6944.0,
+    6624.0
+   ],
+   "inflated": true,
+   "destination": [
+    4352.0,
+    8108.0,
+    15744.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 43"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    1504.0,
+    9072.0,
+    13440.0
+   ],
+   "max": [
+    1696.0,
+    9264.0,
+    13632.0
+   ],
+   "inflated": true,
+   "destination": [
+    8448.0,
+    3996.0,
+    14656.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 49"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    3424.0,
+    8304.0,
+    14624.0
+   ],
+   "max": [
+    3616.0,
+    8496.0,
+    14816.0
+   ],
+   "inflated": true,
+   "destination": [
+    2880.0,
+    8108.0,
+    14720.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 47"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    2016.0,
+    8304.0,
+    14624.0
+   ],
+   "max": [
+    2208.0,
+    8496.0,
+    14816.0
+   ],
+   "inflated": true,
+   "destination": [
+    2880.0,
+    8876.0,
+    13536.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 48"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    3423.999990234375,
+    8304.0,
+    15648.0
+   ],
+   "max": [
+    3615.999990234375,
+    8496.0,
+    15840.0
+   ],
+   "inflated": true,
+   "destination": [
+    2880.0,
+    8108.0,
+    15744.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 44"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    2016.0,
+    8304.0,
+    15648.0
+   ],
+   "max": [
+    2208.0,
+    8496.0,
+    15840.0
+   ],
+   "inflated": true,
+   "destination": [
+    1472.0,
+    8108.0,
+    15744.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 45"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    608.0,
+    8304.0,
+    15648.0
+   ],
+   "max": [
+    800.0,
+    8496.0,
+    15840.0
+   ],
+   "inflated": true,
+   "destination": [
+    4352.0,
+    8108.0,
+    14720.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to 46"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    -1692.0,
+    13780.0,
+    5692.0
+   ],
+   "max": [
+    -1500.0,
+    13972.0,
+    5884.0
+   ],
+   "inflated": true,
+   "destination": [
+    3056.0,
+    11324.0,
+    7376.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 26"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    2164.0,
+    11808.0,
+    6624.0
+   ],
+   "max": [
+    2356.0,
+    12000.0,
+    6816.0
+   ],
+   "inflated": true,
+   "destination": [
+    -160.0,
+    13856.0,
+    5792.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to secret"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    -1692.0,
+    13780.0,
+    4540.0
+   ],
+   "max": [
+    -1500.0,
+    13972.0,
+    4732.0
+   ],
+   "inflated": true,
+   "destination": [
+    3360.0,
+    14528.0,
+    1440.0
+   ],
+   "destination_yaw": 180.0,
+   "comment": "through to 7"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    1632.0,
+    14832.0,
+    2892.0
+   ],
+   "max": [
+    1824.0,
+    15024.0,
+    3084.0
+   ],
+   "inflated": true,
+   "destination": [
+    1728.0,
+    15040.0,
+    2208.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "through to 1"
+  },
+  {
+   "kind": "TELEPORT",
+   "track": 0,
+   "min": [
+    3648.0,
+    14416.0,
+    2696.0
+   ],
+   "max": [
+    3840.0,
+    14608.0,
+    2888.0
+   ],
+   "inflated": true,
+   "destination": [
+    -160.0,
+    13856.0,
+    4640.0
+   ],
+   "destination_yaw": 90.0,
+   "comment": "through to secret2"
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    14808.0,
+    1408.0
+   ],
+   "max": [
+    2048.0,
+    15000.0,
+    2304.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    14808.0,
+    1248.0
+   ],
+   "max": [
+    2048.0,
+    15000.0,
+    1440.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    14552.0,
+    2016.0
+   ],
+   "max": [
+    2048.0,
+    14744.0,
+    2208.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    14552.0,
+    1152.0
+   ],
+   "max": [
+    2048.0,
+    14744.0,
+    2048.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    14296.0,
+    1152.0
+   ],
+   "max": [
+    2048.0,
+    14488.0,
+    2304.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3784.0,
+    14296.0,
+    2176.0
+   ],
+   "max": [
+    4352.0,
+    14488.0,
+    2816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3784.0,
+    14296.0,
+    1536.0
+   ],
+   "max": [
+    4352.0,
+    14488.0,
+    2176.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3456.0,
+    14296.0,
+    1280.0
+   ],
+   "max": [
+    4352.0,
+    14488.0,
+    1536.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3200.0,
+    14296.0,
+    1280.0
+   ],
+   "max": [
+    3456.0,
+    14488.0,
+    1536.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3200.0,
+    14296.0,
+    1536.0
+   ],
+   "max": [
+    3768.0,
+    14488.0,
+    2816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3200.0,
+    14552.0,
+    1280.0
+   ],
+   "max": [
+    4352.0,
+    14744.0,
+    2752.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3264.0,
+    14552.0,
+    2688.0
+   ],
+   "max": [
+    4352.0,
+    14744.0,
+    2880.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4864.01,
+    14296.0,
+    256.0
+   ],
+   "max": [
+    5504.01,
+    14488.0,
+    2688.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6272.01,
+    14700.0,
+    2240.0
+   ],
+   "max": [
+    6656.01,
+    14892.0,
+    2496.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6272.0,
+    14424.0,
+    1536.0
+   ],
+   "max": [
+    6720.0,
+    14616.0,
+    2240.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6720.01,
+    13912.0,
+    1536.0
+   ],
+   "max": [
+    7104.01,
+    14104.0,
+    2176.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6656.01,
+    13912.0,
+    2368.0
+   ],
+   "max": [
+    7104.01,
+    14104.0,
+    2688.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6272.01,
+    13400.0,
+    1728.0
+   ],
+   "max": [
+    6656.01,
+    13592.0,
+    2688.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6144.0,
+    13272.0,
+    1024.0
+   ],
+   "max": [
+    6784.0,
+    13464.0,
+    1664.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7680.01,
+    14744.0,
+    320.0
+   ],
+   "max": [
+    8192.01,
+    14936.0,
+    1216.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7680.01,
+    14744.0,
+    1344.0
+   ],
+   "max": [
+    8192.01,
+    14936.0,
+    2432.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7680.01,
+    14744.0,
+    2560.0
+   ],
+   "max": [
+    8192.01,
+    14936.0,
+    3392.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7680.01,
+    14744.0,
+    3520.0
+   ],
+   "max": [
+    8192.01,
+    14936.0,
+    4032.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7680.01,
+    14744.0,
+    4032.0
+   ],
+   "max": [
+    8192.01,
+    14936.0,
+    4928.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    8704.01,
+    11328.0,
+    704.0
+   ],
+   "max": [
+    9216.01,
+    11520.0,
+    2176.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    8672.0,
+    11328.0,
+    2176.0
+   ],
+   "max": [
+    8864.0,
+    11520.0,
+    2368.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    9056.0,
+    11328.0,
+    2176.0
+   ],
+   "max": [
+    9248.0,
+    11520.0,
+    2368.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    8704.01,
+    10688.0,
+    704.0
+   ],
+   "max": [
+    9216.01,
+    10880.0,
+    2368.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    10176.0,
+    11472.0,
+    3584.0
+   ],
+   "max": [
+    11072.0,
+    11664.0,
+    4608.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    10496.0,
+    11756.0,
+    3008.0
+   ],
+   "max": [
+    11584.0,
+    11948.0,
+    3328.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11200.0,
+    11672.001,
+    3328.0
+   ],
+   "max": [
+    11584.0,
+    11864.001,
+    4287.977
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11200.0,
+    11280.0,
+    3712.0
+   ],
+   "max": [
+    11968.0,
+    11472.0,
+    4480.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    12096.0,
+    11104.0,
+    3456.0
+   ],
+   "max": [
+    13888.0,
+    11296.0,
+    4096.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1152.0,
+    10960.0,
+    6656.0
+   ],
+   "max": [
+    2048.0,
+    11152.0,
+    8064.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2176.0,
+    11088.0,
+    7552.0
+   ],
+   "max": [
+    3200.0,
+    11280.0,
+    8576.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2304.0,
+    11088.0,
+    6528.0
+   ],
+   "max": [
+    3200.0,
+    11280.0,
+    7424.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3328.0,
+    11088.0,
+    7424.0
+   ],
+   "max": [
+    4928.0,
+    11280.0,
+    8448.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4096.0,
+    11720.0,
+    8064.0
+   ],
+   "max": [
+    4479.985,
+    11912.0,
+    8448.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3488.0,
+    11711.999,
+    8064.0
+   ],
+   "max": [
+    4096.0,
+    11911.999,
+    8448.0
+   ],
+   "inflated": false
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2176.0,
+    11504.0,
+    7552.0
+   ],
+   "max": [
+    3192.0,
+    11696.0,
+    8576.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2176.0,
+    11760.0,
+    7552.0
+   ],
+   "max": [
+    3184.0,
+    11952.0,
+    8576.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2368.0,
+    11778.0,
+    7744.0
+   ],
+   "max": [
+    3008.0,
+    11970.0,
+    8384.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1664.0,
+    11472.0,
+    9216.0
+   ],
+   "max": [
+    2048.0,
+    11664.0,
+    9792.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1664.0,
+    11200.0,
+    9792.0
+   ],
+   "max": [
+    2560.0,
+    11392.0,
+    10688.0
+   ],
+   "inflated": false
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3200.0,
+    8832.0,
+    9792.0
+   ],
+   "max": [
+    3584.0,
+    11632.0,
+    10496.0
+   ],
+   "inflated": false
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    9728.0,
+    5664.0,
+    10624.0
+   ],
+   "max": [
+    10752.0,
+    5856.0,
+    11264.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11952.0,
+    5640.0,
+    10624.0
+   ],
+   "max": [
+    12304.0,
+    5832.0,
+    11264.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11136.0,
+    5616.0,
+    9728.0
+   ],
+   "max": [
+    12800.0,
+    5808.0,
+    10496.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    8656.01,
+    5812.0,
+    9088.01
+   ],
+   "max": [
+    10368.01,
+    6004.0,
+    10112.01
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6688.0,
+    5072.0,
+    10048.0
+   ],
+   "max": [
+    6880.0,
+    5264.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7168.0,
+    5160.0,
+    10048.0
+   ],
+   "max": [
+    7488.0,
+    5352.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6848.0,
+    5160.0,
+    10592.0
+   ],
+   "max": [
+    7168.0,
+    5352.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6848.0,
+    5160.0,
+    10048.0
+   ],
+   "max": [
+    7168.0,
+    5352.0,
+    10272.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7024.0,
+    5160.0,
+    10448.0
+   ],
+   "max": [
+    7216.0,
+    5352.0,
+    10640.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7024.0,
+    5160.0,
+    10224.0
+   ],
+   "max": [
+    7216.0,
+    5352.0,
+    10416.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6800.0,
+    5160.0,
+    10224.0
+   ],
+   "max": [
+    6992.0,
+    5352.0,
+    10416.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6800.0,
+    5160.0,
+    10448.0
+   ],
+   "max": [
+    6992.0,
+    5352.0,
+    10640.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7360.0,
+    4872.0,
+    10048.0
+   ],
+   "max": [
+    7552.0,
+    5064.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6720.0,
+    4872.0,
+    10048.0
+   ],
+   "max": [
+    7104.0,
+    5064.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7104.0,
+    4872.0,
+    10048.0
+   ],
+   "max": [
+    7424.0,
+    5064.0,
+    10272.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7104.0,
+    4872.0,
+    10592.0
+   ],
+   "max": [
+    7424.0,
+    5064.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7056.0,
+    4872.0,
+    10224.0
+   ],
+   "max": [
+    7248.0,
+    5064.0,
+    10416.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7056.0,
+    4872.0,
+    10448.0
+   ],
+   "max": [
+    7248.0,
+    5064.0,
+    10640.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7279.9995,
+    4872.0,
+    10447.9995
+   ],
+   "max": [
+    7471.9995,
+    5064.0,
+    10639.9995
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7280.0,
+    4872.0,
+    10224.0
+   ],
+   "max": [
+    7472.0,
+    5064.0,
+    10416.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6720.01,
+    4112.0,
+    10048.0
+   ],
+   "max": [
+    8384.01,
+    4304.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7616.01,
+    3744.0,
+    10048.0
+   ],
+   "max": [
+    8384.01,
+    3936.0,
+    10816.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1792.0,
+    2544.0,
+    9792.0
+   ],
+   "max": [
+    3520.0,
+    2736.0,
+    10688.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    640.0,
+    1968.0,
+    9792.0
+   ],
+   "max": [
+    2560.0,
+    2160.0,
+    10688.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3072.0,
+    2032.0,
+    9920.0
+   ],
+   "max": [
+    4096.0,
+    2224.0,
+    10560.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3584.0,
+    1592.0,
+    9280.0
+   ],
+   "max": [
+    4096.0,
+    1784.0,
+    9920.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3584.0,
+    1924.0,
+    8768.0
+   ],
+   "max": [
+    4096.0,
+    2116.0,
+    9280.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2304.0,
+    1496.0,
+    8768.0
+   ],
+   "max": [
+    3584.0,
+    1688.0,
+    9280.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1152.0,
+    5440.0,
+    5696.0
+   ],
+   "max": [
+    2816.0,
+    6768.0,
+    7360.0
+   ],
+   "inflated": false
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7616.0,
+    3744.0,
+    14464.0
+   ],
+   "max": [
+    8320.0,
+    3936.0,
+    14848.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7040.0,
+    3684.0,
+    14464.0
+   ],
+   "max": [
+    7616.0,
+    3876.0,
+    14848.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7040.01,
+    3684.0,
+    14848.0
+   ],
+   "max": [
+    7424.01,
+    3876.0,
+    15232.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7040.01,
+    3248.0,
+    14592.0
+   ],
+   "max": [
+    7424.01,
+    3440.0,
+    15232.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7040.01,
+    2864.0,
+    13824.0
+   ],
+   "max": [
+    7808.01,
+    3056.0,
+    14592.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7936.01,
+    3044.0,
+    13184.0
+   ],
+   "max": [
+    8320.01,
+    3236.0,
+    14336.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7296.0,
+    2472.0,
+    12928.0
+   ],
+   "max": [
+    7568.0,
+    2664.0,
+    13568.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7664.0,
+    2472.0,
+    12928.0
+   ],
+   "max": [
+    7936.0,
+    2664.0,
+    13568.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7520.0,
+    2472.0,
+    13296.0
+   ],
+   "max": [
+    7712.0,
+    2664.0,
+    13568.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    7520.0,
+    2472.0,
+    12928.0
+   ],
+   "max": [
+    7712.0,
+    2664.0,
+    13200.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6336.0,
+    1872.0,
+    13056.0
+   ],
+   "max": [
+    7872.0,
+    2064.0,
+    13440.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6336.0,
+    1872.0,
+    13440.0
+   ],
+   "max": [
+    6720.0,
+    2064.0,
+    14079.988
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6080.0,
+    1956.0,
+    14080.0
+   ],
+   "max": [
+    6720.0,
+    2148.0,
+    14720.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6080.01,
+    1416.0,
+    14080.0
+   ],
+   "max": [
+    6720.01,
+    1608.0,
+    14720.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6080.01,
+    880.0,
+    14080.0
+   ],
+   "max": [
+    6720.01,
+    1072.0,
+    15360.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6336.0,
+    1776.0,
+    15360.0
+   ],
+   "max": [
+    6720.0,
+    1968.0,
+    15680.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    12672.0,
+    2220.0,
+    13632.0
+   ],
+   "max": [
+    13312.0,
+    2412.0,
+    14720.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    12736.0,
+    2336.0,
+    14720.0
+   ],
+   "max": [
+    13248.0,
+    2528.0,
+    15872.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    13312.0,
+    2352.0,
+    14720.0
+   ],
+   "max": [
+    13696.0,
+    2544.0,
+    15872.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    13440.0,
+    2416.0,
+    13888.0
+   ],
+   "max": [
+    14208.0,
+    2608.0,
+    14656.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    12928.0,
+    2160.0,
+    12032.0
+   ],
+   "max": [
+    13696.0,
+    2352.0,
+    13568.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    13696.0,
+    2352.0,
+    14720.0
+   ],
+   "max": [
+    14208.0,
+    2544.0,
+    15616.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3840.0,
+    11480.0,
+    9408.0
+   ],
+   "max": [
+    4096.0,
+    11672.0,
+    9728.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    10176.0,
+    11962.0,
+    3584.0
+   ],
+   "max": [
+    10816.0,
+    12154.0,
+    4192.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4480.0,
+    11505.0,
+    8240.0
+   ],
+   "max": [
+    4720.0,
+    11697.0,
+    8448.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4480.0,
+    11505.0,
+    8056.0
+   ],
+   "max": [
+    4928.0,
+    11697.0,
+    8248.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11328.0,
+    5984.5,
+    10624.0
+   ],
+   "max": [
+    11520.0,
+    6176.5,
+    11264.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    11952.0,
+    5641.0,
+    10624.0
+   ],
+   "max": [
+    12304.0,
+    5833.0,
+    11264.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    10176.0,
+    12207.0,
+    4240.0
+   ],
+   "max": [
+    11072.0,
+    12399.0,
+    4608.0
+   ],
+   "inflated": true
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    1408.0,
+    -2304.0,
+    14808.0
+   ],
+   "max": [
+    2048.0,
+    -1408.0,
+    15000.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    -2304.0,
+    14976.0
+   ],
+   "original_max": [
+    2048.0,
+    -1408.0,
+    15000.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    -1440.0,
+    14808.0
+   ],
+   "max": [
+    2048.0,
+    -1248.0,
+    15000.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    -1408.0,
+    14976.0
+   ],
+   "original_max": [
+    2048.0,
+    -1280.0,
+    15000.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    -2208.0,
+    14552.0
+   ],
+   "max": [
+    2048.0,
+    -2016.0,
+    14744.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    -2176.0,
+    14720.0
+   ],
+   "original_max": [
+    2048.0,
+    -2048.0,
+    14744.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    -2048.0,
+    14552.0
+   ],
+   "max": [
+    2048.0,
+    -1152.0,
+    14744.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    -2048.0,
+    14720.0
+   ],
+   "original_max": [
+    2048.0,
+    -1152.0,
+    14744.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    -2304.0,
+    14296.0
+   ],
+   "max": [
+    2048.0,
+    -1152.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    -2304.0,
+    14464.0
+   ],
+   "original_max": [
+    2048.0,
+    -1152.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3784.0,
+    -2816.0,
+    14296.0
+   ],
+   "max": [
+    4352.0,
+    -2176.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3784.0,
+    -2816.0,
+    14464.0
+   ],
+   "original_max": [
+    4352.0,
+    -2176.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3784.0,
+    -2176.0,
+    14296.0
+   ],
+   "max": [
+    4352.0,
+    -1536.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3784.0,
+    -2176.0,
+    14464.0
+   ],
+   "original_max": [
+    4352.0,
+    -1536.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3456.0,
+    -1536.0,
+    14296.0
+   ],
+   "max": [
+    4352.0,
+    -1280.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3456.0,
+    -1536.0,
+    14464.0
+   ],
+   "original_max": [
+    4352.0,
+    -1280.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3200.0,
+    -1536.0,
+    14296.0
+   ],
+   "max": [
+    3456.0,
+    -1280.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3200.0,
+    -1536.0,
+    14464.0
+   ],
+   "original_max": [
+    3456.0,
+    -1280.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3200.0,
+    -2816.0,
+    14296.0
+   ],
+   "max": [
+    3768.0,
+    -1536.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3200.0,
+    -2816.0,
+    14464.0
+   ],
+   "original_max": [
+    3768.0,
+    -1536.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    3200.0,
+    -2752.0,
+    14552.0
+   ],
+   "max": [
+    4352.0,
+    -1280.0,
+    14744.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3200.0,
+    -2752.0,
+    14720.0
+   ],
+   "original_max": [
+    4352.0,
+    -1280.0,
+    14744.0
+   ]
+  },
+  {
+   "min": [
+    3264.0,
+    -2880.0,
+    14552.0
+   ],
+   "max": [
+    4352.0,
+    -2688.0,
+    14744.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3264.0,
+    -2816.0,
+    14720.0
+   ],
+   "original_max": [
+    4352.0,
+    -2752.0,
+    14744.0
+   ]
+  },
+  {
+   "min": [
+    4864.01,
+    -2688.0,
+    14296.0
+   ],
+   "max": [
+    5504.01,
+    -256.0,
+    14488.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4864.01,
+    -2688.0,
+    14464.0
+   ],
+   "original_max": [
+    5504.01,
+    -256.0,
+    14488.0
+   ]
+  },
+  {
+   "min": [
+    6272.01,
+    -2496.0,
+    14700.0
+   ],
+   "max": [
+    6656.01,
+    -2240.0,
+    14892.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6272.01,
+    -2496.0,
+    14784.0
+   ],
+   "original_max": [
+    6656.01,
+    -2240.0,
+    14808.0
+   ]
+  },
+  {
+   "min": [
+    6272.0,
+    -2240.0,
+    14424.0
+   ],
+   "max": [
+    6720.0,
+    -1536.0,
+    14616.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6272.0,
+    -2240.0,
+    14592.0
+   ],
+   "original_max": [
+    6720.0,
+    -1536.0,
+    14616.0
+   ]
+  },
+  {
+   "min": [
+    6720.01,
+    -2176.0,
+    13912.0
+   ],
+   "max": [
+    7104.01,
+    -1536.0,
+    14104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6720.01,
+    -2176.0,
+    14080.0
+   ],
+   "original_max": [
+    7104.01,
+    -1536.0,
+    14104.0
+   ]
+  },
+  {
+   "min": [
+    6656.01,
+    -2688.0,
+    13912.0
+   ],
+   "max": [
+    7104.01,
+    -2368.0,
+    14104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6656.01,
+    -2688.0,
+    14080.0
+   ],
+   "original_max": [
+    7104.01,
+    -2368.0,
+    14104.0
+   ]
+  },
+  {
+   "min": [
+    6272.01,
+    -2688.0,
+    13400.0
+   ],
+   "max": [
+    6656.01,
+    -1728.0,
+    13592.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6272.01,
+    -2688.0,
+    13568.0
+   ],
+   "original_max": [
+    6656.01,
+    -1728.0,
+    13592.0
+   ]
+  },
+  {
+   "min": [
+    6144.0,
+    -1664.0,
+    13272.0
+   ],
+   "max": [
+    6784.0,
+    -1024.0,
+    13464.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6144.0,
+    -1664.0,
+    13440.0
+   ],
+   "original_max": [
+    6784.0,
+    -1024.0,
+    13464.0
+   ]
+  },
+  {
+   "min": [
+    7680.01,
+    -1216.0,
+    14744.0
+   ],
+   "max": [
+    8192.01,
+    -320.0,
+    14936.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7680.01,
+    -1216.0,
+    14912.0
+   ],
+   "original_max": [
+    8192.01,
+    -320.0,
+    14936.0
+   ]
+  },
+  {
+   "min": [
+    7680.01,
+    -2432.0,
+    14744.0
+   ],
+   "max": [
+    8192.01,
+    -1344.0,
+    14936.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7680.01,
+    -2432.0,
+    14912.0
+   ],
+   "original_max": [
+    8192.01,
+    -1344.0,
+    14936.0
+   ]
+  },
+  {
+   "min": [
+    7680.01,
+    -3392.0,
+    14744.0
+   ],
+   "max": [
+    8192.01,
+    -2560.0,
+    14936.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7680.01,
+    -3392.0,
+    14912.0
+   ],
+   "original_max": [
+    8192.01,
+    -2560.0,
+    14936.0
+   ]
+  },
+  {
+   "min": [
+    7680.01,
+    -4032.0,
+    14744.0
+   ],
+   "max": [
+    8192.01,
+    -3520.0,
+    14936.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7680.01,
+    -4032.0,
+    14912.0
+   ],
+   "original_max": [
+    8192.01,
+    -3520.0,
+    14936.0
+   ]
+  },
+  {
+   "min": [
+    7680.01,
+    -4928.0,
+    14744.0
+   ],
+   "max": [
+    8192.01,
+    -4032.0,
+    14936.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7680.01,
+    -4928.0,
+    14912.0
+   ],
+   "original_max": [
+    8192.01,
+    -4032.0,
+    14936.0
+   ]
+  },
+  {
+   "min": [
+    8704.01,
+    -2176.0,
+    11328.0
+   ],
+   "max": [
+    9216.01,
+    -704.0,
+    11520.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    8704.01,
+    -2176.0,
+    11456.0
+   ],
+   "original_max": [
+    9216.01,
+    -704.0,
+    11520.0
+   ]
+  },
+  {
+   "min": [
+    8672.0,
+    -2368.0,
+    11328.0
+   ],
+   "max": [
+    8864.0,
+    -2176.0,
+    11520.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    8704.0,
+    -2368.0,
+    11456.0
+   ],
+   "original_max": [
+    8832.0,
+    -2176.0,
+    11520.0
+   ]
+  },
+  {
+   "min": [
+    9056.0,
+    -2368.0,
+    11328.0
+   ],
+   "max": [
+    9248.0,
+    -2176.0,
+    11520.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    9088.0,
+    -2368.0,
+    11456.0
+   ],
+   "original_max": [
+    9216.0,
+    -2176.0,
+    11520.0
+   ]
+  },
+  {
+   "min": [
+    8704.01,
+    -2368.0,
+    10688.0
+   ],
+   "max": [
+    9216.01,
+    -704.0,
+    10880.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    8704.01,
+    -2368.0,
+    10816.0
+   ],
+   "original_max": [
+    9216.01,
+    -704.0,
+    10880.0
+   ]
+  },
+  {
+   "min": [
+    10176.0,
+    -4608.0,
+    11472.0
+   ],
+   "max": [
+    11072.0,
+    -3584.0,
+    11664.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    10176.0,
+    -4608.0,
+    11648.0
+   ],
+   "original_max": [
+    11072.0,
+    -3584.0,
+    11664.0
+   ]
+  },
+  {
+   "min": [
+    10496.0,
+    -3328.0,
+    11756.0
+   ],
+   "max": [
+    11584.0,
+    -3008.0,
+    11948.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    10496.0,
+    -3328.0,
+    11840.0
+   ],
+   "original_max": [
+    11584.0,
+    -3008.0,
+    11864.0
+   ]
+  },
+  {
+   "min": [
+    11200.0,
+    -4287.977,
+    11672.001
+   ],
+   "max": [
+    11584.0,
+    -3328.0,
+    11864.001
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11200.0,
+    -4287.977,
+    11840.0
+   ],
+   "original_max": [
+    11584.0,
+    -3328.0,
+    11864.001
+   ]
+  },
+  {
+   "min": [
+    11200.0,
+    -4480.0,
+    11280.0
+   ],
+   "max": [
+    11968.0,
+    -3712.0,
+    11472.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11200.0,
+    -4480.0,
+    11456.0
+   ],
+   "original_max": [
+    11968.0,
+    -3712.0,
+    11472.0
+   ]
+  },
+  {
+   "min": [
+    12096.0,
+    -4096.0,
+    11104.0
+   ],
+   "max": [
+    13888.0,
+    -3456.0,
+    11296.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    12096.0,
+    -4096.0,
+    11136.0
+   ],
+   "original_max": [
+    13888.0,
+    -3456.0,
+    11264.0
+   ]
+  },
+  {
+   "min": [
+    1152.0,
+    -8064.0,
+    10960.0
+   ],
+   "max": [
+    2048.0,
+    -6656.0,
+    11152.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1152.0,
+    -8064.0,
+    11136.0
+   ],
+   "original_max": [
+    2048.0,
+    -6656.0,
+    11152.0
+   ]
+  },
+  {
+   "min": [
+    2176.0,
+    -8576.0,
+    11088.0
+   ],
+   "max": [
+    3200.0,
+    -7552.0,
+    11280.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2176.0,
+    -8576.0,
+    11264.0
+   ],
+   "original_max": [
+    3200.0,
+    -7552.0,
+    11280.0
+   ]
+  },
+  {
+   "min": [
+    2304.0,
+    -7424.0,
+    11088.0
+   ],
+   "max": [
+    3200.0,
+    -6528.0,
+    11280.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2304.0,
+    -7424.0,
+    11264.0
+   ],
+   "original_max": [
+    3200.0,
+    -6528.0,
+    11280.0
+   ]
+  },
+  {
+   "min": [
+    3328.0,
+    -8448.0,
+    11088.0
+   ],
+   "max": [
+    4928.0,
+    -7424.0,
+    11280.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3328.0,
+    -8448.0,
+    11264.0
+   ],
+   "original_max": [
+    4928.0,
+    -7424.0,
+    11280.0
+   ]
+  },
+  {
+   "min": [
+    4096.0,
+    -8448.0,
+    11720.0
+   ],
+   "max": [
+    4479.985,
+    -8064.0,
+    11912.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4096.0,
+    -8448.0,
+    11904.0
+   ],
+   "original_max": [
+    4479.985,
+    -8064.0,
+    11912.0
+   ]
+  },
+  {
+   "min": [
+    3488.0,
+    -8448.0,
+    11711.999
+   ],
+   "max": [
+    4096.0,
+    -8064.0,
+    11911.999
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3488.0,
+    -8448.0,
+    11711.999
+   ],
+   "original_max": [
+    4096.0,
+    -8064.0,
+    11911.999
+   ]
+  },
+  {
+   "min": [
+    2176.0,
+    -8576.0,
+    11504.0
+   ],
+   "max": [
+    3192.0,
+    -7552.0,
+    11696.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2176.0,
+    -8576.0,
+    11680.0
+   ],
+   "original_max": [
+    3192.0,
+    -7552.0,
+    11696.0
+   ]
+  },
+  {
+   "min": [
+    2176.0,
+    -8576.0,
+    11760.0
+   ],
+   "max": [
+    3184.0,
+    -7552.0,
+    11952.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2176.0,
+    -8576.0,
+    11936.0
+   ],
+   "original_max": [
+    3184.0,
+    -7552.0,
+    11952.0
+   ]
+  },
+  {
+   "min": [
+    2368.0,
+    -8384.0,
+    11778.0
+   ],
+   "max": [
+    3008.0,
+    -7744.0,
+    11970.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2368.0,
+    -8384.0,
+    11968.0
+   ],
+   "original_max": [
+    3008.0,
+    -7744.0,
+    11970.0
+   ]
+  },
+  {
+   "min": [
+    1664.0,
+    -9792.0,
+    11472.0
+   ],
+   "max": [
+    2048.0,
+    -9216.0,
+    11664.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1664.0,
+    -9792.0,
+    11648.0
+   ],
+   "original_max": [
+    2048.0,
+    -9216.0,
+    11664.0
+   ]
+  },
+  {
+   "min": [
+    1664.0,
+    -10688.0,
+    11200.0
+   ],
+   "max": [
+    2560.0,
+    -9792.0,
+    11392.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1664.0,
+    -10688.0,
+    11200.0
+   ],
+   "original_max": [
+    2560.0,
+    -9792.0,
+    11392.0
+   ]
+  },
+  {
+   "min": [
+    3200.0,
+    -10496.0,
+    8832.0
+   ],
+   "max": [
+    3584.0,
+    -9792.0,
+    11632.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3200.0,
+    -10496.0,
+    8832.0
+   ],
+   "original_max": [
+    3584.0,
+    -9792.0,
+    11632.0
+   ]
+  },
+  {
+   "min": [
+    9728.0,
+    -11264.0,
+    5664.0
+   ],
+   "max": [
+    10752.0,
+    -10624.0,
+    5856.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    9728.0,
+    -11264.0,
+    5824.0
+   ],
+   "original_max": [
+    10752.0,
+    -10624.0,
+    5856.0
+   ]
+  },
+  {
+   "min": [
+    11952.0,
+    -11264.0,
+    5640.0
+   ],
+   "max": [
+    12304.0,
+    -10624.0,
+    5832.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11952.0,
+    -11264.0,
+    5824.0
+   ],
+   "original_max": [
+    12304.0,
+    -10624.0,
+    5832.0
+   ]
+  },
+  {
+   "min": [
+    11136.0,
+    -10496.0,
+    5616.0
+   ],
+   "max": [
+    12800.0,
+    -9728.0,
+    5808.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11136.0,
+    -10496.0,
+    5760.0
+   ],
+   "original_max": [
+    12800.0,
+    -9728.0,
+    5808.0
+   ]
+  },
+  {
+   "min": [
+    8656.01,
+    -10112.01,
+    5812.0
+   ],
+   "max": [
+    10368.01,
+    -9088.01,
+    6004.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    8656.01,
+    -10112.01,
+    5888.0
+   ],
+   "original_max": [
+    10368.01,
+    -9088.01,
+    5928.0
+   ]
+  },
+  {
+   "min": [
+    6688.0,
+    -10816.0,
+    5072.0
+   ],
+   "max": [
+    6880.0,
+    -10048.0,
+    5264.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6720.0,
+    -10816.0,
+    5248.0
+   ],
+   "original_max": [
+    6848.0,
+    -10048.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    7168.0,
+    -10816.0,
+    5160.0
+   ],
+   "max": [
+    7488.0,
+    -10048.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7168.0,
+    -10816.0,
+    5248.0
+   ],
+   "original_max": [
+    7488.0,
+    -10048.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    6848.0,
+    -10816.0,
+    5160.0
+   ],
+   "max": [
+    7168.0,
+    -10592.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6848.0,
+    -10816.0,
+    5248.0
+   ],
+   "original_max": [
+    7168.0,
+    -10592.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    6848.0,
+    -10272.0,
+    5160.0
+   ],
+   "max": [
+    7168.0,
+    -10048.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6848.0,
+    -10272.0,
+    5248.0
+   ],
+   "original_max": [
+    7168.0,
+    -10048.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    7024.0,
+    -10640.0,
+    5160.0
+   ],
+   "max": [
+    7216.0,
+    -10448.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7072.0,
+    -10592.0,
+    5248.0
+   ],
+   "original_max": [
+    7168.0,
+    -10496.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    7024.0,
+    -10416.0,
+    5160.0
+   ],
+   "max": [
+    7216.0,
+    -10224.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7072.0,
+    -10368.0,
+    5248.0
+   ],
+   "original_max": [
+    7168.0,
+    -10272.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    6800.0,
+    -10416.0,
+    5160.0
+   ],
+   "max": [
+    6992.0,
+    -10224.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6848.0,
+    -10368.0,
+    5248.0
+   ],
+   "original_max": [
+    6944.0,
+    -10272.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    6800.0,
+    -10640.0,
+    5160.0
+   ],
+   "max": [
+    6992.0,
+    -10448.0,
+    5352.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6848.0,
+    -10592.0,
+    5248.0
+   ],
+   "original_max": [
+    6944.0,
+    -10496.0,
+    5264.0
+   ]
+  },
+  {
+   "min": [
+    7360.0,
+    -10816.0,
+    4872.0
+   ],
+   "max": [
+    7552.0,
+    -10048.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7424.0,
+    -10816.0,
+    4960.0
+   ],
+   "original_max": [
+    7488.0,
+    -10048.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    6720.0,
+    -10816.0,
+    4872.0
+   ],
+   "max": [
+    7104.0,
+    -10048.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6720.0,
+    -10816.0,
+    4960.0
+   ],
+   "original_max": [
+    7104.0,
+    -10048.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7104.0,
+    -10272.0,
+    4872.0
+   ],
+   "max": [
+    7424.0,
+    -10048.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7104.0,
+    -10272.0,
+    4960.0
+   ],
+   "original_max": [
+    7424.0,
+    -10048.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7104.0,
+    -10816.0,
+    4872.0
+   ],
+   "max": [
+    7424.0,
+    -10592.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7104.0,
+    -10816.0,
+    4960.0
+   ],
+   "original_max": [
+    7424.0,
+    -10592.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7056.0,
+    -10416.0,
+    4872.0
+   ],
+   "max": [
+    7248.0,
+    -10224.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7104.0,
+    -10368.0,
+    4960.0
+   ],
+   "original_max": [
+    7200.0,
+    -10272.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7056.0,
+    -10640.0,
+    4872.0
+   ],
+   "max": [
+    7248.0,
+    -10448.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7104.0,
+    -10592.0,
+    4960.0
+   ],
+   "original_max": [
+    7200.0,
+    -10496.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7279.9995,
+    -10639.9995,
+    4872.0
+   ],
+   "max": [
+    7471.9995,
+    -10447.9995,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7327.999,
+    -10592.0,
+    4960.0
+   ],
+   "original_max": [
+    7424.0,
+    -10495.999,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    7280.0,
+    -10416.0,
+    4872.0
+   ],
+   "max": [
+    7472.0,
+    -10224.0,
+    5064.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7328.0,
+    -10368.0,
+    4960.0
+   ],
+   "original_max": [
+    7424.0,
+    -10272.0,
+    4976.0
+   ]
+  },
+  {
+   "min": [
+    6720.01,
+    -10816.0,
+    4112.0
+   ],
+   "max": [
+    8384.01,
+    -10048.0,
+    4304.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6720.01,
+    -10816.0,
+    4288.0
+   ],
+   "original_max": [
+    8384.01,
+    -10048.0,
+    4304.0
+   ]
+  },
+  {
+   "min": [
+    7616.01,
+    -10816.0,
+    3744.0
+   ],
+   "max": [
+    8384.01,
+    -10048.0,
+    3936.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7616.01,
+    -10816.0,
+    3776.0
+   ],
+   "original_max": [
+    8384.01,
+    -10048.0,
+    3904.0
+   ]
+  },
+  {
+   "min": [
+    1792.0,
+    -10688.0,
+    2544.0
+   ],
+   "max": [
+    3520.0,
+    -9792.0,
+    2736.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1792.0,
+    -10688.0,
+    2624.0
+   ],
+   "original_max": [
+    3520.0,
+    -9792.0,
+    2736.0
+   ]
+  },
+  {
+   "min": [
+    640.0,
+    -10688.0,
+    1968.0
+   ],
+   "max": [
+    2560.0,
+    -9792.0,
+    2160.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    640.0,
+    -10688.0,
+    2112.0
+   ],
+   "original_max": [
+    2560.0,
+    -9792.0,
+    2160.0
+   ]
+  },
+  {
+   "min": [
+    3072.0,
+    -10560.0,
+    2032.0
+   ],
+   "max": [
+    4096.0,
+    -9920.0,
+    2224.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3072.0,
+    -10560.0,
+    2112.0
+   ],
+   "original_max": [
+    4096.0,
+    -9920.0,
+    2224.0
+   ]
+  },
+  {
+   "min": [
+    3584.0,
+    -9920.0,
+    1592.0
+   ],
+   "max": [
+    4096.0,
+    -9280.0,
+    1784.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3584.0,
+    -9920.0,
+    1664.0
+   ],
+   "original_max": [
+    4096.0,
+    -9280.0,
+    1712.0
+   ]
+  },
+  {
+   "min": [
+    3584.0,
+    -9280.0,
+    1924.0
+   ],
+   "max": [
+    4096.0,
+    -8768.0,
+    2116.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3584.0,
+    -9280.0,
+    2112.0
+   ],
+   "original_max": [
+    4096.0,
+    -8768.0,
+    2116.0
+   ]
+  },
+  {
+   "min": [
+    2304.0,
+    -9280.0,
+    1496.0
+   ],
+   "max": [
+    3584.0,
+    -8768.0,
+    1688.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2304.0,
+    -9280.0,
+    1664.0
+   ],
+   "original_max": [
+    3584.0,
+    -8768.0,
+    1688.0
+   ]
+  },
+  {
+   "min": [
+    1152.0,
+    -7360.0,
+    5440.0
+   ],
+   "max": [
+    2816.0,
+    -5696.0,
+    6768.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1152.0,
+    -7360.0,
+    5440.0
+   ],
+   "original_max": [
+    2816.0,
+    -5696.0,
+    6768.0
+   ]
+  },
+  {
+   "min": [
+    7616.0,
+    -14848.0,
+    3744.0
+   ],
+   "max": [
+    8320.0,
+    -14464.0,
+    3936.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7616.0,
+    -14848.0,
+    3776.0
+   ],
+   "original_max": [
+    8320.0,
+    -14464.0,
+    3904.0
+   ]
+  },
+  {
+   "min": [
+    7040.0,
+    -14848.0,
+    3684.0
+   ],
+   "max": [
+    7616.0,
+    -14464.0,
+    3876.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7040.0,
+    -14848.0,
+    3776.0
+   ],
+   "original_max": [
+    7616.0,
+    -14464.0,
+    3784.0
+   ]
+  },
+  {
+   "min": [
+    7040.01,
+    -15232.0,
+    3684.0
+   ],
+   "max": [
+    7424.01,
+    -14848.0,
+    3876.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7040.01,
+    -15232.0,
+    3776.0
+   ],
+   "original_max": [
+    7424.01,
+    -14848.0,
+    3784.0
+   ]
+  },
+  {
+   "min": [
+    7040.01,
+    -15232.0,
+    3248.0
+   ],
+   "max": [
+    7424.01,
+    -14592.0,
+    3440.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7040.01,
+    -15232.0,
+    3264.0
+   ],
+   "original_max": [
+    7424.01,
+    -14592.0,
+    3424.0
+   ]
+  },
+  {
+   "min": [
+    7040.01,
+    -14592.0,
+    2864.0
+   ],
+   "max": [
+    7808.01,
+    -13824.0,
+    3056.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7040.01,
+    -14592.0,
+    2880.0
+   ],
+   "original_max": [
+    7808.01,
+    -13824.0,
+    3040.0
+   ]
+  },
+  {
+   "min": [
+    7936.01,
+    -14336.0,
+    3044.0
+   ],
+   "max": [
+    8320.01,
+    -13184.0,
+    3236.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7936.01,
+    -14336.0,
+    3136.0
+   ],
+   "original_max": [
+    8320.01,
+    -13184.0,
+    3144.0
+   ]
+  },
+  {
+   "min": [
+    7296.0,
+    -13568.0,
+    2472.0
+   ],
+   "max": [
+    7568.0,
+    -12928.0,
+    2664.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7296.0,
+    -13568.0,
+    2560.0
+   ],
+   "original_max": [
+    7568.0,
+    -12928.0,
+    2576.0
+   ]
+  },
+  {
+   "min": [
+    7664.0,
+    -13568.0,
+    2472.0
+   ],
+   "max": [
+    7936.0,
+    -12928.0,
+    2664.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7664.0,
+    -13568.0,
+    2560.0
+   ],
+   "original_max": [
+    7936.0,
+    -12928.0,
+    2576.0
+   ]
+  },
+  {
+   "min": [
+    7520.0,
+    -13568.0,
+    2472.0
+   ],
+   "max": [
+    7712.0,
+    -13296.0,
+    2664.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7568.0,
+    -13568.0,
+    2560.0
+   ],
+   "original_max": [
+    7664.0,
+    -13296.0,
+    2576.0
+   ]
+  },
+  {
+   "min": [
+    7520.0,
+    -13200.0,
+    2472.0
+   ],
+   "max": [
+    7712.0,
+    -12928.0,
+    2664.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    7568.0,
+    -13200.0,
+    2560.0
+   ],
+   "original_max": [
+    7664.0,
+    -12928.0,
+    2576.0
+   ]
+  },
+  {
+   "min": [
+    6336.0,
+    -13440.0,
+    1872.0
+   ],
+   "max": [
+    7872.0,
+    -13056.0,
+    2064.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6336.0,
+    -13440.0,
+    2048.0
+   ],
+   "original_max": [
+    7872.0,
+    -13056.0,
+    2064.0
+   ]
+  },
+  {
+   "min": [
+    6336.0,
+    -14079.988,
+    1872.0
+   ],
+   "max": [
+    6720.0,
+    -13440.0,
+    2064.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6336.0,
+    -14079.988,
+    2048.0
+   ],
+   "original_max": [
+    6720.0,
+    -13440.0,
+    2064.0
+   ]
+  },
+  {
+   "min": [
+    6080.0,
+    -14720.0,
+    1956.0
+   ],
+   "max": [
+    6720.0,
+    -14080.0,
+    2148.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6080.0,
+    -14720.0,
+    2048.0
+   ],
+   "original_max": [
+    6720.0,
+    -14080.0,
+    2056.0
+   ]
+  },
+  {
+   "min": [
+    6080.01,
+    -14720.0,
+    1416.0
+   ],
+   "max": [
+    6720.01,
+    -14080.0,
+    1608.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6080.01,
+    -14720.0,
+    1600.0
+   ],
+   "original_max": [
+    6720.01,
+    -14080.0,
+    1608.0
+   ]
+  },
+  {
+   "min": [
+    6080.01,
+    -15360.0,
+    880.0
+   ],
+   "max": [
+    6720.01,
+    -14080.0,
+    1072.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6080.01,
+    -15360.0,
+    1024.0
+   ],
+   "original_max": [
+    6720.01,
+    -14080.0,
+    1072.0
+   ]
+  },
+  {
+   "min": [
+    6336.0,
+    -15680.0,
+    1776.0
+   ],
+   "max": [
+    6720.0,
+    -15360.0,
+    1968.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6336.0,
+    -15680.0,
+    1920.0
+   ],
+   "original_max": [
+    6720.0,
+    -15360.0,
+    1968.0
+   ]
+  },
+  {
+   "min": [
+    12672.0,
+    -14720.0,
+    2220.0
+   ],
+   "max": [
+    13312.0,
+    -13632.0,
+    2412.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    12672.0,
+    -14720.0,
+    2304.0
+   ],
+   "original_max": [
+    13312.0,
+    -13632.0,
+    2328.0
+   ]
+  },
+  {
+   "min": [
+    12736.0,
+    -15872.0,
+    2336.0
+   ],
+   "max": [
+    13248.0,
+    -14720.0,
+    2528.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    12736.0,
+    -15872.0,
+    2496.0
+   ],
+   "original_max": [
+    13248.0,
+    -14720.0,
+    2528.0
+   ]
+  },
+  {
+   "min": [
+    13312.0,
+    -15872.0,
+    2352.0
+   ],
+   "max": [
+    13696.0,
+    -14720.0,
+    2544.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    13312.0,
+    -15872.0,
+    2496.0
+   ],
+   "original_max": [
+    13696.0,
+    -14720.0,
+    2544.0
+   ]
+  },
+  {
+   "min": [
+    13440.0,
+    -14656.0,
+    2416.0
+   ],
+   "max": [
+    14208.0,
+    -13888.0,
+    2608.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    13440.0,
+    -14656.0,
+    2496.0
+   ],
+   "original_max": [
+    14208.0,
+    -13888.0,
+    2608.0
+   ]
+  },
+  {
+   "min": [
+    12928.0,
+    -13568.0,
+    2160.0
+   ],
+   "max": [
+    13696.0,
+    -12032.0,
+    2352.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    12928.0,
+    -13568.0,
+    2304.0
+   ],
+   "original_max": [
+    13696.0,
+    -12032.0,
+    2352.0
+   ]
+  },
+  {
+   "min": [
+    13696.0,
+    -15616.0,
+    2352.0
+   ],
+   "max": [
+    14208.0,
+    -14720.0,
+    2544.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    13696.0,
+    -15616.0,
+    2496.0
+   ],
+   "original_max": [
+    14208.0,
+    -14720.0,
+    2544.0
+   ]
+  },
+  {
+   "min": [
+    3840.0,
+    -9728.0,
+    11480.0
+   ],
+   "max": [
+    4096.0,
+    -9408.0,
+    11672.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3840.0,
+    -9728.0,
+    11520.0
+   ],
+   "original_max": [
+    4096.0,
+    -9408.0,
+    11632.0
+   ]
+  },
+  {
+   "min": [
+    10176.0,
+    -4192.0,
+    11962.0
+   ],
+   "max": [
+    10816.0,
+    -3584.0,
+    12154.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    10176.0,
+    -4192.0,
+    12152.0
+   ],
+   "original_max": [
+    10816.0,
+    -3584.0,
+    12154.0
+   ]
+  },
+  {
+   "min": [
+    4480.0,
+    -8448.0,
+    11505.0
+   ],
+   "max": [
+    4720.0,
+    -8240.0,
+    11697.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4480.0,
+    -8448.0,
+    11600.0
+   ],
+   "original_max": [
+    4720.0,
+    -8240.0,
+    11602.0
+   ]
+  },
+  {
+   "min": [
+    4480.0,
+    -8248.0,
+    11505.0
+   ],
+   "max": [
+    4928.0,
+    -8056.0,
+    11697.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4480.0,
+    -8240.0,
+    11600.0
+   ],
+   "original_max": [
+    4928.0,
+    -8064.0,
+    11602.0
+   ]
+  },
+  {
+   "min": [
+    11328.0,
+    -11264.0,
+    5984.5
+   ],
+   "max": [
+    11520.0,
+    -10624.0,
+    6176.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11392.0,
+    -11264.0,
+    6080.0
+   ],
+   "original_max": [
+    11456.0,
+    -10624.0,
+    6081.0
+   ]
+  },
+  {
+   "min": [
+    11952.0,
+    -11264.0,
+    5641.0
+   ],
+   "max": [
+    12304.0,
+    -10624.0,
+    5833.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    11952.0,
+    -11264.0,
+    5832.0
+   ],
+   "original_max": [
+    12304.0,
+    -10624.0,
+    5833.0
+   ]
+  },
+  {
+   "min": [
+    10176.0,
+    -4608.0,
+    12207.0
+   ],
+   "max": [
+    11072.0,
+    -4240.0,
+    12399.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    10176.0,
+    -4608.0,
+    12302.0
+   ],
+   "original_max": [
+    11072.0,
+    -4240.0,
+    12304.0
+   ]
+  }
+ ],
+ "push_volumes": [
+  {
+   "min": [
+    8704.0,
+    11584.0,
+    1344.0
+   ],
+   "max": [
+    9216.0,
+    11968.0,
+    704.0
+   ]
+  },
+  {
+   "min": [
+    8704.0,
+    11744.0,
+    1344.0
+   ],
+   "max": [
+    9216.0,
+    11968.0,
+    704.0
+   ]
+  },
+  {
+   "min": [
+    8704.01,
+    10944.0,
+    2304.000009765625
+   ],
+   "max": [
+    9216.01,
+    11328.0,
+    1216.000009765625
+   ]
+  },
+  {
+   "min": [
+    15328.0,
+    2368.0,
+    11520.0
+   ],
+   "max": [
+    15440.0,
+    2376.0,
+    11456.0
+   ]
+  },
+  {
+   "min": [
+    7952.0,
+    5312.0,
+    10720.0
+   ],
+   "max": [
+    8064.0,
+    5320.0,
+    10656.0
+   ]
+  },
+  {
+   "min": [
+    8112.0,
+    5312.0,
+    10272.0
+   ],
+   "max": [
+    8224.0,
+    5320.0,
+    10208.0
+   ]
+  },
+  {
+   "min": [
+    3007.9999609375,
+    11648.0,
+    9072.01
+   ],
+   "max": [
+    3071.9999609375,
+    11656.0,
+    8960.01
+   ]
+  },
+  {
+   "min": [
+    2656.0,
+    11648.0,
+    9567.9999609375
+   ],
+   "max": [
+    2752.0,
+    11728.0,
+    9503.9999609375
+   ]
+  },
+  {
+   "min": [
+    11232.0,
+    5824.0,
+    11152.0
+   ],
+   "max": [
+    11296.0,
+    5832.0,
+    11040.0
+   ]
+  },
+  {
+   "min": [
+    12704.0,
+    5824.0,
+    10896.0
+   ],
+   "max": [
+    12768.0,
+    5832.0,
+    10784.0
+   ]
+  },
+  {
+   "min": [
+    2303.99998046875,
+    11776.0,
+    7423.99
+   ],
+   "max": [
+    3199.99998046875,
+    12096.0,
+    6527.99
+   ]
+  },
+  {
+   "min": [
+    11936.0,
+    5824.0,
+    11264.0
+   ],
+   "max": [
+    12320.0,
+    6400.0,
+    10624.0
+   ]
+  },
+  {
+   "min": [
+    1664.0,
+    11662.1,
+    9344.0
+   ],
+   "max": [
+    2048.0,
+    11968.000390625,
+    8960.0
+   ]
+  },
+  {
+   "min": [
+    3583.999990234375,
+    1792.0,
+    9919.99
+   ],
+   "max": [
+    4095.999990234375,
+    2560.0,
+    9279.99
+   ]
+  },
+  {
+   "min": [
+    7040.01,
+    2880.0,
+    14592.0
+   ],
+   "max": [
+    7808.01,
+    3712.0,
+    13824.0
+   ]
+  },
+  {
+   "min": [
+    7807.99998046875,
+    3776.0,
+    14848.0
+   ],
+   "max": [
+    8319.99998046875,
+    4352.0,
+    14464.0
+   ]
+  },
+  {
+   "min": [
+    6080.01,
+    1024.0,
+    15360.0
+   ],
+   "max": [
+    6720.01,
+    2304.0,
+    14080.0
+   ]
+  },
+  {
+   "min": [
+    12672.0,
+    2304.0,
+    14720.0
+   ],
+   "max": [
+    13312.0,
+    3072.0,
+    13632.0
+   ]
+  },
+  {
+   "min": [
+    10496.0,
+    6336.0,
+    10176.0
+   ],
+   "max": [
+    10976.0,
+    6592.0,
+    9984.0
+   ]
+  },
+  {
+   "min": [
+    8320.0,
+    3968.0,
+    10816.0
+   ],
+   "max": [
+    8768.0,
+    4224.0,
+    10080.0
+   ]
+  },
+  {
+   "min": [
+    12608.0,
+    11424.0,
+    4064.0
+   ],
+   "max": [
+    13440.0,
+    11744.0,
+    3488.0
+   ]
+  },
+  {
+   "min": [
+    4480.0,
+    11296.0,
+    8448.0
+   ],
+   "max": [
+    4928.0,
+    12224.0,
+    8064.0
+   ]
+  },
+  {
+   "min": [
+    1664.0,
+    11456.0,
+    10688.0
+   ],
+   "max": [
+    2560.0,
+    11968.0,
+    9792.0
+   ]
+  },
+  {
+   "min": [
+    2304.0,
+    11392.0,
+    7232.0
+   ],
+   "max": [
+    2560.0,
+    11584.0,
+    6960.0
+   ]
+  },
+  {
+   "min": [
+    2304.0,
+    11520.0,
+    6912.0
+   ],
+   "max": [
+    3008.0,
+    12096.0,
+    6528.0
+   ]
+  },
+  {
+   "min": [
+    13312.0,
+    2560.0,
+    15872.0
+   ],
+   "max": [
+    13692.0,
+    3072.0,
+    15168.0
+   ]
+  },
+  {
+   "min": [
+    10496.0,
+    12224.0,
+    3328.0
+   ],
+   "max": [
+    11136.0,
+    12544.0,
+    3008.0
+   ]
+  },
+  {
+   "min": [
+    3072.0,
+    2240.0,
+    10560.0
+   ],
+   "max": [
+    4096.0,
+    2560.0,
+    9920.0
+   ]
+  },
+  {
+   "min": [
+    2048.0,
+    8080.0,
+    15040.0
+   ],
+   "max": [
+    3072.0,
+    8528.0,
+    14400.0
+   ]
+  },
+  {
+   "min": [
+    2672.0,
+    8080.0,
+    14816.0
+   ],
+   "max": [
+    2784.0,
+    8088.0,
+    14752.0
+   ]
+  },
+  {
+   "min": [
+    4016.0,
+    8080.0,
+    14784.0
+   ],
+   "max": [
+    4128.0,
+    8088.0,
+    14720.0
+   ]
+  },
+  {
+   "min": [
+    4144.0,
+    8080.0,
+    15616.0
+   ],
+   "max": [
+    4256.0,
+    8088.0,
+    15552.0
+   ]
+  },
+  {
+   "min": [
+    2736.0,
+    8080.0,
+    15616.0
+   ],
+   "max": [
+    2848.0,
+    8088.0,
+    15552.0
+   ]
+  },
+  {
+   "min": [
+    1360.0,
+    8080.0,
+    15616.0
+   ],
+   "max": [
+    1472.0,
+    8088.0,
+    15552.0
+   ]
+  },
+  {
+   "min": [
+    2624.0,
+    8848.0,
+    13312.0
+   ],
+   "max": [
+    2816.0,
+    8856.0,
+    13152.0
+   ]
+  },
+  {
+   "min": [
+    2304.0,
+    8848.0,
+    14016.0
+   ],
+   "max": [
+    2432.0,
+    8912.0,
+    13888.0
+   ]
+  },
+  {
+   "min": [
+    3455.99998046875,
+    8080.0,
+    15040.0
+   ],
+   "max": [
+    4479.99998046875,
+    8528.0,
+    14400.0
+   ]
+  },
+  {
+   "min": [
+    11696.0,
+    5824.0,
+    10896.0
+   ],
+   "max": [
+    11760.0,
+    5832.0,
+    10784.0
+   ]
+  }
+ ],
+ "trigger_volumes": [
+  {
+   "min": [
+    1616.0,
+    15009.0,
+    2048.0
+   ],
+   "max": [
+    1824.0,
+    15010.0,
+    1392.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1152.0,
+    14912.0,
+    2944.0
+   ],
+   "max": [
+    2304.0,
+    14928.0,
+    2432.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1631.999990234375,
+    14753.0,
+    2048.0
+   ],
+   "max": [
+    1887.999990234375,
+    14754.0,
+    1408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1567.999990234375,
+    14497.0,
+    2048.0
+   ],
+   "max": [
+    1887.999990234375,
+    14498.0,
+    1392.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4064.0,
+    14497.0,
+    2480.0
+   ],
+   "max": [
+    4128.0,
+    14498.0,
+    2240.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3935.999990234375,
+    14497.0,
+    1920.0
+   ],
+   "max": [
+    4191.999990234375,
+    14498.0,
+    1632.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3503.999990234375,
+    14497.0,
+    1504.0
+   ],
+   "max": [
+    3855.999990234375,
+    14498.0,
+    1360.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3295.999990234375,
+    14497.0,
+    2432.0
+   ],
+   "max": [
+    3615.999990234375,
+    14498.0,
+    1616.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3679.99998046875,
+    14753.0,
+    2688.0
+   ],
+   "max": [
+    4191.99998046875,
+    14754.0,
+    2080.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3359.999990234375,
+    14753.0,
+    2496.0
+   ],
+   "max": [
+    3679.999990234375,
+    14754.0,
+    2080.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3360.0,
+    14912.0,
+    2400.0
+   ],
+   "max": [
+    3424.0,
+    14913.0,
+    1984.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3552.0,
+    14912.0,
+    1952.0
+   ],
+   "max": [
+    3840.0,
+    14913.0,
+    1888.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3840.0,
+    14912.0,
+    1952.0
+   ],
+   "max": [
+    3904.0,
+    14913.0,
+    1824.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4992.0,
+    14497.0,
+    2400.0
+   ],
+   "max": [
+    5376.0,
+    14498.0,
+    544.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4960.0,
+    14521.0,
+    1792.0
+   ],
+   "max": [
+    5120.0,
+    14522.0,
+    1632.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4992.0,
+    14545.0,
+    1568.0
+   ],
+   "max": [
+    5152.0,
+    14546.0,
+    1408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    5184.0,
+    14569.0,
+    1632.0
+   ],
+   "max": [
+    5280.0,
+    14570.0,
+    1536.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    5216.0,
+    14593.0,
+    1472.0
+   ],
+   "max": [
+    5376.0,
+    14594.0,
+    1312.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6400.0,
+    15041.0,
+    2432.0
+   ],
+   "max": [
+    6528.0,
+    15042.0,
+    2304.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6400.0,
+    14625.0,
+    1984.0
+   ],
+   "max": [
+    6656.0,
+    14626.0,
+    1664.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6848.0,
+    14113.0,
+    2048.0
+   ],
+   "max": [
+    6976.0,
+    14114.0,
+    1712.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6784.0,
+    14113.0,
+    2624.0
+   ],
+   "max": [
+    6912.0,
+    14114.0,
+    2496.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6464.0,
+    14017.0,
+    2624.0
+   ],
+   "max": [
+    6560.0,
+    14018.0,
+    2528.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6368.0,
+    13857.0,
+    2304.0
+   ],
+   "max": [
+    6464.0,
+    13858.0,
+    2208.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6367.99998046875,
+    13697.0,
+    1952.0
+   ],
+   "max": [
+    6559.99998046875,
+    13698.0,
+    1856.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6208.0,
+    13473.0,
+    1600.0
+   ],
+   "max": [
+    6272.0,
+    13474.0,
+    1536.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6144.0,
+    13489.0,
+    1472.0
+   ],
+   "max": [
+    6208.0,
+    13490.0,
+    1408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6144.0,
+    13505.0,
+    1344.0
+   ],
+   "max": [
+    6208.0,
+    13506.0,
+    1280.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6208.0,
+    13521.0,
+    1216.0
+   ],
+   "max": [
+    6272.0,
+    13522.0,
+    1152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6336.0,
+    13537.0,
+    1152.0
+   ],
+   "max": [
+    6400.0,
+    13538.0,
+    1088.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6464.0,
+    13553.0,
+    1152.0
+   ],
+   "max": [
+    6528.0,
+    13554.0,
+    1088.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6592.0,
+    13569.0,
+    1216.0
+   ],
+   "max": [
+    6656.0,
+    13570.0,
+    1152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6592.0,
+    13601.0,
+    1344.0
+   ],
+   "max": [
+    6656.0,
+    13602.0,
+    1280.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6592.0,
+    13633.0,
+    1472.0
+   ],
+   "max": [
+    6656.0,
+    13634.0,
+    1408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6688.0,
+    13665.0,
+    1344.0
+   ],
+   "max": [
+    6752.0,
+    13666.0,
+    1280.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6688.0,
+    13697.0,
+    1472.0
+   ],
+   "max": [
+    6752.0,
+    13698.0,
+    1408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12703.999609375,
+    11424.0,
+    4064.0
+   ],
+   "max": [
+    13375.999609375,
+    11426.0,
+    3488.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4608.0000390625,
+    11296.0,
+    8384.0
+   ],
+   "max": [
+    4864.0000390625,
+    11298.0,
+    8128.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2016.0000292968748,
+    11456.0,
+    10336.0
+   ],
+   "max": [
+    2208.000029296875,
+    11458.0,
+    10144.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2304.00001953125,
+    11392.0,
+    7104.0
+   ],
+   "max": [
+    2432.00001953125,
+    11394.0,
+    6976.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2624.000009765625,
+    11520.0,
+    6592.0
+   ],
+   "max": [
+    2688.000009765625,
+    11522.0,
+    6528.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2304.0000390625,
+    11712.0,
+    6783.999991455078
+   ],
+   "max": [
+    2560.00296875,
+    11714.0,
+    6527.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13504.0,
+    2560.0,
+    15424.0
+   ],
+   "max": [
+    13632.0,
+    2562.0,
+    15296.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3264.00001953125,
+    2240.0,
+    10304.0
+   ],
+   "max": [
+    3392.00001953125,
+    2242.0,
+    10176.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3584.000009765625,
+    2240.0,
+    10368.0
+   ],
+   "max": [
+    3648.000009765625,
+    2242.0,
+    10304.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3840.000009765625,
+    2240.0,
+    10176.0
+   ],
+   "max": [
+    3904.000009765625,
+    2242.0,
+    10112.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2624.000029296875,
+    8081.0,
+    14688.0
+   ],
+   "max": [
+    2816.000029296875,
+    8083.0,
+    14496.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7904.0,
+    14945.0,
+    704.0
+   ],
+   "max": [
+    7936.0,
+    14946.0,
+    576.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7808.01,
+    14977.0,
+    768.0
+   ],
+   "max": [
+    7856.01,
+    14978.0,
+    720.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7728.01,
+    15009.0,
+    688.0
+   ],
+   "max": [
+    7760.01,
+    15010.0,
+    592.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7824.01,
+    15009.0,
+    624.0
+   ],
+   "max": [
+    7856.01,
+    15010.0,
+    592.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7967.99998046875,
+    15025.0,
+    640.0
+   ],
+   "max": [
+    8063.99998046875,
+    15026.0,
+    608.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7923.85625,
+    15025.0,
+    828.00609375
+   ],
+   "max": [
+    7996.00078125,
+    15026.0,
+    755.99828125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8032.01,
+    15025.0,
+    1056.0
+   ],
+   "max": [
+    8064.01,
+    15026.0,
+    896.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7872.01,
+    14977.0,
+    1088.0
+   ],
+   "max": [
+    7936.01,
+    14978.0,
+    1024.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7904.01,
+    14945.0,
+    1616.0
+   ],
+   "max": [
+    7968.01,
+    14946.0,
+    1552.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7904.01,
+    14945.0,
+    1760.0
+   ],
+   "max": [
+    7968.01,
+    14946.0,
+    1696.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7808.01,
+    15009.0,
+    1696.0
+   ],
+   "max": [
+    7872.01,
+    15010.0,
+    1632.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8035.8896875,
+    15009.0,
+    1728.11640625
+   ],
+   "max": [
+    8114.00296875,
+    15010.0,
+    1649.99140625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7840.01,
+    14945.0,
+    1936.0
+   ],
+   "max": [
+    7904.01,
+    14946.0,
+    1872.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7680.01,
+    14945.0,
+    1952.0
+   ],
+   "max": [
+    7744.01,
+    14946.0,
+    1888.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7680.01,
+    14993.0,
+    1760.0
+   ],
+   "max": [
+    7744.01,
+    14994.0,
+    1696.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8096.01,
+    15041.0,
+    1584.0
+   ],
+   "max": [
+    8192.01,
+    15042.0,
+    1552.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7904.01,
+    15067.0,
+    1616.0
+   ],
+   "max": [
+    7968.01,
+    15068.0,
+    1552.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7680.01,
+    15089.0,
+    1584.0
+   ],
+   "max": [
+    7776.01,
+    15090.0,
+    1552.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7680.01,
+    15105.0,
+    1952.0
+   ],
+   "max": [
+    7744.01,
+    15106.0,
+    1696.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7679.999921875,
+    15105.0,
+    2032.0
+   ],
+   "max": [
+    8191.999921875,
+    15106.0,
+    2016.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7920.01,
+    14945.0,
+    2320.0
+   ],
+   "max": [
+    7952.01,
+    14946.0,
+    2288.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7888.01,
+    14945.0,
+    2864.0
+   ],
+   "max": [
+    7984.01,
+    14946.0,
+    2832.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7855.99998046875,
+    14977.0,
+    3008.0
+   ],
+   "max": [
+    8015.99998046875,
+    14978.0,
+    2944.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7984.01,
+    15009.0,
+    2864.0
+   ],
+   "max": [
+    8080.01,
+    15010.0,
+    2832.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7792.01,
+    15065.0,
+    2864.0
+   ],
+   "max": [
+    7888.01,
+    15066.0,
+    2832.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7856.0,
+    15025.0,
+    2832.0
+   ],
+   "max": [
+    7888.0,
+    15026.0,
+    2800.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7680.0099609375,
+    15073.0,
+    3056.0
+   ],
+   "max": [
+    8192.0099609375,
+    15074.0,
+    3040.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7920.0,
+    14945.0,
+    3280.0
+   ],
+   "max": [
+    7952.0,
+    14946.0,
+    3248.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7807.99998046875,
+    14945.0,
+    3984.0
+   ],
+   "max": [
+    7983.99998046875,
+    14946.0,
+    3712.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7807.99998046875,
+    14945.0,
+    4704.00009765625
+   ],
+   "max": [
+    8015.99998046875,
+    14946.0,
+    4224.00009765625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8671.99998046875,
+    12137.0,
+    880.0
+   ],
+   "max": [
+    8767.99998046875,
+    12138.0,
+    784.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8912.01,
+    12185.0,
+    1088.0
+   ],
+   "max": [
+    8944.01,
+    12186.0,
+    1056.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8944.01,
+    12209.0,
+    1056.0
+   ],
+   "max": [
+    8976.01,
+    12210.0,
+    868.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9024.009990234375,
+    12237.0,
+    960.0
+   ],
+   "max": [
+    9088.009990234375,
+    12238.0,
+    896.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8996.0001953125,
+    12257.0,
+    848.0
+   ],
+   "max": [
+    9152.0001953125,
+    12258.0,
+    816.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9152.01,
+    12281.0,
+    848.0
+   ],
+   "max": [
+    9184.01,
+    12282.0,
+    816.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8976.01,
+    12329.0,
+    608.0
+   ],
+   "max": [
+    9008.01,
+    12330.0,
+    576.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8944.01,
+    12353.0,
+    768.0
+   ],
+   "max": [
+    8976.01,
+    12354.0,
+    608.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8768.000390625,
+    10945.0,
+    1728.0
+   ],
+   "max": [
+    9088.000390625,
+    10946.0,
+    1024.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10304.0,
+    12209.0,
+    3648.0
+   ],
+   "max": [
+    10368.0,
+    12210.0,
+    3584.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10176.0,
+    12233.0,
+    3776.0
+   ],
+   "max": [
+    10240.0,
+    12234.0,
+    3712.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10176.0,
+    12257.0,
+    3903.999990234375
+   ],
+   "max": [
+    10240.0,
+    12258.0,
+    3839.999990234375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10176.0,
+    12281.0,
+    4032.0
+   ],
+   "max": [
+    10240.0,
+    12282.0,
+    3968.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10176.0,
+    12305.0,
+    4160.0
+   ],
+   "max": [
+    10240.0,
+    12306.0,
+    4096.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10224.0,
+    12305.0,
+    4240.0
+   ],
+   "max": [
+    11024.0,
+    12306.0,
+    4208.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10496.0,
+    12333.0,
+    4240.0
+   ],
+   "max": [
+    10528.0,
+    12334.0,
+    4208.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10576.0,
+    12361.0,
+    4240.0
+   ],
+   "max": [
+    10608.0,
+    12362.0,
+    4208.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10624.0,
+    12377.0,
+    4160.0
+   ],
+   "max": [
+    10696.0,
+    12378.0,
+    4096.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10552.0,
+    12377.0,
+    3968.0
+   ],
+   "max": [
+    10696.0,
+    12378.0,
+    3712.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10240.0,
+    11681.0,
+    4160.0
+   ],
+   "max": [
+    11072.0,
+    11682.0,
+    3584.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10880.0,
+    11841.0,
+    3999.99998046875
+   ],
+   "max": [
+    11072.0,
+    11842.0,
+    3903.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10736.0,
+    11809.0,
+    3679.99998046875
+   ],
+   "max": [
+    10944.0,
+    11810.0,
+    3583.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10512.0,
+    11841.0,
+    3679.99998046875
+   ],
+   "max": [
+    10736.0,
+    11842.0,
+    3583.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10304.0,
+    11873.0,
+    3679.99998046875
+   ],
+   "max": [
+    10512.0,
+    11874.0,
+    3583.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10176.0,
+    11873.0,
+    3935.99998046875
+   ],
+   "max": [
+    10368.0,
+    11874.0,
+    3839.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10480.0,
+    11873.0,
+    4128.01
+   ],
+   "max": [
+    10608.0,
+    11874.0,
+    4064.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10624.0,
+    11905.0,
+    4128.01
+   ],
+   "max": [
+    10752.0,
+    11906.0,
+    4096.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10768.0,
+    11937.0,
+    4128.01
+   ],
+   "max": [
+    10896.0,
+    11938.0,
+    4096.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10912.0,
+    11969.0,
+    4128.01
+   ],
+   "max": [
+    11040.0,
+    11970.0,
+    4096.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10592.0,
+    12321.0,
+    3231.9999609375
+   ],
+   "max": [
+    10720.0,
+    12322.0,
+    3103.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11328.0,
+    12161.0,
+    3231.9999609375
+   ],
+   "max": [
+    11456.0,
+    12162.0,
+    3103.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11328.0,
+    11873.0,
+    4032.000087890625
+   ],
+   "max": [
+    11456.0,
+    11874.0,
+    3520.000087890625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11456.0,
+    11489.0,
+    4415.9998828125
+   ],
+   "max": [
+    11840.0,
+    11490.0,
+    4031.9998828125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11296.0,
+    11489.0,
+    4031.999921875
+   ],
+   "max": [
+    11776.0,
+    11490.0,
+    3743.999921875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12480.0,
+    11425.0,
+    3839.9999609375
+   ],
+   "max": [
+    12608.0,
+    11426.0,
+    3711.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1472.0,
+    11169.0,
+    7008.0001953125
+   ],
+   "max": [
+    1696.0,
+    11170.0,
+    6848.0001953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    11185.0,
+    7023.99998046875
+   ],
+   "max": [
+    1856.0,
+    11186.0,
+    6959.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1856.0,
+    11201.0,
+    7183.99998046875
+   ],
+   "max": [
+    1920.0,
+    11202.0,
+    7119.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1840.0,
+    11217.0,
+    7327.99998046875
+   ],
+   "max": [
+    1904.0,
+    11218.0,
+    7263.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1696.0,
+    11233.0,
+    7359.99998046875
+   ],
+   "max": [
+    1760.0,
+    11234.0,
+    7295.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1248.0,
+    11249.0,
+    7680.000087890625
+   ],
+   "max": [
+    1648.0,
+    11250.0,
+    7168.000087890625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1696.0,
+    11265.0,
+    7647.99998046875
+   ],
+   "max": [
+    1760.0,
+    11266.0,
+    7583.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    11297.0,
+    7519.99998046875
+   ],
+   "max": [
+    1856.0,
+    11298.0,
+    7455.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1920.0,
+    11313.0,
+    7487.99998046875
+   ],
+   "max": [
+    1984.0,
+    11314.0,
+    7423.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1904.0,
+    11329.0,
+    7327.99998046875
+   ],
+   "max": [
+    1968.0,
+    11330.0,
+    7263.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1744.0,
+    11329.0,
+    7199.99998046875
+   ],
+   "max": [
+    1808.0,
+    11330.0,
+    7135.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1664.0,
+    11345.0,
+    7103.99998046875
+   ],
+   "max": [
+    1728.0,
+    11346.0,
+    7039.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1504.0,
+    11377.0,
+    7136.00998046875
+   ],
+   "max": [
+    1536.0,
+    11378.0,
+    7040.00998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1536.0,
+    11393.0,
+    7167.9999609375
+   ],
+   "max": [
+    1664.0,
+    11394.0,
+    7039.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1552.0,
+    11377.0,
+    7423.99998046875
+   ],
+   "max": [
+    1616.0,
+    11378.0,
+    7359.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1536.0,
+    11393.0,
+    7551.9999609375
+   ],
+   "max": [
+    1664.0,
+    11394.0,
+    7423.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1536.0,
+    11361.0,
+    6991.99998046875
+   ],
+   "max": [
+    1600.0,
+    11362.0,
+    6927.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2192.0,
+    11297.0,
+    8559.999941406251
+   ],
+   "max": [
+    3168.0,
+    11298.0,
+    7551.99994140625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2384.0,
+    11393.0,
+    8368.000058593749
+   ],
+   "max": [
+    2992.0,
+    11394.0,
+    7760.00005859375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2496.0,
+    11313.0,
+    7615.99998046875
+   ],
+   "max": [
+    2560.0,
+    11314.0,
+    7551.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2368.0,
+    11329.0,
+    7615.99998046875
+   ],
+   "max": [
+    2432.0,
+    11330.0,
+    7551.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2176.0,
+    11345.0,
+    7712.0001953125
+   ],
+   "max": [
+    2336.0,
+    11346.0,
+    7552.0001953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2176.0,
+    11361.0,
+    7711.99998046875
+   ],
+   "max": [
+    2240.0,
+    11362.0,
+    7647.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2176.0,
+    11377.0,
+    7775.99998046875
+   ],
+   "max": [
+    2240.0,
+    11378.0,
+    7711.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2176.0,
+    11397.0,
+    7872.0001953125
+   ],
+   "max": [
+    2240.0,
+    11398.0,
+    7776.0001953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2880.0,
+    11393.0,
+    7615.99998046875
+   ],
+   "max": [
+    2944.0,
+    11394.0,
+    7551.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2816.0,
+    11425.0,
+    7615.99998046875
+   ],
+   "max": [
+    2880.0,
+    11426.0,
+    7551.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3008.0,
+    11325.0,
+    7231.99998046875
+   ],
+   "max": [
+    3104.0,
+    11326.0,
+    7167.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3071.999990234375,
+    11333.0,
+    7039.99998046875
+   ],
+   "max": [
+    3135.999990234375,
+    11334.0,
+    6975.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3136.0,
+    11345.0,
+    6912.00998046875
+   ],
+   "max": [
+    3200.0,
+    11346.0,
+    6848.00998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2304.0,
+    11361.0,
+    6791.999921875
+   ],
+   "max": [
+    3160.0,
+    11362.0,
+    6527.999921875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2304.0,
+    11393.0,
+    6783.999921875
+   ],
+   "max": [
+    2560.000991821289,
+    11394.0,
+    6527.999921875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2304.0,
+    11393.0,
+    6847.99998046875
+   ],
+   "max": [
+    2368.0,
+    11394.0,
+    6783.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2912.0,
+    11393.0,
+    7231.99998046875
+   ],
+   "max": [
+    3008.0,
+    11394.0,
+    7167.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3104.0,
+    11425.0,
+    7231.99998046875
+   ],
+   "max": [
+    3200.0,
+    11426.0,
+    7167.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3136.0,
+    11521.0,
+    6911.99994140625
+   ],
+   "max": [
+    3200.0,
+    11522.0,
+    6719.99994140625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2784.0,
+    11521.0,
+    6591.99998046875
+   ],
+   "max": [
+    3008.0,
+    11522.0,
+    6527.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3616.0,
+    11297.0,
+    7712.0001953125
+   ],
+   "max": [
+    4416.0,
+    11298.0,
+    7552.0001953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4160.0,
+    11937.0,
+    8319.99994140625
+   ],
+   "max": [
+    4416.0,
+    11938.0,
+    8127.9999414062495
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3952.0,
+    11905.0,
+    8255.99998046875
+   ],
+   "max": [
+    4016.0,
+    11906.0,
+    8191.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3696.0,
+    11825.0,
+    8335.99998046875
+   ],
+   "max": [
+    3760.0,
+    11826.0,
+    8271.99998046875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2352.0,
+    11713.0,
+    8400.0000390625
+   ],
+   "max": [
+    3024.0,
+    11714.0,
+    7728.0000390625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3072.0,
+    11969.0,
+    9343.999921875
+   ],
+   "max": [
+    3200.0,
+    11970.0,
+    9087.999921875
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2384.0,
+    11977.0,
+    8319.99986328125
+   ],
+   "max": [
+    2592.0,
+    11978.0,
+    7871.99986328125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    11681.0,
+    9663.9999609375
+   ],
+   "max": [
+    1920.0,
+    11682.0,
+    9535.9999609375
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2560.0,
+    11649.0,
+    10688.0001953125
+   ],
+   "max": [
+    4096.0,
+    11650.0,
+    9808.0001953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3552.0,
+    11649.0,
+    9407.99986328125
+   ],
+   "max": [
+    4096.0,
+    11650.0,
+    8959.99986328125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10080.0,
+    5873.0,
+    11136.000390625
+   ],
+   "max": [
+    10432.0,
+    5874.0,
+    10752.000390625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9920.0,
+    5889.0,
+    10968.0
+   ],
+   "max": [
+    9968.0,
+    5890.0,
+    10920.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9864.0,
+    5921.0,
+    10912.0
+   ],
+   "max": [
+    9912.0,
+    5922.0,
+    10864.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9808.0,
+    5953.0,
+    10968.0
+   ],
+   "max": [
+    9856.0,
+    5954.0,
+    10920.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9864.01,
+    5985.0,
+    11024.0
+   ],
+   "max": [
+    9912.01,
+    5986.0,
+    10976.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9920.0,
+    6017.0,
+    10968.0
+   ],
+   "max": [
+    9968.0,
+    6018.0,
+    10920.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9856.0,
+    6113.0,
+    10976.0
+   ],
+   "max": [
+    9920.0,
+    6114.0,
+    10912.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9808.0,
+    6081.0,
+    10968.0
+   ],
+   "max": [
+    9856.0,
+    6082.0,
+    10920.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9864.0,
+    6049.0,
+    10912.0
+   ],
+   "max": [
+    9912.0,
+    6050.0,
+    10864.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11456.0,
+    5825.0,
+    11264.0
+   ],
+   "max": [
+    11936.0,
+    5826.0,
+    10624.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11808.0,
+    5841.0,
+    11264.0
+   ],
+   "max": [
+    11936.0,
+    5842.0,
+    11104.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12320.0,
+    5825.0,
+    11264.0
+   ],
+   "max": [
+    12800.0,
+    5826.0,
+    10624.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11728.0,
+    5825.0,
+    10384.0
+   ],
+   "max": [
+    12416.0,
+    5826.0,
+    9824.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11861.00390625,
+    5873.0,
+    10059.0034375
+   ],
+   "max": [
+    12004.00390625,
+    5874.0,
+    9915.99953125
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11895.999237060547,
+    5921.0,
+    10024.0078125
+   ],
+   "max": [
+    11968.00390625,
+    5922.0,
+    9951.999610900879
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11808.0,
+    5905.0,
+    10208.0
+   ],
+   "max": [
+    11872.0,
+    5906.0,
+    10144.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11696.0,
+    5857.0,
+    9936.01
+   ],
+   "max": [
+    11760.0,
+    5858.0,
+    9872.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12032.0,
+    5953.0,
+    9840.0
+   ],
+   "max": [
+    12096.0,
+    5954.0,
+    9776.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11520.0,
+    5993.0,
+    9792.0
+   ],
+   "max": [
+    12000.0,
+    5994.0,
+    9728.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11936.0,
+    6049.0,
+    10464.0
+   ],
+   "max": [
+    12000.0,
+    6050.0,
+    10400.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11424.0,
+    6081.0,
+    10496.0
+   ],
+   "max": [
+    11872.0,
+    6082.0,
+    10432.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    11232.0,
+    6081.0,
+    10464.0
+   ],
+   "max": [
+    11296.0,
+    6082.0,
+    10368.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2928.0,
+    2849.0,
+    10224.0
+   ],
+   "max": [
+    3056.0,
+    2850.0,
+    10096.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2624.0,
+    2817.0,
+    10416.0
+   ],
+   "max": [
+    2752.0,
+    2818.0,
+    10288.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2288.0,
+    2785.0,
+    10224.0
+   ],
+   "max": [
+    2384.0,
+    2786.0,
+    10128.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    640.0,
+    2181.0,
+    10432.0
+   ],
+   "max": [
+    1856.0,
+    2182.0,
+    10048.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    640.0,
+    2209.0,
+    10456.0
+   ],
+   "max": [
+    688.0,
+    2210.0,
+    10408.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    640.0,
+    2209.0,
+    10072.0
+   ],
+   "max": [
+    688.0,
+    2210.0,
+    10024.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    640.0,
+    2241.0,
+    10688.0
+   ],
+   "max": [
+    2496.0,
+    2242.0,
+    10560.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    640.0,
+    2241.0,
+    9920.0
+   ],
+   "max": [
+    2496.0,
+    2242.0,
+    9792.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4240.0,
+    11297.0,
+    8288.00009765625
+   ],
+   "max": [
+    4400.0,
+    11298.0,
+    7808.00009765625
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3648.0,
+    2145.0,
+    9216.0
+   ],
+   "max": [
+    4032.0,
+    2146.0,
+    8832.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3200.0,
+    1697.0,
+    9152.01
+   ],
+   "max": [
+    3456.0,
+    1698.0,
+    8896.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2880.0,
+    1729.0,
+    9152.0
+   ],
+   "max": [
+    3040.0,
+    1730.0,
+    8992.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2624.0,
+    1761.0,
+    9024.0
+   ],
+   "max": [
+    2784.0,
+    1762.0,
+    8864.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2048.0,
+    1697.0,
+    9056.0
+   ],
+   "max": [
+    2112.0,
+    1698.0,
+    8992.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1984.0,
+    1729.0,
+    8960.0
+   ],
+   "max": [
+    2048.0,
+    1730.0,
+    8896.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1888.0,
+    1761.0,
+    8896.01
+   ],
+   "max": [
+    1952.0,
+    1762.0,
+    8832.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1888.0,
+    2017.0,
+    8896.0
+   ],
+   "max": [
+    1952.0,
+    2018.0,
+    8832.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1984.0,
+    1985.0,
+    8960.0
+   ],
+   "max": [
+    2048.0,
+    1986.0,
+    8896.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2048.0,
+    1953.0,
+    9056.01
+   ],
+   "max": [
+    2112.0,
+    1954.0,
+    8992.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1984.0,
+    1921.0,
+    9152.01
+   ],
+   "max": [
+    2048.0,
+    1922.0,
+    9088.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1888.0,
+    1889.0,
+    9216.0
+   ],
+   "max": [
+    1952.0,
+    1890.0,
+    9152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    1793.0,
+    8960.01
+   ],
+   "max": [
+    1856.0,
+    1794.0,
+    8896.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1728.0,
+    1825.0,
+    9056.01
+   ],
+   "max": [
+    1792.0,
+    1826.0,
+    8992.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    1857.0,
+    9152.0
+   ],
+   "max": [
+    1856.0,
+    1858.0,
+    9088.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1728.0,
+    2081.0,
+    9056.0
+   ],
+   "max": [
+    1792.0,
+    2082.0,
+    8992.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    2049.0,
+    8960.01
+   ],
+   "max": [
+    1856.0,
+    2050.0,
+    8896.01
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1792.0,
+    2113.0,
+    9152.0
+   ],
+   "max": [
+    1856.0,
+    2114.0,
+    9088.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    1888.0,
+    2145.0,
+    9216.0
+   ],
+   "max": [
+    1952.0,
+    2146.0,
+    9152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7616.0,
+    3969.0,
+    14848.0
+   ],
+   "max": [
+    7808.0,
+    3970.0,
+    14464.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7264.01,
+    3969.0,
+    14752.0
+   ],
+   "max": [
+    7456.01,
+    3970.0,
+    14560.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7136.01,
+    3457.0,
+    15008.0
+   ],
+   "max": [
+    7328.01,
+    3458.0,
+    14816.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7232.01,
+    3073.0,
+    14400.0
+   ],
+   "max": [
+    7424.01,
+    3074.0,
+    14208.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    7808.00998046875,
+    3265.0,
+    14208.0
+   ],
+   "max": [
+    8192.009980468749,
+    3266.0,
+    14080.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8032.01,
+    3265.0,
+    13920.0
+   ],
+   "max": [
+    8128.01,
+    3266.0,
+    13824.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8064.01,
+    3265.0,
+    13536.0
+   ],
+   "max": [
+    8224.01,
+    3266.0,
+    13376.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6943.9999609375,
+    2177.0,
+    13376.0
+   ],
+   "max": [
+    7631.9999609375,
+    2178.0,
+    13152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6640.01,
+    2177.0,
+    13248.0
+   ],
+   "max": [
+    6768.01,
+    2178.0,
+    13120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6384.01,
+    2145.0,
+    13344.0
+   ],
+   "max": [
+    6512.01,
+    2146.0,
+    13216.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6496.01,
+    2113.0,
+    13616.0
+   ],
+   "max": [
+    6656.01,
+    2114.0,
+    13456.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6432.01,
+    2081.0,
+    13888.0
+   ],
+   "max": [
+    6592.01,
+    2082.0,
+    13728.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6416.01,
+    1633.0,
+    14400.0
+   ],
+   "max": [
+    6576.01,
+    1634.0,
+    14240.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6271.99998046875,
+    1121.0,
+    14528.0
+   ],
+   "max": [
+    6527.99998046875,
+    1122.0,
+    14272.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    6464.01,
+    1985.0,
+    15552.0
+   ],
+   "max": [
+    6592.01,
+    1986.0,
+    15424.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13264.0,
+    2369.0,
+    13072.0
+   ],
+   "max": [
+    13360.0,
+    2370.0,
+    12736.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12992.0,
+    2401.0,
+    13280.0
+   ],
+   "max": [
+    13152.0,
+    2402.0,
+    13120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13072.0,
+    2433.0,
+    13280.0
+   ],
+   "max": [
+    13152.0,
+    2434.0,
+    13200.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13120.0,
+    2461.0,
+    13216.0
+   ],
+   "max": [
+    13552.0,
+    2462.0,
+    13184.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13216.0,
+    2497.0,
+    13216.0
+   ],
+   "max": [
+    13248.0,
+    2498.0,
+    13184.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13280.0,
+    2529.0,
+    13216.0
+   ],
+   "max": [
+    13312.0,
+    2530.0,
+    13184.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13344.0,
+    2561.0,
+    13216.0
+   ],
+   "max": [
+    13376.0,
+    2562.0,
+    13184.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13408.0,
+    2593.0,
+    13216.0
+   ],
+   "max": [
+    13440.0,
+    2594.0,
+    13184.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13472.0,
+    2609.0,
+    13280.0
+   ],
+   "max": [
+    13632.0,
+    2610.0,
+    13120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13504.0,
+    2625.0,
+    13248.0
+   ],
+   "max": [
+    13600.0,
+    2626.0,
+    13152.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13568.0,
+    2625.0,
+    13632.0
+   ],
+   "max": [
+    13696.0,
+    2626.0,
+    13504.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13440.000390625,
+    2625.0,
+    13888.0
+   ],
+   "max": [
+    14208.000390625,
+    2626.0,
+    13632.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13696.0,
+    2625.0,
+    14208.0
+   ],
+   "max": [
+    13824.0,
+    2626.0,
+    14080.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13872.0,
+    2641.0,
+    14432.0
+   ],
+   "max": [
+    14000.0,
+    2642.0,
+    14304.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    14080.0,
+    2657.0,
+    14592.0
+   ],
+   "max": [
+    14208.0,
+    2658.0,
+    14464.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    14080.0,
+    2689.0,
+    14720.0
+   ],
+   "max": [
+    14208.0,
+    2690.0,
+    14656.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13888.0,
+    2561.0,
+    14944.0
+   ],
+   "max": [
+    14016.0,
+    2562.0,
+    14816.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13760.0,
+    2561.0,
+    15152.0
+   ],
+   "max": [
+    14144.0,
+    2562.0,
+    15120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13760.0,
+    2561.0,
+    15424.0
+   ],
+   "max": [
+    13792.0,
+    2562.0,
+    15392.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    14112.0,
+    2657.0,
+    15424.0
+   ],
+   "max": [
+    14144.0,
+    2658.0,
+    15392.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    14112.0,
+    2625.0,
+    15152.0
+   ],
+   "max": [
+    14144.0,
+    2626.0,
+    15120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13728.0,
+    2753.0,
+    15152.0
+   ],
+   "max": [
+    13760.0,
+    2754.0,
+    15120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13728.0,
+    2769.0,
+    15008.0
+   ],
+   "max": [
+    13760.0,
+    2770.0,
+    14944.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13728.0,
+    2785.0,
+    14848.0
+   ],
+   "max": [
+    13792.0,
+    2786.0,
+    14816.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13760.0,
+    2721.0,
+    15152.0
+   ],
+   "max": [
+    13792.0,
+    2722.0,
+    15120.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13824.0,
+    2817.0,
+    14720.0
+   ],
+   "max": [
+    13952.0,
+    2818.0,
+    14656.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13872.0,
+    2817.0,
+    14560.0
+   ],
+   "max": [
+    14000.0,
+    2818.0,
+    14432.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    14048.0,
+    2751.0,
+    14304.0
+   ],
+   "max": [
+    14176.0,
+    2752.0,
+    14176.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13824.0,
+    2751.0,
+    14208.0
+   ],
+   "max": [
+    13952.0,
+    2752.0,
+    14080.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13472.0,
+    2751.0,
+    14400.0
+   ],
+   "max": [
+    13600.0,
+    2752.0,
+    14272.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13440.0,
+    2785.0,
+    14592.0
+   ],
+   "max": [
+    13568.0,
+    2786.0,
+    14464.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13440.0,
+    2817.0,
+    14720.0
+   ],
+   "max": [
+    13568.0,
+    2818.0,
+    14656.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13440.0,
+    2561.0,
+    15040.0
+   ],
+   "max": [
+    13568.0,
+    2562.0,
+    14912.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13456.0,
+    2817.0,
+    15840.0
+   ],
+   "max": [
+    13584.0,
+    2818.0,
+    15712.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13248.0,
+    2817.0,
+    15744.0
+   ],
+   "max": [
+    13312.0,
+    2818.0,
+    15616.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12832.0,
+    2561.0,
+    15744.0
+   ],
+   "max": [
+    13088.0,
+    2562.0,
+    14944.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12944.0,
+    2433.0,
+    14560.0
+   ],
+   "max": [
+    13040.0,
+    2434.0,
+    14464.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    12960.0,
+    2433.0,
+    13888.0
+   ],
+   "max": [
+    13088.0,
+    2434.0,
+    13760.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13312.0,
+    2817.0,
+    13888.0
+   ],
+   "max": [
+    13440.0,
+    2818.0,
+    13760.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13440.0,
+    2817.0,
+    13888.0
+   ],
+   "max": [
+    13504.0,
+    2818.0,
+    13632.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    9040.0,
+    11584.0,
+    752.0
+   ],
+   "max": [
+    9072.0,
+    11648.0,
+    720.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8848.0,
+    10944.0,
+    2352.0
+   ],
+   "max": [
+    8880.0,
+    11008.0,
+    2320.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10704.0,
+    12352.0,
+    3536.0
+   ],
+   "max": [
+    10736.0,
+    12416.0,
+    3504.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    3152.0,
+    11296.0,
+    7408.0
+   ],
+   "max": [
+    3184.0,
+    11360.0,
+    7376.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2000.0,
+    11776.0,
+    9072.0
+   ],
+   "max": [
+    2032.0,
+    11840.0,
+    9040.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10864.0,
+    5824.0,
+    10704.0
+   ],
+   "max": [
+    10896.0,
+    5888.0,
+    10672.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    10960.0,
+    6336.0,
+    10480.0
+   ],
+   "max": [
+    10992.0,
+    6400.0,
+    10448.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8688.0,
+    3968.0,
+    10768.0
+   ],
+   "max": [
+    8720.0,
+    4032.0,
+    10736.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    2928.0,
+    2240.0,
+    9968.0
+   ],
+   "max": [
+    2960.0,
+    2304.0,
+    9936.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4240.0,
+    8080.0,
+    14992.0
+   ],
+   "max": [
+    4272.0,
+    8144.0,
+    14960.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    8432.0,
+    3968.0,
+    14832.0
+   ],
+   "max": [
+    8464.0,
+    4032.0,
+    14800.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    13424.0,
+    2368.0,
+    12496.0
+   ],
+   "max": [
+    13456.0,
+    2432.0,
+    12464.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  }
+ ],
+ "display_name": "bhop: badges mini",
+ "author": "GumPum",
+ "notes": "A cut-down remake of bhop_badges by a different mapper, and it is timed the same way the original is, with one word changed: the original's finish is the single trigger_teleport aimed at `end`, and this one's is the single trigger_teleport aimed at `ziel` (German for 'finish'). It is a 64x64x32 pad at [15296 -11360 2704], 900 units past destination `51` -- the highest of the numbered section returns `1`..`51` -- so it is the far end of the chain, and it lands the player at [1728 -3136 15104], back beside the start. The start is unlabelled and is the spawn block, as in the original: all 56 info_player_terrorist entities stand at z 14928 in a 1024x384 rectangle ([1216..2240, -2880..-2496]), with section `1`'s pits starting at y -2304. UNLIKE the original, sections here are joined by doors: twenty-odd unfiltered 64x64x128 trigger_teleports (and a 128x48 one into `51`) stand at the far end of a section aimed at the next section's destination -- [13792 -3776] at the end of section 23 sends you to `24` across the map -- so `doorways` is on, at 128 units, which takes every door and leaves every floor-sized pit (352 units and up) a RESPAWN. Sections are not emitted as stages: the numbered destinations are points, most sections are entered by walking rather than through a volume, and the original is zoned without them. THE BIG DOUBT IS NOT THE ZONES: 252 of the 363 trigger_teleports are 1-unit-thick pads on the tops of bhop blocks, filtered on `filter_activator` -- they fire only for a player a func_button/trigger renamed `activator` for a tenth of a second, i.e. one who stood on a block too long. The importer does not read `filtername`, so every one of them becomes a volume that fires on every landing."
+}

@@ -1,0 +1,1838 @@
+{
+ "id": "bhop_grove",
+ "source": "bhop_grove.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 1,
+ "bounds": {
+  "min": [
+   4288.0,
+   -128.0,
+   16192.0
+  ],
+  "max": [
+   5120.0,
+   512.0,
+   -16128.0
+  ]
+ },
+ "lightmap": {
+  "file": "bhop_grove_lightmap.png",
+  "width": 1024,
+  "height": 512
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 300.0,
+   "pitch_src": -12.0,
+   "colour": [
+    0.984313725490196,
+    0.8431372549019608,
+    0.5490196078431373
+   ],
+   "brightness": 800.0,
+   "ambient_colour": [
+    0.5607843137254902,
+    0.6901960784313725,
+    0.8392156862745098
+   ],
+   "ambient_brightness": 650.0,
+   "spread_degrees": 0.0
+  },
+  "fog": {
+   "start": 500.0,
+   "end": 20000.0,
+   "max_density": 1.0,
+   "colour": [
+    0.9176470588235294,
+    0.9411764705882353,
+    0.9568627450980393
+   ],
+   "enabled": true
+  },
+  "sky_name": "hav",
+  "baked_light_count": 0
+ },
+ "surfaces": [
+  {
+   "material": "lego3/mapby",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 0,
+   "vertex_count": 8,
+   "index_offset": 320,
+   "index_count": 12,
+   "colour": [
+    0.7757,
+    0.7757,
+    0.7757
+   ],
+   "texture": "lego3_mapby.png",
+   "translucent": true
+  },
+  {
+   "material": "tile/tilefloor020a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 368,
+   "vertex_count": 2865,
+   "index_offset": 114968,
+   "index_count": 4611,
+   "colour": [
+    0.181,
+    0.1813,
+    0.2105
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor020a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 133412,
+   "vertex_count": 570,
+   "index_offset": 156212,
+   "index_count": 1062,
+   "colour": [
+    0.181,
+    0.1813,
+    0.2105
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor021a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 160460,
+   "vertex_count": 3376,
+   "index_offset": 295500,
+   "index_count": 5460,
+   "colour": [
+    0.559,
+    0.534,
+    0.4997
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor021a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 317340,
+   "vertex_count": 568,
+   "index_offset": 340060,
+   "index_count": 906,
+   "colour": [
+    0.559,
+    0.534,
+    0.4997
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tony/forest_texture4",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 343684,
+   "vertex_count": 11664,
+   "index_offset": 810244,
+   "index_count": 55296,
+   "colour": [
+    0.2148,
+    0.1851,
+    0.1491
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "models/cliffs/rocks02",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 1031428,
+   "vertex_count": 73145,
+   "index_offset": 3957228,
+   "index_count": 358500,
+   "texture": "models_cliffs_rocks02.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props_foliage/ah_foliage_sheet001",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 5391228,
+   "vertex_count": 98010,
+   "index_offset": 9311628,
+   "index_count": 98010,
+   "texture": "models_props_foliage_ah_foliage_sheet001.png",
+   "translucent": true
+  },
+  {
+   "material": "props/pinetrees/bark_001",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 9703668,
+   "vertex_count": 168,
+   "index_offset": 9710388,
+   "index_count": 744,
+   "texture": "props_pinetrees_bark_001.png",
+   "translucent": false
+  },
+  {
+   "material": "props/pinetrees/bark_01",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 9713364,
+   "vertex_count": 11198,
+   "index_offset": 10161284,
+   "index_count": 58824,
+   "texture": "props_pinetrees_bark_01.png",
+   "translucent": false
+  },
+  {
+   "material": "props/pinetrees/pine_branches_01",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 10396580,
+   "vertex_count": 10942,
+   "index_offset": 10834260,
+   "index_count": 10944,
+   "texture": "props_pinetrees_pine_branches_01.png",
+   "translucent": true
+  },
+  {
+   "material": "props/pinetrees/pine_foliage_01",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 10878036,
+   "vertex_count": 22334,
+   "index_offset": 11771396,
+   "index_count": 43068,
+   "texture": "props_pinetrees_pine_foliage_01.png",
+   "translucent": true
+  },
+  {
+   "material": "props/pinetrees/post_top_01",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 11943668,
+   "vertex_count": 38,
+   "index_offset": 11945188,
+   "index_count": 42,
+   "texture": "props_small_fence_post_top_01.png",
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 704,
+  "hull_offset": 11945356,
+  "displacement_vertex_offset": 12017868,
+  "displacement_vertex_count": 10047,
+  "displacement_index_offset": 12138432,
+  "displacement_index_count": 55296,
+  "playerclip_hulls": 116,
+  "prop_hulls": 99
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 328,
+  "drawn": 325,
+  "stock_models": 3,
+  "surfaces": 7
+ },
+ "brush_entities": {
+  "solid": 0,
+  "faces_drawn": 86
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   4704.0,
+   32.0,
+   15808.0
+  ],
+  "yaw": 0.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    4400.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4400.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4400.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4400.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4400.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4480.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4480.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4480.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4480.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4480.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4640.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4640.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4640.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4640.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4640.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4560.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4560.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4560.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4560.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4560.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4800.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4800.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4800.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4800.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4800.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4720.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4720.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4720.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4720.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4720.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4960.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4960.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4960.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4960.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4960.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4880.0,
+    32.0,
+    16048.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4880.0,
+    32.0,
+    15984.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4880.0,
+    32.0,
+    15920.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4880.0,
+    32.0,
+    15856.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "origin": [
+    4880.0,
+    32.0,
+    15792.0
+   ],
+   "yaw": 0.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "START",
+   "track": 0,
+   "min": [
+    4352,
+    0,
+    15744
+   ],
+   "max": [
+    5056,
+    192,
+    16128
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    15808.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the spawn room at the -Y end: all 40 info_player_terrorist and `level_1` are in it; the level_1 pit begins at its far wall"
+  },
+  {
+   "kind": "SPAWN",
+   "track": 0,
+   "destination": [
+    4704.0,
+    32.0,
+    15808.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the mapper's own section-1 return point, in the middle of the spawn room"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 2.0,
+   "min": [
+    4352,
+    0,
+    14336
+   ],
+   "max": [
+    5056,
+    192,
+    14848
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    14400.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_1 and level_2 pits; level_2, where the map returns a player who falls in section 2, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 3.0,
+   "min": [
+    4352,
+    0,
+    12608
+   ],
+   "max": [
+    5056,
+    192,
+    13120
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    12672.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_2 and level_3 pits; level_3, where the map returns a player who falls in section 3, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 4.0,
+   "min": [
+    4352,
+    0,
+    10880
+   ],
+   "max": [
+    5056,
+    192,
+    11392
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    10944.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_3 and level_4 pits; level_4, where the map returns a player who falls in section 4, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 5.0,
+   "min": [
+    4352,
+    0,
+    9152
+   ],
+   "max": [
+    5056,
+    192,
+    9664
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    9216.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_4 and level_5 pits; level_5, where the map returns a player who falls in section 5, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 6.0,
+   "min": [
+    4352,
+    0,
+    7232
+   ],
+   "max": [
+    5056,
+    192,
+    7744
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    7296.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_5 and level_6 pits; level_6, where the map returns a player who falls in section 6, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 7.0,
+   "min": [
+    4352,
+    0,
+    5312
+   ],
+   "max": [
+    5056,
+    192,
+    5824
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    5376.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_6 and level_7 pits; level_7, where the map returns a player who falls in section 7, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 8.0,
+   "min": [
+    4352,
+    0,
+    3392
+   ],
+   "max": [
+    5056,
+    192,
+    3904
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    3456.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_7 and level_8 pits; level_8, where the map returns a player who falls in section 8, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 9.0,
+   "min": [
+    4352,
+    0,
+    1472
+   ],
+   "max": [
+    5056,
+    192,
+    1984
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    1536.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_8 and level_9 pits; level_9, where the map returns a player who falls in section 9, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 10.0,
+   "min": [
+    4352,
+    0,
+    -768
+   ],
+   "max": [
+    5056,
+    192,
+    -256
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -704.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_9 and level_10 pits; level_10, where the map returns a player who falls in section 10, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 11.0,
+   "min": [
+    4352,
+    0,
+    -3008
+   ],
+   "max": [
+    5056,
+    192,
+    -2496
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -2944.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_10 and level_11 pits; level_11, where the map returns a player who falls in section 11, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 12.0,
+   "min": [
+    4352,
+    0,
+    -5248
+   ],
+   "max": [
+    5056,
+    192,
+    -4736
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -5184.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_11 and level_12 pits; level_12, where the map returns a player who falls in section 12, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 13.0,
+   "min": [
+    4352,
+    0,
+    -7488
+   ],
+   "max": [
+    5056,
+    192,
+    -6976
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -7424.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_12 and level_13 pits; level_13, where the map returns a player who falls in section 13, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 14.0,
+   "min": [
+    4352,
+    0,
+    -9728
+   ],
+   "max": [
+    5056,
+    192,
+    -9216
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -9664.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_13 and level_14 pits; level_14, where the map returns a player who falls in section 14, stands on it"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 15.0,
+   "min": [
+    4352,
+    0,
+    -11968
+   ],
+   "max": [
+    5056,
+    192,
+    -11456
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    -11904.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the platform between the level_14 and level_15 pits; level_15, where the map returns a player who falls in section 15, stands on it"
+  },
+  {
+   "kind": "END",
+   "track": 0,
+   "min": [
+    4352,
+    0,
+    -16064
+   ],
+   "max": [
+    5056,
+    192,
+    -15680
+   ],
+   "inflated": false,
+   "comment": "the end room past the level_15 pit (which stops at y 15680): the far end of the only corridor in the map, with the credit sign on its end wall"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 1.0,
+   "min": [
+    4352,
+    0,
+    15744
+   ],
+   "max": [
+    5056,
+    192,
+    16128
+   ],
+   "inflated": false,
+   "destination": [
+    4704.0,
+    32.0,
+    15808.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the start line is stage 1"
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    14848.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    15744.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    13120.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    14336.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    11392.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    12608.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    9664.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    10880.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    7744.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    9152.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    5824.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    7232.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    3904.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    5312.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    1984.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    3392.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -256.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    1472.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -2496.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -768.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -4736.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -3008.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -6976.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -5248.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -9216.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -7488.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -11456.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -9728.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4352.0,
+    -208.0,
+    -15680.0
+   ],
+   "max": [
+    5056.0,
+    -16.0,
+    -11968.0
+   ],
+   "inflated": true
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    4352.0,
+    -15744.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -14848.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -15744.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -14848.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -14336.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -13120.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -14336.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -13120.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -12608.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -11392.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -12608.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -11392.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -10880.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -9664.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -10880.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -9664.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -9152.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -7744.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -9152.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -7744.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -7232.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -5824.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -7232.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -5824.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -5312.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -3904.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -5312.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -3904.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -3392.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    -1984.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -3392.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    -1984.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    -1472.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    256.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    -1472.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    256.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    768.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    2496.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    768.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    2496.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    3008.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    4736.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    3008.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    4736.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    5248.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    6976.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    5248.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    6976.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    7488.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    9216.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    7488.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    9216.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    9728.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    11456.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    9728.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    11456.0,
+    -16.0
+   ]
+  },
+  {
+   "min": [
+    4352.0,
+    11968.0,
+    -208.0
+   ],
+   "max": [
+    5056.0,
+    15680.0,
+    -16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4352.0,
+    11968.0,
+    -64.0
+   ],
+   "original_max": [
+    5056.0,
+    15680.0,
+    -16.0
+   ]
+  }
+ ],
+ "push_volumes": [],
+ "trigger_volumes": [
+  {
+   "min": [
+    4672.0,
+    -60.0,
+    15616.0
+   ],
+   "max": [
+    4736.0,
+    4.0,
+    14976.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4608.0,
+    -60.0,
+    14208.0
+   ],
+   "max": [
+    4800.0,
+    4.0,
+    13248.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    12480.0
+   ],
+   "max": [
+    4928.0,
+    4.0,
+    11520.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    10752.0
+   ],
+   "max": [
+    4864.0,
+    36.0,
+    9792.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    9024.0
+   ],
+   "max": [
+    4928.0,
+    4.0,
+    7872.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    7104.0
+   ],
+   "max": [
+    4864.0,
+    4.0,
+    5888.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4352.0,
+    -60.0,
+    5248.0
+   ],
+   "max": [
+    5056.0,
+    36.0,
+    4032.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    3264.0
+   ],
+   "max": [
+    4992.0,
+    4.0,
+    2112.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4608.0,
+    -60.0,
+    1344.0
+   ],
+   "max": [
+    4928.0,
+    4.0,
+    -128.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4480.0,
+    -60.0,
+    -896.0
+   ],
+   "max": [
+    4928.0,
+    4.0,
+    -2368.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4544.0,
+    -60.0,
+    -3136.0
+   ],
+   "max": [
+    4800.0,
+    4.0,
+    -4608.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4480.0,
+    -60.0,
+    -5376.0
+   ],
+   "max": [
+    5056.0,
+    68.0,
+    -6976.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4480.0,
+    -60.0,
+    -7616.0
+   ],
+   "max": [
+    4928.0,
+    4.0,
+    -9088.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4608.0,
+    -60.0,
+    -9856.0
+   ],
+   "max": [
+    4928.0,
+    68.0,
+    -11328.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  },
+  {
+   "min": [
+    4416.0,
+    -60.0,
+    -12096.0
+   ],
+   "max": [
+    4928.0,
+    68.0,
+    -15616.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  }
+ ],
+ "display_name": "bhop: grove",
+ "author": "Tony Montana",
+ "notes": "A single straight corridor 704 units wide running +Y from y -16128 to 16064, and the map labels nothing -- no named triggers at all. The order is still not a guess: fifteen destinations `level_1`..`level_15` stand in a row down the centre line at x 4704, y strictly increasing, and each is the return point for the pit directly after it (`level_n`'s unfiltered teleport spans the section that follows the point). All 40 spawns are in the 704x384 room at the -Y end, which is also where `level_1` is, so that room is the start. The +Y end is the matching 704x384 room past the last pit (y 15680..16064, floor z 0): the corridor ends there, the map has a cubemap there (c4704_15872) and only there and at the start, and both end walls carry the same `lego3/mapby` credit sign -- the start room and the finish room of a straight line. The finish is drawn on that room's floor because nothing in it is a trigger. The 14 platforms between consecutive pits are emitted as stages 2..15: the map numbers them itself, every run crosses each one, and nothing else in the file shares the namespace."
+}

@@ -1,0 +1,162 @@
+{
+  "owner": "gamemann",
+  "origin": "https://dotgames.org/content",
+  "maps": [
+    {
+      "id": "bhop_arcane_v2",
+      "author": "Panzerhandschuh (Panzer); v2 edit uploaded by 'roger haha lol'",
+      "source": "https://gamebanana.com/mods/124462",
+      "bytes": 44968296
+    },
+    {
+      "id": "bhop_aztec",
+      "author": "Teho-Killeri (mapper), with Touch (design) and Veikko (textures)",
+      "source": "https://gamebanana.com/mods/124514",
+      "bytes": 1522229
+    },
+    {
+      "id": "bhop_badges",
+      "author": "badges (Badgeslol)",
+      "source": "https://gamebanana.com/mods/124524",
+      "bytes": 4144093
+    },
+    {
+      "id": "bhop_badges_mini",
+      "author": "GumPum",
+      "source": "https://gamebanana.com/mods/124526",
+      "bytes": 4011709
+    },
+    {
+      "id": "bhop_eazy",
+      "author": "31K4L",
+      "source": "https://gamebanana.com/mods/124913",
+      "bytes": 1391353
+    },
+    {
+      "id": "bhop_evolve",
+      "author": "Zyper",
+      "source": "https://gamebanana.com/mods/124971",
+      "bytes": 23965682
+    },
+    {
+      "id": "bhop_fur",
+      "author": "Fur (TheFur)",
+      "source": "https://gamebanana.com/mods/125103",
+      "bytes": 9086121
+    },
+    {
+      "id": "bhop_grove",
+      "author": "Tony Montana",
+      "source": "https://gamebanana.com/mods/125167",
+      "bytes": 15989910
+    },
+    {
+      "id": "bhop_interloper",
+      "author": "Tony Montana",
+      "source": "https://gamebanana.com/mods/125285",
+      "bytes": 78566449
+    },
+    {
+      "id": "bhop_lego2",
+      "author": "Tony Montana (tmontana)",
+      "source": "https://gamebanana.com/mods/125408",
+      "bytes": 19421886
+    },
+    {
+      "id": "bhop_mario_fxd",
+      "author": "DroN (SWM|DroN)",
+      "source": "https://gamebanana.com/mods/125494",
+      "bytes": 14008937
+    },
+    {
+      "id": "bhop_monster_jam",
+      "author": "monster jam and Aoki",
+      "source": "https://gamebanana.com/mods/125558",
+      "bytes": 10744817
+    },
+    {
+      "id": "bhop_pandora2_fix",
+      "author": "Sonia_ (map); skybox Mr.Who; textures Wolves Hero and Sonia_; original bhop_pandora video/advice tmontana",
+      "source": "https://gamebanana.com/mods/125705",
+      "bytes": 29855521
+    },
+    {
+      "id": "bhop_pit",
+      "author": "Roady",
+      "source": "https://gamebanana.com/mods/453100",
+      "bytes": 11333880
+    },
+    {
+      "id": "bhop_supernova",
+      "author": "Sonia_ (map design) and Benchmarked (gameplay); skybox Mr.Who; textures TopHATTwaffle and Sonia_; testers Juked, tricksterr, plar, samurai; Subnautica models by Unknown Worlds Entertainment",
+      "source": "https://gamebanana.com/mods/313046",
+      "bytes": 22730856
+    },
+    {
+      "id": "bhop_tesquo_v2",
+      "author": "george (GeorgeRulesLOL); 'Made a stage': Jagg",
+      "source": "https://gamebanana.com/mods/126185",
+      "bytes": 21063711
+    },
+    {
+      "id": "buses_from_hell_fixed",
+      "author": "siXMan",
+      "source": "https://gamebanana.com/mods/127607",
+      "bytes": 936477
+    },
+    {
+      "id": "surf_aquaflow",
+      "author": "NvC_DmN_CH",
+      "source": "https://gamebanana.com/mods/137715",
+      "bytes": 56226382
+    },
+    {
+      "id": "surf_arcade",
+      "author": "maz64 (maz)",
+      "source": "https://gamebanana.com/mods/137716",
+      "bytes": 37967900
+    },
+    {
+      "id": "surf_beginner2",
+      "author": "Kiiru",
+      "source": "https://gamebanana.com/mods/137722",
+      "bytes": 9245012
+    },
+    {
+      "id": "surf_greensway",
+      "author": "NvC_DmN_CH",
+      "source": "https://gamebanana.com/mods/137798",
+      "bytes": 23679140
+    },
+    {
+      "id": "surf_interference",
+      "author": "NvC_DmN_CH",
+      "source": "https://gamebanana.com/mods/137815",
+      "bytes": 25774635
+    },
+    {
+      "id": "surf_kitsune",
+      "author": "Arblarg",
+      "source": "https://gamebanana.com/mods/122382",
+      "bytes": 2339512
+    },
+    {
+      "id": "surf_mesa",
+      "author": "Arblarg",
+      "source": "https://gamebanana.com/mods/122542",
+      "bytes": 33706573
+    },
+    {
+      "id": "surf_summit",
+      "author": "Juxtapo and Phurix",
+      "source": "https://gamebanana.com/mods/137705",
+      "bytes": 93070941
+    },
+    {
+      "id": "surf_year3000",
+      "author": "ArchAngel",
+      "source": "https://gamebanana.com/mods/123298",
+      "bytes": 3437420
+    }
+  ]
+}

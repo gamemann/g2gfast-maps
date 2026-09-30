@@ -1,0 +1,1967 @@
+{
+ "id": "bhop_pit",
+ "source": "bhop_pit.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -12288.001953125,
+   -1280.0,
+   13312.0048828125
+  ],
+  "max": [
+   10240.0,
+   3712.0,
+   -13600.0
+  ]
+ },
+ "lightmap": {
+  "file": "bhop_pit_lightmap.png",
+  "width": 1024,
+  "height": 4096
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 147.0,
+   "pitch_src": -30.0,
+   "colour": [
+    0.9215686274509803,
+    0.6392156862745098,
+    0.26666666666666666
+   ],
+   "brightness": 300.0,
+   "ambient_colour": [
+    0.8980392156862745,
+    0.6901960784313725,
+    0.49019607843137253
+   ],
+   "ambient_brightness": 75.0,
+   "spread_degrees": 0.0
+  },
+  "sky_name": "blockworld_",
+  "baked_light_count": 155
+ },
+ "surfaces": [
+  {
+   "material": "appatextures/appa_textures3",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 0,
+   "vertex_count": 8,
+   "index_offset": 320,
+   "index_count": 12,
+   "colour": [
+    0.0024,
+    0.0788,
+    0.0142
+   ],
+   "texture": "appatextures_appa_textures3.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid4",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 368,
+   "vertex_count": 633,
+   "index_offset": 25688,
+   "index_count": 945,
+   "colour": [
+    0.5095,
+    0.2674,
+    0.0478
+   ],
+   "texture": "blockworld-base_nonsolid4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid4",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 29468,
+   "vertex_count": 238,
+   "index_offset": 38988,
+   "index_count": 450,
+   "colour": [
+    0.5095,
+    0.2674,
+    0.0478
+   ],
+   "texture": "blockworld-base_nonsolid4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid6",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 40788,
+   "vertex_count": 1946,
+   "index_offset": 118628,
+   "index_count": 8979,
+   "colour": [
+    0.2184,
+    0.122,
+    0.0323
+   ],
+   "texture": "blockworld-base_nonsolid6.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid6",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 154544,
+   "vertex_count": 1941,
+   "index_offset": 232184,
+   "index_count": 8988,
+   "colour": [
+    0.2184,
+    0.122,
+    0.0323
+   ],
+   "texture": "blockworld-base_nonsolid6.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid9",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 268136,
+   "vertex_count": 12374,
+   "index_offset": 763096,
+   "index_count": 21873,
+   "colour": [
+    0.1344,
+    0.1344,
+    0.1344
+   ],
+   "texture": "blockworld-base_nonsolid9.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/nonsolid9",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 850588,
+   "vertex_count": 1736,
+   "index_offset": 920028,
+   "index_count": 2790,
+   "colour": [
+    0.1344,
+    0.1344,
+    0.1344
+   ],
+   "texture": "blockworld-base_nonsolid9.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 931188,
+   "vertex_count": 381,
+   "index_offset": 946428,
+   "index_count": 591,
+   "colour": [
+    0.5289,
+    0.1147,
+    0.0226
+   ],
+   "texture": "blockworld-base_oldstone1.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 948792,
+   "vertex_count": 233,
+   "index_offset": 958112,
+   "index_count": 357,
+   "colour": [
+    0.5289,
+    0.1147,
+    0.0226
+   ],
+   "texture": "blockworld-base_oldstone1.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone10",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 959540,
+   "vertex_count": 1176,
+   "index_offset": 1006580,
+   "index_count": 2184,
+   "colour": [
+    0.2184,
+    0.122,
+    0.0323
+   ],
+   "texture": "blockworld-base_oldstone10.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone10",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1015316,
+   "vertex_count": 176,
+   "index_offset": 1022356,
+   "index_count": 264,
+   "colour": [
+    0.2184,
+    0.122,
+    0.0323
+   ],
+   "texture": "blockworld-base_oldstone10.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone11",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1023412,
+   "vertex_count": 245,
+   "index_offset": 1033212,
+   "index_count": 393,
+   "colour": [
+    0.376,
+    0.376,
+    0.376
+   ],
+   "texture": "blockworld-base_oldstone11.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone11",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1034784,
+   "vertex_count": 783,
+   "index_offset": 1066104,
+   "index_count": 1359,
+   "colour": [
+    0.376,
+    0.376,
+    0.376
+   ],
+   "texture": "blockworld-base_oldstone11.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone11",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1071540,
+   "vertex_count": 12,
+   "index_offset": 1072020,
+   "index_count": 18,
+   "colour": [
+    0.376,
+    0.376,
+    0.376
+   ],
+   "texture": "blockworld-base_oldstone11.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1072092,
+   "vertex_count": 2422,
+   "index_offset": 1168972,
+   "index_count": 4170,
+   "colour": [
+    0.5095,
+    0.2674,
+    0.0478
+   ],
+   "texture": "blockworld-base_oldstone2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1185652,
+   "vertex_count": 656,
+   "index_offset": 1211892,
+   "index_count": 1218,
+   "colour": [
+    0.5095,
+    0.2674,
+    0.0478
+   ],
+   "texture": "blockworld-base_oldstone2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1216764,
+   "vertex_count": 3392,
+   "index_offset": 1352444,
+   "index_count": 6180,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1377164,
+   "vertex_count": 188,
+   "index_offset": 1384684,
+   "index_count": 282,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1385812,
+   "vertex_count": 494,
+   "index_offset": 1405572,
+   "index_count": 750,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_dark",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1408572,
+   "vertex_count": 1146,
+   "index_offset": 1454412,
+   "index_count": 2016,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darker",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1462476,
+   "vertex_count": 1256,
+   "index_offset": 1512716,
+   "index_count": 2172,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkerer",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1521404,
+   "vertex_count": 1157,
+   "index_offset": 1567684,
+   "index_count": 2103,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkerer",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1576096,
+   "vertex_count": 65,
+   "index_offset": 1578696,
+   "index_count": 117,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkerer",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 1579164,
+   "vertex_count": 72,
+   "index_offset": 1582044,
+   "index_count": 132,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkererer",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 1582572,
+   "vertex_count": 8480,
+   "index_offset": 1921772,
+   "index_count": 15363,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkererer",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 1983224,
+   "vertex_count": 2304,
+   "index_offset": 2075384,
+   "index_count": 4758,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone2_2_darkererer",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 2094416,
+   "vertex_count": 3648,
+   "index_offset": 2240336,
+   "index_count": 6588,
+   "colour": [
+    0.4914,
+    0.3866,
+    0.2944
+   ],
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone3",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 2266688,
+   "vertex_count": 196,
+   "index_offset": 2274528,
+   "index_count": 306,
+   "colour": [
+    0.3322,
+    0.2711,
+    0.4805
+   ],
+   "texture": "blockworld-base_oldstone3.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone3",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 2275752,
+   "vertex_count": 52,
+   "index_offset": 2277832,
+   "index_count": 78,
+   "colour": [
+    0.3322,
+    0.2711,
+    0.4805
+   ],
+   "texture": "blockworld-base_oldstone3.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone3",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 2278144,
+   "vertex_count": 96,
+   "index_offset": 2281984,
+   "index_count": 144,
+   "colour": [
+    0.3322,
+    0.2711,
+    0.4805
+   ],
+   "texture": "blockworld-base_oldstone3.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 2282560,
+   "vertex_count": 42,
+   "index_offset": 2284240,
+   "index_count": 84,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 2284576,
+   "vertex_count": 1657,
+   "index_offset": 2350856,
+   "index_count": 3243,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 2363828,
+   "vertex_count": 10,
+   "index_offset": 2364228,
+   "index_count": 18,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone44",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 2364300,
+   "vertex_count": 10543,
+   "index_offset": 2786020,
+   "index_count": 19305,
+   "colour": [
+    0.782,
+    0.5338,
+    0.2824
+   ],
+   "texture": "blockworld-base_oldstone44.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone44",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 2863240,
+   "vertex_count": 2882,
+   "index_offset": 2978520,
+   "index_count": 5616,
+   "colour": [
+    0.782,
+    0.5338,
+    0.2824
+   ],
+   "texture": "blockworld-base_oldstone44.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_dark",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3000984,
+   "vertex_count": 1490,
+   "index_offset": 3060584,
+   "index_count": 2850,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darker",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3071984,
+   "vertex_count": 1177,
+   "index_offset": 3119064,
+   "index_count": 2211,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darker",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3127908,
+   "vertex_count": 9,
+   "index_offset": 3128268,
+   "index_count": 15,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darkerer",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3128328,
+   "vertex_count": 1109,
+   "index_offset": 3172688,
+   "index_count": 2055,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darkerer",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3180908,
+   "vertex_count": 156,
+   "index_offset": 3187148,
+   "index_count": 246,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darkererer",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3188132,
+   "vertex_count": 13,
+   "index_offset": 3188652,
+   "index_count": 21,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darkererer",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3188736,
+   "vertex_count": 1023,
+   "index_offset": 3229656,
+   "index_count": 1875,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone4_darkererer",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3237156,
+   "vertex_count": 14,
+   "index_offset": 3237716,
+   "index_count": 27,
+   "colour": [
+    0.596,
+    0.5112,
+    0.3801
+   ],
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3237824,
+   "vertex_count": 1096,
+   "index_offset": 3281664,
+   "index_count": 1788,
+   "colour": [
+    0.217,
+    0.3967,
+    0.1854
+   ],
+   "texture": "blockworld-base_oldstone5.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3288816,
+   "vertex_count": 351,
+   "index_offset": 3302856,
+   "index_count": 573,
+   "colour": [
+    0.217,
+    0.3967,
+    0.1854
+   ],
+   "texture": "blockworld-base_oldstone5.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3305148,
+   "vertex_count": 207,
+   "index_offset": 3313428,
+   "index_count": 333,
+   "colour": [
+    0.217,
+    0.3967,
+    0.1854
+   ],
+   "texture": "blockworld-base_oldstone5.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5old",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3314760,
+   "vertex_count": 9992,
+   "index_offset": 3714440,
+   "index_count": 19998,
+   "colour": [
+    0.073,
+    0.073,
+    0.073
+   ],
+   "texture": "blockworld-base_oldstone5old.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5old",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3794432,
+   "vertex_count": 2004,
+   "index_offset": 3874592,
+   "index_count": 3258,
+   "colour": [
+    0.073,
+    0.073,
+    0.073
+   ],
+   "texture": "blockworld-base_oldstone5old.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5old",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3887624,
+   "vertex_count": 72,
+   "index_offset": 3890504,
+   "index_count": 144,
+   "colour": [
+    0.073,
+    0.073,
+    0.073
+   ],
+   "texture": "blockworld-base_oldstone5old.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone5old_3",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3891080,
+   "vertex_count": 874,
+   "index_offset": 3926040,
+   "index_count": 1518,
+   "colour": [
+    0.4923,
+    0.4923,
+    0.4923
+   ],
+   "texture": "blockworld-base_oldstone5old_3.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone6_2",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3932112,
+   "vertex_count": 76,
+   "index_offset": 3935152,
+   "index_count": 114,
+   "colour": [
+    0.1853,
+    0.298,
+    0.4056
+   ],
+   "texture": "blockworld-base_oldstone6_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone6_2_dark",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3935608,
+   "vertex_count": 299,
+   "index_offset": 3947568,
+   "index_count": 774,
+   "colour": [
+    0.1853,
+    0.298,
+    0.4056
+   ],
+   "texture": "blockworld-base_oldstone6_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone6_2_dark",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3950664,
+   "vertex_count": 182,
+   "index_offset": 3957944,
+   "index_count": 312,
+   "colour": [
+    0.1853,
+    0.298,
+    0.4056
+   ],
+   "texture": "blockworld-base_oldstone6_2.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3959192,
+   "vertex_count": 564,
+   "index_offset": 3981752,
+   "index_count": 972,
+   "colour": [
+    0.7144,
+    0.5527,
+    0.1392
+   ],
+   "texture": "blockworld-base_oldstone8.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 3985640,
+   "vertex_count": 140,
+   "index_offset": 3991240,
+   "index_count": 252,
+   "colour": [
+    0.7144,
+    0.5527,
+    0.1392
+   ],
+   "texture": "blockworld-base_oldstone8.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 3992248,
+   "vertex_count": 72,
+   "index_offset": 3995128,
+   "index_count": 120,
+   "colour": [
+    0.7144,
+    0.5527,
+    0.1392
+   ],
+   "texture": "blockworld-base_oldstone8.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8_11_mix",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 3995608,
+   "vertex_count": 718,
+   "index_offset": 4024328,
+   "index_count": 1080,
+   "colour": [
+    0.5424,
+    0.4584,
+    0.2913
+   ],
+   "texture": "blockworld-base_oldstone8_11_mix.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8_11_mix",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 4028648,
+   "vertex_count": 176,
+   "index_offset": 4035688,
+   "index_count": 264,
+   "colour": [
+    0.5424,
+    0.4584,
+    0.2913
+   ],
+   "texture": "blockworld-base_oldstone8_11_mix.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone8_fullbright",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 4036744,
+   "vertex_count": 144,
+   "index_offset": 4042504,
+   "index_count": 216,
+   "colour": [
+    0.7144,
+    0.5527,
+    0.1392
+   ],
+   "texture": "blockworld-base_oldstone8.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone9",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 4043368,
+   "vertex_count": 1591,
+   "index_offset": 4107008,
+   "index_count": 2922,
+   "colour": [
+    0.2233,
+    0.3074,
+    0.0868
+   ],
+   "texture": "blockworld-base_oldstone9.png",
+   "translucent": false
+  },
+  {
+   "material": "blockworld-base/oldstone9",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 4118696,
+   "vertex_count": 14,
+   "index_offset": 4119256,
+   "index_count": 24,
+   "colour": [
+    0.2233,
+    0.3074,
+    0.0868
+   ],
+   "texture": "blockworld-base_oldstone9.png",
+   "translucent": false
+  },
+  {
+   "material": "de_piranesi/pi_wood1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 4119352,
+   "vertex_count": 44,
+   "index_offset": 4121112,
+   "index_count": 78,
+   "colour": [
+    0.2996,
+    0.2292,
+    0.1705
+   ],
+   "texture": "de_piranesi_pi_wood1.png",
+   "translucent": false
+  },
+  {
+   "material": "de_piranesi/pi_wood1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 4121424,
+   "vertex_count": 10,
+   "index_offset": 4121824,
+   "index_count": 18,
+   "colour": [
+    0.2996,
+    0.2292,
+    0.1705
+   ],
+   "texture": "de_piranesi_pi_wood1.png",
+   "translucent": false
+  },
+  {
+   "material": "decals/arrow",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 4121896,
+   "vertex_count": 4,
+   "index_offset": 4122056,
+   "index_count": 6,
+   "colour": [
+    0.2795,
+    0.2186,
+    0.0073
+   ],
+   "texture": "decals_arrow.png",
+   "translucent": true
+  },
+  {
+   "material": "roady/pitcredits",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 4122080,
+   "vertex_count": 8,
+   "index_offset": 4122400,
+   "index_count": 12,
+   "colour": [
+    0.0381,
+    0.2279,
+    0.0
+   ],
+   "texture": "roady_pitcredits.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone10",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4122448,
+   "vertex_count": 5448,
+   "index_offset": 4340368,
+   "index_count": 8172,
+   "texture": "blockworld-base_oldstone10.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone1_fullbright",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4373056,
+   "vertex_count": 8555,
+   "index_offset": 4715256,
+   "index_count": 14877,
+   "texture": "blockworld-base_oldstone1.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone2_2",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4774764,
+   "vertex_count": 1020,
+   "index_offset": 4815564,
+   "index_count": 1530,
+   "texture": "blockworld-base_oldstone2_2.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone4",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4821684,
+   "vertex_count": 1341,
+   "index_offset": 4875324,
+   "index_count": 1791,
+   "texture": "blockworld-base_oldstone4.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone5",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4882488,
+   "vertex_count": 49624,
+   "index_offset": 6867448,
+   "index_count": 83160,
+   "texture": "blockworld-base_oldstone5.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props/generated_prop/oldstone8_fullbright",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 7200088,
+   "vertex_count": 9164,
+   "index_offset": 7566648,
+   "index_count": 16356,
+   "texture": "blockworld-base_oldstone8.png",
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 3417,
+  "hull_offset": 7632072,
+  "displacement_vertex_offset": 8027292,
+  "displacement_vertex_count": 3587,
+  "displacement_index_offset": 8070336,
+  "displacement_index_count": 20352,
+  "playerclip_hulls": 3,
+  "prop_hulls": 227
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 286,
+  "drawn": 286,
+  "stock_models": 0,
+  "surfaces": 6
+ },
+ "brush_entities": {
+  "solid": 17,
+  "faces_drawn": 925
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   1536.0,
+   -216.0,
+   544.0
+  ],
+  "yaw": 0.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    1536.0,
+    -248.0,
+    512.0
+   ],
+   "yaw": 90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "START",
+   "track": 0,
+   "min": [
+    1264.0,
+    -280.0,
+    368.0
+   ],
+   "max": [
+    1808.0,
+    -88.0,
+    656.0
+   ],
+   "inflated": true,
+   "destination": [
+    1536.0,
+    -216.0,
+    544.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the 544x288x144 trigger_multiple around the single info_player_terrorist; its OnStartTouch names the player checkpoint0 and shows 'Progress 0%'"
+  },
+  {
+   "kind": "SPAWN",
+   "track": 0,
+   "destination": [
+    1536.0,
+    -216.0,
+    544.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the destination both end-room return doors send a main-track player to; 32 units from the map's only info_player_terrorist, inside the start trigger"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 2.0,
+   "min": [
+    -3935.9921875,
+    128.0,
+    1520.0
+   ],
+   "max": [
+    -3439.998046875,
+    320.0,
+    2271.99609375
+   ],
+   "inflated": true,
+   "destination": [
+    -3687.9951171875,
+    184.0,
+    1895.998046875
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint0`, renames the player `checkpoint1` and shows 'Progress 5%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 3.0,
+   "min": [
+    -2096.000213623047,
+    192.0,
+    2736.0
+   ],
+   "max": [
+    -1199.9996948242188,
+    384.0,
+    3536.00048828125
+   ],
+   "inflated": true,
+   "destination": [
+    -1647.9999542236328,
+    248.0,
+    3136.000244140625
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint1`, renames the player `checkpoint2` and shows 'Progress 10%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 4.0,
+   "min": [
+    3023.9990234375,
+    352.0,
+    -1712.0004272460938
+   ],
+   "max": [
+    4096.0006103515625,
+    544.0,
+    -799.9991455078125
+   ],
+   "inflated": true,
+   "destination": [
+    3559.9998168945312,
+    408.0,
+    -1255.9997863769531
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint2`, renames the player `checkpoint3` and shows 'Progress 15%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 5.0,
+   "min": [
+    -1152.0,
+    480.0,
+    5632.0
+   ],
+   "max": [
+    -768.0,
+    672.0,
+    6016.0
+   ],
+   "inflated": true,
+   "destination": [
+    -960.0,
+    536.0,
+    5824.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint3`, renames the player `checkpoint4` and shows 'Progress 20%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 6.0,
+   "min": [
+    -3456.0,
+    720.0,
+    -3712.0
+   ],
+   "max": [
+    -3072.0,
+    912.0,
+    -3328.0
+   ],
+   "inflated": true,
+   "destination": [
+    -3264.0,
+    776.0,
+    -3520.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint4`, renames the player `checkpoint5` and shows 'Progress 25%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 7.0,
+   "min": [
+    2431.99609375,
+    512.0,
+    -3840.00390625
+   ],
+   "max": [
+    3456.0013427734375,
+    768.0,
+    -2943.99609375
+   ],
+   "inflated": false,
+   "destination": [
+    2943.9987182617188,
+    536.0,
+    -3392.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint5`, renames the player `checkpoint6` and shows 'Progress 30%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 8.0,
+   "min": [
+    1152.0,
+    1072.0,
+    -6144.0
+   ],
+   "max": [
+    1536.0,
+    1264.0,
+    -5760.0
+   ],
+   "inflated": true,
+   "destination": [
+    1344.0,
+    1128.0,
+    -5952.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint6`, renames the player `checkpoint7` and shows 'Progress 35%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 9.0,
+   "min": [
+    -7168.0,
+    1024.0,
+    1664.0
+   ],
+   "max": [
+    -5632.0,
+    1280.0,
+    2048.0
+   ],
+   "inflated": false,
+   "destination": [
+    -6400.0,
+    1048.0,
+    1856.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint7`, renames the player `checkpoint8` and shows 'Progress 40%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 10.0,
+   "min": [
+    4096.0,
+    1632.0,
+    6912.0
+   ],
+   "max": [
+    4480.0,
+    1824.0,
+    7296.0
+   ],
+   "inflated": true,
+   "destination": [
+    4288.0,
+    1688.0,
+    7104.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint8`, renames the player `checkpoint9` and shows 'Progress 45%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 11.0,
+   "min": [
+    -5248.001953125,
+    1536.0,
+    5503.998992919922
+   ],
+   "max": [
+    -4799.999755859375,
+    1792.0,
+    6400.001953125
+   ],
+   "inflated": false,
+   "destination": [
+    -5024.0008544921875,
+    1560.0,
+    5952.000473022461
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint9`, renames the player `checkpoint10` and shows 'Progress 50%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 12.0,
+   "min": [
+    -6064.00390625,
+    1632.0,
+    -5248.000061035156
+   ],
+   "max": [
+    -5247.999542236328,
+    1824.0,
+    -4415.998046875
+   ],
+   "inflated": true,
+   "destination": [
+    -5656.001724243164,
+    1688.0,
+    -4831.999053955078
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint10`, renames the player `checkpoint11` and shows 'Progress 55%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 13.0,
+   "min": [
+    6399.999938964844,
+    1536.0,
+    -2368.0
+   ],
+   "max": [
+    7168.0009765625,
+    1792.0,
+    -2048.0
+   ],
+   "inflated": false,
+   "destination": [
+    6784.000457763672,
+    1560.0,
+    -2208.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint11`, renames the player `checkpoint12` and shows 'Progress 60%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 14.0,
+   "min": [
+    7424.0,
+    2192.0,
+    -384.0
+   ],
+   "max": [
+    7680.0,
+    2448.0,
+    -128.0
+   ],
+   "inflated": false,
+   "destination": [
+    7552.0,
+    2216.0,
+    -256.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint12`, renames the player `checkpoint13`"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 15.0,
+   "min": [
+    4799.99609375,
+    2192.0,
+    -6928.000732421875
+   ],
+   "max": [
+    5376.00390625,
+    2384.0,
+    -6495.997802734375
+   ],
+   "inflated": true,
+   "destination": [
+    5088.0,
+    2248.0,
+    -6711.999267578125
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint13`, renames the player `checkpoint14` and shows 'Progress 70%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 16.0,
+   "min": [
+    -6016.0,
+    2224.0,
+    -6016.0
+   ],
+   "max": [
+    -5632.0,
+    2416.0,
+    -5632.0
+   ],
+   "inflated": true,
+   "destination": [
+    -5824.0,
+    2280.0,
+    -5824.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint14`, renames the player `checkpoint15` and shows 'Progress 75%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 17.0,
+   "min": [
+    -4953.000579833984,
+    2048.0,
+    6397.0
+   ],
+   "max": [
+    -3981.0078125,
+    2432.0,
+    7350.99609375
+   ],
+   "inflated": false,
+   "destination": [
+    -4467.004196166992,
+    2072.0,
+    6873.998046875
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint15`, renames the player `checkpoint16` and shows 'Progress 80%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 18.0,
+   "min": [
+    5119.988840332031,
+    2496.0,
+    6854.39140625
+   ],
+   "max": [
+    5872.000467529297,
+    2688.0,
+    7936.000598144531
+   ],
+   "inflated": true,
+   "destination": [
+    5495.994653930664,
+    2552.0,
+    7395.196002197265
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint16`, renames the player `checkpoint17` and shows 'Progress 85%'"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 19.0,
+   "min": [
+    -8208.001342773438,
+    2656.0,
+    -4928.00390625
+   ],
+   "max": [
+    -7568.00244140625,
+    2848.0,
+    -4095.9979248046875
+   ],
+   "inflated": true,
+   "destination": [
+    -7888.001892089844,
+    2712.0,
+    -4512.000915527344
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint17`, renames the player `checkpoint18`"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 20.0,
+   "min": [
+    2016.0,
+    640.0,
+    -12640.0
+   ],
+   "max": [
+    2208.0,
+    2048.0,
+    -11520.0
+   ],
+   "inflated": true,
+   "destination": [
+    2112,
+    688.0,
+    -12400
+   ],
+   "destination_yaw": -90.0,
+   "comment": "filtered on `checkpoint18`, renames the player `checkpoint19` and shows 'Progress 95%'. The trigger is a 1408-tall plane standing on the floor at z 640 whose face starts at y 12288, so its own underside is not somewhere to stand; `!s20` puts a player on that floor instead"
+  },
+  {
+   "kind": "END",
+   "track": 0,
+   "min": [
+    8872.0,
+    3072.0,
+    1408.0
+   ],
+   "max": [
+    9064.0,
+    3328.0,
+    1920.0
+   ],
+   "inflated": true,
+   "comment": "the 16x512x256 wall at [8968 -1664 3200], filtered on checkpoint19, aimed at `end_main` -- the end room whose trigger shows 'Progress 100%'"
+  },
+  {
+   "kind": "START",
+   "track": 1,
+   "min": [
+    896.0,
+    -672.0,
+    480.0
+   ],
+   "max": [
+    1152.0,
+    -480.0,
+    672.0
+   ],
+   "inflated": true,
+   "destination": [
+    1024.0,
+    -600.0,
+    576.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the booster room under the start: its trigger names the player filter_bonus and shows 'Progress Not Needed'"
+  },
+  {
+   "kind": "SPAWN",
+   "track": 1,
+   "destination": [
+    1024.0,
+    -600.0,
+    576.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "where the bonus end room's return doors send a player; inside the bonus start trigger"
+  },
+  {
+   "kind": "END",
+   "track": 1,
+   "min": [
+    8872.0,
+    3072.0,
+    1408.0
+   ],
+   "max": [
+    9064.0,
+    3328.0,
+    1920.0
+   ],
+   "inflated": true,
+   "comment": "the same 16x512x256 wall as the main finish, the copy filtered on filter_bonus and aimed at `end_bonus`"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 1.0,
+   "min": [
+    1264.0,
+    -280.0,
+    368.0
+   ],
+   "max": [
+    1808.0,
+    -88.0,
+    656.0
+   ],
+   "inflated": true,
+   "destination": [
+    1536.0,
+    -216.0,
+    544.0
+   ],
+   "destination_yaw": 0.0,
+   "comment": "the start line is stage 1"
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 1,
+   "min": [
+    -5976.0,
+    3040.0,
+    -7920.0
+   ],
+   "max": [
+    -5784.0,
+    3232.0,
+    -7696.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -7408.0,
+    3040.0,
+    -6872.0
+   ],
+   "max": [
+    -7184.0,
+    3232.0,
+    -6680.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 1,
+   "min": [
+    -7912.0,
+    3040.0,
+    -7408.0
+   ],
+   "max": [
+    -7720.0,
+    3232.0,
+    -7184.0
+   ],
+   "inflated": true
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -6512.0,
+    3040.0,
+    -8424.0
+   ],
+   "max": [
+    -6288.0,
+    3232.0,
+    -8232.0
+   ],
+   "inflated": true
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    -5976.0,
+    7696.0,
+    3040.0
+   ],
+   "max": [
+    -5784.0,
+    7920.0,
+    3232.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 1,
+   "original_min": [
+    -5888.0,
+    7696.0,
+    3104.0
+   ],
+   "original_max": [
+    -5872.0,
+    7920.0,
+    3232.0
+   ]
+  },
+  {
+   "min": [
+    -7408.0,
+    6680.0,
+    3040.0
+   ],
+   "max": [
+    -7184.0,
+    6872.0,
+    3232.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -7408.0,
+    6768.0,
+    3104.0
+   ],
+   "original_max": [
+    -7184.0,
+    6784.0,
+    3232.0
+   ]
+  },
+  {
+   "min": [
+    -7912.0,
+    7184.0,
+    3040.0
+   ],
+   "max": [
+    -7720.0,
+    7408.0,
+    3232.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 1,
+   "original_min": [
+    -7824.0,
+    7184.0,
+    3104.0
+   ],
+   "original_max": [
+    -7808.0,
+    7408.0,
+    3232.0
+   ]
+  },
+  {
+   "min": [
+    -6512.0,
+    8232.0,
+    3040.0
+   ],
+   "max": [
+    -6288.0,
+    8424.0,
+    3232.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -6512.0,
+    8320.0,
+    3104.0
+   ],
+   "original_max": [
+    -6288.0,
+    8336.0,
+    3232.0
+   ]
+  }
+ ],
+ "push_volumes": [],
+ "trigger_volumes": [
+  {
+   "min": [
+    896.0,
+    -640.0,
+    640.0
+   ],
+   "max": [
+    1152.0,
+    -636.0,
+    512.0
+   ],
+   "targetname": "",
+   "filtername": "boosterfixisgay"
+  },
+  {
+   "min": [
+    -6656.0,
+    3104.0,
+    -7552.0
+   ],
+   "max": [
+    -6144.0,
+    3232.0,
+    -8064.0
+   ],
+   "targetname": "",
+   "filtername": ""
+  }
+ ],
+ "display_name": "bhop: pit",
+ "author": "Roady",
+ "notes": "The map is timed by its own checkpoint chain and says so in plain text. The single info_player_terrorist stands in a trigger_multiple that renames the player `checkpoint0` and shows 'Progress 0%'; nineteen more trigger_multiples each accept only `checkpointN` (filter_activator_name) and rename the player `checkpointN+1`, stepping the game_text `checkpoints` through 5%..95%, so their order is not a judgement -- it is the filter chain, and those nineteen are the stages here, numbered the way zone_role numbers `checkpointN` (checkpoint1 opens stage 2). The last link is a 16x512x256 wall at [8968 -1664 3200] holding two trigger_teleports: the one filtered on checkpoint19 sends you to `end_main`, a 512x512 room whose trigger shows 'Progress 100%' and whose doors return you to `start_main`. That wall is the finish. The bonus is the map's own and is the same course without the chain: a trigger in the booster room under the start renames the player `filter_bonus` ('Progress Not Needed'), and the other teleport on the same wall, filtered on filter_bonus, sends that player to `end_bonus`. There are only six trigger_teleports in the whole map -- the two finish copies and four end-room doors -- so the main track has no pit volumes: a player who falls lands on lower geometry, not in a teleport. Both finish teleports are one volume here and fire for anyone, because this game does not run the map's outputs: the gate that makes a player earn the main finish (all 19 checkpoints) is not enforced. The stage splits still show whether a run went through them."
+}

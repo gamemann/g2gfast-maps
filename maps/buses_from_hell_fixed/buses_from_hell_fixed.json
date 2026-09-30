@@ -1,0 +1,1178 @@
+{
+ "id": "buses_from_hell_fixed",
+ "source": "buses_from_hell_fixed.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -3392.0,
+   -448.0,
+   2112.0
+  ],
+  "max": [
+   4288.0,
+   704.0,
+   -4160.0
+  ]
+ },
+ "lightmap": {
+  "file": "buses_from_hell_fixed_lightmap.png",
+  "width": 1024,
+  "height": 256
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 0.0,
+   "pitch_src": -32.0,
+   "colour": [
+    1.0,
+    1.0,
+    0.9764705882352941
+   ],
+   "brightness": 524.0,
+   "ambient_colour": [
+    0.15294117647058825,
+    0.2235294117647059,
+    0.24705882352941178
+   ],
+   "ambient_brightness": 100.0
+  },
+  "sky_name": "sky_wasteland02",
+  "sky_camera": {
+   "origin": [
+    -2438.0,
+    0.0,
+    -302.0
+   ],
+   "scale": 16.0
+  },
+  "baked_light_count": 0
+ },
+ "surfaces": [
+  {
+   "material": "de_dust/groundsand03",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 0,
+   "vertex_count": 756,
+   "index_offset": 30240,
+   "index_count": 1293,
+   "colour": [
+    0.647,
+    0.5779,
+    0.4544
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/groundsand_blend",
+   "role": "PLATFORM",
+   "prototype": true,
+   "skybox": true,
+   "vertex_offset": 35412,
+   "vertex_count": 4624,
+   "index_offset": 220372,
+   "index_count": 24576,
+   "colour": [
+    0.647,
+    0.5779,
+    0.4544
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 318676,
+   "vertex_count": 425,
+   "index_offset": 335676,
+   "index_count": 711,
+   "colour": [
+    0.702,
+    0.6091,
+    0.4678
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02",
+   "role": "FLOOR",
+   "prototype": true,
+   "skybox": true,
+   "vertex_offset": 338520,
+   "vertex_count": 8,
+   "index_offset": 338840,
+   "index_count": 12,
+   "colour": [
+    0.702,
+    0.6091,
+    0.4678
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 338888,
+   "vertex_count": 265,
+   "index_offset": 349488,
+   "index_count": 447,
+   "colour": [
+    0.702,
+    0.6091,
+    0.4678
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02",
+   "role": "RAMP",
+   "prototype": true,
+   "skybox": true,
+   "vertex_offset": 351276,
+   "vertex_count": 6,
+   "index_offset": 351516,
+   "index_count": 6,
+   "colour": [
+    0.702,
+    0.6091,
+    0.4678
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 351540,
+   "vertex_count": 314,
+   "index_offset": 364100,
+   "index_count": 498,
+   "colour": [
+    0.6994,
+    0.61,
+    0.4748
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/stonewall02a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 366092,
+   "vertex_count": 26,
+   "index_offset": 367132,
+   "index_count": 42,
+   "colour": [
+    0.6994,
+    0.61,
+    0.4748
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_01",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 367300,
+   "vertex_count": 712,
+   "index_offset": 395780,
+   "index_count": 1332,
+   "colour": [
+    0.1455,
+    0.149,
+    0.1582
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_01",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 401108,
+   "vertex_count": 248,
+   "index_offset": 411028,
+   "index_count": 372,
+   "colour": [
+    0.1455,
+    0.149,
+    0.1582
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_01",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 412516,
+   "vertex_count": 192,
+   "index_offset": 420196,
+   "index_count": 288,
+   "colour": [
+    0.1455,
+    0.149,
+    0.1582
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 421348,
+   "vertex_count": 1466,
+   "index_offset": 479988,
+   "index_count": 2538,
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 490140,
+   "vertex_count": 212,
+   "index_offset": 498620,
+   "index_count": 336,
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "decals/decalmetalvent004a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 499964,
+   "vertex_count": 208,
+   "index_offset": 508284,
+   "index_count": 576,
+   "colour": [
+    0.285,
+    0.2272,
+    0.1669
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "glass/combineglass001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 510588,
+   "vertex_count": 164,
+   "index_offset": 517148,
+   "index_count": 252,
+   "colour": [
+    0.0553,
+    0.1663,
+    0.1831
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall004a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 518156,
+   "vertex_count": 210,
+   "index_offset": 526556,
+   "index_count": 354,
+   "colour": [
+    0.6989,
+    0.5812,
+    0.3196
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall004a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 527972,
+   "vertex_count": 32,
+   "index_offset": 529252,
+   "index_count": 48,
+   "colour": [
+    0.6989,
+    0.5812,
+    0.3196
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall006b",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 529444,
+   "vertex_count": 2002,
+   "index_offset": 609524,
+   "index_count": 3942,
+   "colour": [
+    0.6749,
+    0.5546,
+    0.3312
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall006b",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 625292,
+   "vertex_count": 258,
+   "index_offset": 635612,
+   "index_count": 450,
+   "colour": [
+    0.6749,
+    0.5546,
+    0.3312
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall006b",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 637412,
+   "vertex_count": 16,
+   "index_offset": 638052,
+   "index_count": 24,
+   "colour": [
+    0.6749,
+    0.5546,
+    0.3312
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalwall029a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 638148,
+   "vertex_count": 164,
+   "index_offset": 644708,
+   "index_count": 288,
+   "colour": [
+    0.6191,
+    0.4713,
+    0.2631
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "models/props_c17/lamppost03a_glow",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 645860,
+   "vertex_count": 24,
+   "index_offset": 646820,
+   "index_count": 48,
+   "colour": [
+    0.8237,
+    0.8405,
+    0.8394
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "props/metalcomputerpanel001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 647012,
+   "vertex_count": 8,
+   "index_offset": 647332,
+   "index_count": 12,
+   "colour": [
+    0.3321,
+    0.3365,
+    0.3377
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/marblefloor001b",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 647380,
+   "vertex_count": 48,
+   "index_offset": 649300,
+   "index_count": 84,
+   "colour": [
+    0.2471,
+    0.2343,
+    0.2216
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/marblefloor001b",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 649636,
+   "vertex_count": 16,
+   "index_offset": 650276,
+   "index_count": 24,
+   "colour": [
+    0.2471,
+    0.2343,
+    0.2216
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/marblefloor001b",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 650372,
+   "vertex_count": 16,
+   "index_offset": 651012,
+   "index_count": 24,
+   "colour": [
+    0.2471,
+    0.2343,
+    0.2216
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/stonewall050a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 651108,
+   "vertex_count": 211,
+   "index_offset": 659548,
+   "index_count": 363,
+   "colour": [
+    0.7677,
+    0.7008,
+    0.6029
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/stonewall050a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 661000,
+   "vertex_count": 72,
+   "index_offset": 663880,
+   "index_count": 108,
+   "colour": [
+    0.7677,
+    0.7008,
+    0.6029
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/stonewall050a",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 664312,
+   "vertex_count": 28,
+   "index_offset": 665432,
+   "index_count": 54,
+   "colour": [
+    0.7677,
+    0.7008,
+    0.6029
+   ],
+   "texture": null,
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 415,
+  "hull_offset": 665648,
+  "displacement_vertex_offset": 712824,
+  "displacement_vertex_count": 4225,
+  "displacement_index_offset": 763524,
+  "displacement_index_count": 24576,
+  "playerclip_hulls": 35,
+  "prop_hulls": 0
+ },
+ "skybox": {
+  "camera": [
+   -2438.0,
+   0.0,
+   -302.0
+  ],
+  "scale": 16.0,
+  "faces": 20,
+  "drawn": true,
+  "props": 0
+ },
+ "static_props": {
+  "placed": 0,
+  "drawn": 0,
+  "stock_models": 0,
+  "surfaces": 0
+ },
+ "brush_entities": {
+  "solid": 12,
+  "faces_drawn": 1148
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   2880.0,
+   -120.0,
+   -1152.0
+  ],
+  "yaw": 90.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    -448.0,
+    385.0,
+    -1216.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    385.0,
+    -832.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2752.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2624.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2496.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2368.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2880.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3008.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3136.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3264.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3392.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -1216.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -1152.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -1088.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -1024.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -960.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -896.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    2240.0,
+    -120.0,
+    -832.0
+   ],
+   "yaw": 90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [],
+ "push_volumes": [],
+ "trigger_volumes": [
+  {
+   "min": [
+    -80.0,
+    448.0,
+    -768.0
+   ],
+   "max": [
+    -64.0,
+    464.0,
+    -896.0
+   ],
+   "targetname": "schoolbusssssssssssssssplane1_controls2",
+   "filtername": ""
+  },
+  {
+   "min": [
+    -80.0,
+    448.0,
+    -1152.0
+   ],
+   "max": [
+    -64.0,
+    464.0,
+    -1280.0
+   ],
+   "targetname": "schoolbusssssssssssssssplane1_controls",
+   "filtername": ""
+  }
+ ],
+ "author": "siXMan",
+ "notes": "Credit only. A vehicle map rather than a course (see README.md); everything else comes from the .bsp itself."
+}

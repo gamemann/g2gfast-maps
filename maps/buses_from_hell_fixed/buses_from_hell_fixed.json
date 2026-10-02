@@ -534,6 +534,11 @@
    -302.0
   ],
   "scale": 16.0,
+  "drawn_scale": 16.0,
+  "reach_units": [
+   2393,
+   25425
+  ],
   "faces": 20,
   "drawn": true,
   "props": 0

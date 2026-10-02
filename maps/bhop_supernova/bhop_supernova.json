@@ -682,13 +682,37 @@
    "translucent": false
   },
   {
-   "material": "models/props_xen/xenrock",
+   "material": "models/props_xen/floatingislands/asteroids_set01",
    "role": "FLOOR",
    "prototype": false,
    "prop": true,
    "vertex_offset": 4356604,
+   "vertex_count": 9344,
+   "index_offset": 4730364,
+   "index_count": 28422,
+   "texture": "models_props_xen_floatingislands_asteroids_set01.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props_xen/floatingislands/floatingisland_set01",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 4844052,
+   "vertex_count": 6062,
+   "index_offset": 5086532,
+   "index_count": 26952,
+   "texture": "models_props_xen_floatingislands_floatingisland_set01.png",
+   "translucent": false
+  },
+  {
+   "material": "models/props_xen/xenrock",
+   "role": "FLOOR",
+   "prototype": false,
+   "prop": true,
+   "vertex_offset": 5194340,
    "vertex_count": 594,
-   "index_offset": 4380364,
+   "index_offset": 5218100,
    "index_count": 1584,
    "texture": "xen_xen_rock_cliff_001a.png",
    "translucent": false
@@ -698,9 +722,9 @@
    "role": "FLOOR",
    "prototype": false,
    "prop": true,
-   "vertex_offset": 4386700,
+   "vertex_offset": 5224436,
    "vertex_count": 3047,
-   "index_offset": 4508580,
+   "index_offset": 5346316,
    "index_count": 4065,
    "texture": "models_soniamodels_crystal_caverns_crystal_group_a_mat_a.png",
    "translucent": false
@@ -710,9 +734,9 @@
    "role": "FLOOR",
    "prototype": false,
    "prop": true,
-   "vertex_offset": 4524840,
+   "vertex_offset": 5362576,
    "vertex_count": 800,
-   "index_offset": 4556840,
+   "index_offset": 5394576,
    "index_count": 1200,
    "texture": "models_soniamodels_crystal_caverns_crystal_group_a_mat_b.png",
    "translucent": false
@@ -722,9 +746,9 @@
    "role": "FLOOR",
    "prototype": false,
    "prop": true,
-   "vertex_offset": 4561640,
+   "vertex_offset": 5399376,
    "vertex_count": 6552,
-   "index_offset": 4823720,
+   "index_offset": 5661456,
    "index_count": 30312,
    "texture": "models_soniamodels_generic_plant_shellsingle_01.png",
    "translucent": false
@@ -732,10 +756,10 @@
  ],
  "collision": {
   "hull_count": 1824,
-  "hull_offset": 4944968,
-  "displacement_vertex_offset": 5126984,
+  "hull_offset": 5782704,
+  "displacement_vertex_offset": 5964720,
   "displacement_vertex_count": 33364,
-  "displacement_index_offset": 5527352,
+  "displacement_index_offset": 6365088,
   "displacement_index_count": 186816,
   "playerclip_hulls": 71,
   "prop_hulls": 0
@@ -747,15 +771,20 @@
    9712.0
   ],
   "scale": 64.0,
+  "drawn_scale": 47.0,
+  "reach_units": [
+   27555,
+   327384
+  ],
   "faces": 0,
   "drawn": true,
-  "props": 0
+  "props": 3
  },
  "static_props": {
-  "placed": 29,
-  "drawn": 29,
+  "placed": 32,
+  "drawn": 32,
   "stock_models": 0,
-  "surfaces": 13
+  "surfaces": 15
  },
  "brush_entities": {
   "solid": 0,

@@ -998,7 +998,9 @@
   "placed": 836,
   "drawn": 836,
   "stock_models": 0,
-  "surfaces": 30
+  "surfaces": 30,
+  "tinted": 0,
+  "open_sky_lit": 583
  },
  "brush_entities": {
   "solid": 0,

@@ -1403,9 +1403,9 @@
    "index_offset": 48448968,
    "index_count": 40320,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.4761,
+    0.425,
+    0.3818
    ],
    "texture": null,
    "translucent": false
@@ -1420,9 +1420,9 @@
    "index_offset": 48666248,
    "index_count": 5376,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.5307,
+    0.5268,
+    0.5195
    ],
    "texture": null,
    "translucent": false
@@ -1509,9 +1509,9 @@
    "index_offset": 59838104,
    "index_count": 30,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.0,
+    0.0,
+    0.0
    ],
    "texture": null,
    "translucent": false
@@ -1538,9 +1538,9 @@
    "index_offset": 60255208,
    "index_count": 7068,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.2988,
+    0.2993,
+    0.299
    ],
    "texture": null,
    "translucent": false
@@ -1555,9 +1555,9 @@
    "index_offset": 60331560,
    "index_count": 2970,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.4301,
+    0.4239,
+    0.4045
    ],
    "texture": null,
    "translucent": false
@@ -1572,9 +1572,9 @@
    "index_offset": 60595080,
    "index_count": 6516,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.4301,
+    0.4239,
+    0.4045
    ],
    "texture": null,
    "translucent": false
@@ -1634,7 +1634,9 @@
   "placed": 976,
   "drawn": 938,
   "stock_models": 38,
-  "surfaces": 37
+  "surfaces": 37,
+  "tinted": 6,
+  "open_sky_lit": 355
  },
  "brush_entities": {
   "solid": 19,

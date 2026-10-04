@@ -1196,9 +1196,9 @@
    "index_offset": 13809876,
    "index_count": 3918,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.9884,
+    0.9884,
+    0.9884
    ],
    "texture": null,
    "translucent": false
@@ -1225,9 +1225,9 @@
    "index_offset": 13848108,
    "index_count": 18,
    "colour": [
-    0.5,
-    0.5,
-    0.5
+    0.2896,
+    0.46,
+    0.6418
    ],
    "texture": null,
    "translucent": false
@@ -1443,7 +1443,9 @@
   "placed": 802,
   "drawn": 756,
   "stock_models": 46,
-  "surfaces": 41
+  "surfaces": 41,
+  "tinted": 2,
+  "open_sky_lit": 399
  },
  "brush_entities": {
   "solid": 9,

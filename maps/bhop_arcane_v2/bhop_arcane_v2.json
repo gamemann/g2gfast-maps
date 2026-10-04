@@ -3220,7 +3220,9 @@
   "placed": 285,
   "drawn": 285,
   "stock_models": 0,
-  "surfaces": 40
+  "surfaces": 40,
+  "tinted": 0,
+  "open_sky_lit": 19
  },
  "brush_entities": {
   "solid": 65,

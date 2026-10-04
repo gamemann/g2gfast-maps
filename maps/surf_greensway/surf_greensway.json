@@ -1615,7 +1615,9 @@
     -4096.0
    ],
    "destination_yaw": -90.0,
-   "comment": "checkpoint_1"
+   "comment": "checkpoint_1",
+   "restart": false,
+   "restart_why": "its line is a gate across open canyon with nowhere to stand"
   },
   {
    "kind": "STAGE",
@@ -24111,5 +24113,5 @@
  "push_volumes": [],
  "trigger_volumes": [],
  "author": "NvC_DmN_CH",
- "notes": "Credit only. Everything else about this map comes from the .bsp itself; see README.md."
+ "notes": "Credit, and stage 2 marked as a split with no restart. Everything else about this map comes from the .bsp itself; see README.md."
 }

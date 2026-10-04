@@ -3,6 +3,12 @@
   "origin": "https://dotgames.org/content",
   "maps": [
     {
+      "id": "bhop_ananas",
+      "author": "serz",
+      "source": "https://gamebanana.com/mods/124428",
+      "bytes": 9526059
+    },
+    {
       "id": "bhop_arcane_v2",
       "author": "Panzerhandschuh (Panzer); v2 edit uploaded by 'roger haha lol'",
       "source": "https://gamebanana.com/mods/124462",
@@ -43,6 +49,12 @@
       "author": "Fur (TheFur)",
       "source": "https://gamebanana.com/mods/125103",
       "bytes": 9086149
+    },
+    {
+      "id": "bhop_fury_2",
+      "author": "Dotty",
+      "source": "https://gamebanana.com/mods/125106",
+      "bytes": 11924916
     },
     {
       "id": "bhop_grove",

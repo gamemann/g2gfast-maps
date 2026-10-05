@@ -11,6 +11,8 @@ on:
 jobs:
     release:
         uses: modcommunity/dot-ci/.github/workflows/release-maps.yml@v1.2.5
+        permissions:
+            contents: write
         with:
             game: gamemann/game-g2gfast
         secrets:

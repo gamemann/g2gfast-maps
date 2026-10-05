@@ -10,7 +10,7 @@ on:
 
 jobs:
     release:
-        uses: modcommunity/dot-ci/.github/workflows/release-maps.yml@v1.2.5
+        uses: modcommunity/dot-ci/.github/workflows/release-maps.yml@v1.2.6
         permissions:
             contents: write
         with:

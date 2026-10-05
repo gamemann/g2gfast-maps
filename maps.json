@@ -117,6 +117,24 @@
       "bytes": 936542
     },
     {
+      "id": "surf_10x_final",
+      "author": "Wof-",
+      "source": "https://gamebanana.com/mods/121522",
+      "bytes": 1930503
+    },
+    {
+      "id": "surf_10x_reloaded_fixed",
+      "author": "Buck Nasty",
+      "source": "https://gamebanana.com/mods/121524",
+      "bytes": 1235884
+    },
+    {
+      "id": "surf_110b_austinpowers",
+      "author": "TheInvoker",
+      "source": "https://gamebanana.com/mods/121530",
+      "bytes": 4589961
+    },
+    {
       "id": "surf_aquaflow",
       "author": "NvC_DmN_CH",
       "source": "https://gamebanana.com/mods/137715",
@@ -129,10 +147,40 @@
       "bytes": 37966446
     },
     {
+      "id": "surf_beginner",
+      "author": "Kiiru",
+      "source": "https://gamebanana.com/mods/121714",
+      "bytes": 3383503
+    },
+    {
       "id": "surf_beginner2",
       "author": "Kiiru",
       "source": "https://gamebanana.com/mods/137722",
       "bytes": 9245028
+    },
+    {
+      "id": "surf_forbidden_ways_reloaded",
+      "author": "Krusty, sky by Karatek\u00e4fer",
+      "source": "https://gamebanana.com/mods/122076",
+      "bytes": 4623994
+    },
+    {
+      "id": "surf_fruits",
+      "author": "Sangre, Hellraisedsurfer, Robsonfire, Machine, Jaden, Komaokc, Icecreamlock, Shahzam, SKAR, JackTheStripper (copy-mark), Linus",
+      "source": "https://gamebanana.com/mods/122092",
+      "bytes": 10163059
+    },
+    {
+      "id": "surf_grave_reloaded",
+      "author": "xblah",
+      "source": "https://gamebanana.com/mods/122151",
+      "bytes": 4118429
+    },
+    {
+      "id": "surf_greatriver_xdre4m",
+      "author": "!Black, with Ace Of Spades13 and Junior",
+      "source": "https://gamebanana.com/mods/122206",
+      "bytes": 1937017
     },
     {
       "id": "surf_greensway",
@@ -159,10 +207,28 @@
       "bytes": 3889573
     },
     {
+      "id": "surf_mai_remix",
+      "author": "Krusty",
+      "source": "https://gamebanana.com/mods/122505",
+      "bytes": 2126085
+    },
+    {
       "id": "surf_mesa",
       "author": "Arblarg",
       "source": "https://gamebanana.com/mods/122542",
       "bytes": 39345277
+    },
+    {
+      "id": "surf_quilavar",
+      "author": "Rapsodia, finished by Helix",
+      "source": "https://gamebanana.com/mods/122802",
+      "bytes": 7674628
+    },
+    {
+      "id": "surf_ski_2",
+      "author": "Massive Boredom and Mario",
+      "source": "https://gamebanana.com/mods/122953",
+      "bytes": 1784568
     },
     {
       "id": "surf_stonework3",
@@ -175,6 +241,12 @@
       "author": "Juxtapo and Phurix",
       "source": "https://gamebanana.com/mods/137705",
       "bytes": 95884121
+    },
+    {
+      "id": "surf_xiv_v2a",
+      "author": "smooth.nl",
+      "source": "https://gamebanana.com/mods/123284",
+      "bytes": 13374349
     },
     {
       "id": "surf_year3000",

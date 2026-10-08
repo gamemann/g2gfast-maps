@@ -518,11 +518,11 @@
   }
  ],
  "collision": {
-  "hull_count": 415,
+  "hull_count": 382,
   "hull_offset": 665648,
-  "displacement_vertex_offset": 712824,
+  "displacement_vertex_offset": 711108,
   "displacement_vertex_count": 4225,
-  "displacement_index_offset": 763524,
+  "displacement_index_offset": 761808,
   "displacement_index_count": 24576,
   "playerclip_hulls": 35,
   "prop_hulls": 0
@@ -547,7 +547,9 @@
   "placed": 0,
   "drawn": 0,
   "stock_models": 0,
-  "surfaces": 0
+  "surfaces": 0,
+  "tinted": 0,
+  "open_sky_lit": 0
  },
  "brush_entities": {
   "solid": 12,

@@ -363,11 +363,11 @@
   }
  ],
  "collision": {
-  "hull_count": 3788,
+  "hull_count": 3358,
   "hull_offset": 5494436,
-  "displacement_vertex_offset": 5883604,
+  "displacement_vertex_offset": 5864220,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 5883604,
+  "displacement_index_offset": 5864220,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
   "prop_hulls": 0
@@ -1099,13 +1099,13 @@
    "track": 0,
    "min": [
     5896.0,
-    -1056.0,
-    -5728.0
+    -1113.638609239109,
+    -5727.0
    ],
    "max": [
     6088.0,
-    -704.0,
-    -5280.0
+    -921.6386092391089,
+    -5281.0
    ],
    "inflated": true
   },
@@ -1129,13 +1129,13 @@
    "track": 0,
    "min": [
     11960.0,
-    512.0,
-    -2016.0
+    454.3636092880422,
+    -2015.0
    ],
    "max": [
     12152.0,
-    864.004,
-    -1568.0
+    646.3636092880422,
+    -1569.0
    ],
    "inflated": true
   },
@@ -2035,28 +2035,28 @@
   {
    "min": [
     5896.0,
-    5280.0,
-    -1056.0
+    5281.0,
+    -1113.638609239109
    ],
    "max": [
     6088.0,
-    5728.0,
-    -704.0
+    5727.0,
+    -921.6386092391089
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "track": 0,
    "original_min": [
     5984.0,
-    5280.0,
-    -1056.0
+    5281.0,
+    -934.3647665757809
    ],
    "original_max": [
     6000.0,
-    5728.0,
-    -704.0
+    5727.0,
+    -921.6386092391089
    ]
   },
   {
@@ -2089,28 +2089,28 @@
   {
    "min": [
     11960.0,
-    1568.0,
-    512.0
+    1569.0,
+    454.3636092880422
    ],
    "max": [
     12152.0,
-    2016.0,
-    864.004
+    2015.0,
+    646.3636092880422
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "track": 0,
    "original_min": [
     12048.0,
-    1568.0,
-    512.0
+    1569.0,
+    633.6360213038506
    ],
    "original_max": [
     12064.0,
-    2016.0,
-    864.004
+    2015.0,
+    646.3636092880422
    ]
   },
   {

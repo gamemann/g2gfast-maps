@@ -651,11 +651,11 @@
   }
  ],
  "collision": {
-  "hull_count": 1572,
+  "hull_count": 1395,
   "hull_offset": 2370504,
-  "displacement_vertex_offset": 2522784,
+  "displacement_vertex_offset": 2513700,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 2522784,
+  "displacement_index_offset": 2513700,
   "displacement_index_count": 0,
   "playerclip_hulls": 60,
   "prop_hulls": 0

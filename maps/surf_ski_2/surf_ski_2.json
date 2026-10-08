@@ -1083,11 +1083,11 @@
   }
  ],
  "collision": {
-  "hull_count": 1208,
+  "hull_count": 1010,
   "hull_offset": 1631648,
-  "displacement_vertex_offset": 1751464,
+  "displacement_vertex_offset": 1741300,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 1751464,
+  "displacement_index_offset": 1741300,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
   "prop_hulls": 0
@@ -1419,12 +1419,12 @@
    "track": 0,
    "min": [
     -2612.0,
-    -1312.0,
+    -1242.0,
     -3095.0
    ],
    "max": [
     -2383.0,
-    -1120.0,
+    -1050.0,
     -2901.0
    ],
    "inflated": true
@@ -1434,12 +1434,12 @@
    "track": 0,
    "min": [
     -2892.0,
-    -1312.0,
+    -1242.0,
     -3087.0
    ],
    "max": [
     -2663.0,
-    -1120.0,
+    -1050.0,
     -2893.0
    ],
    "inflated": true
@@ -1449,12 +1449,12 @@
    "track": 0,
    "min": [
     -3169.0,
-    -1312.0,
+    -1242.0,
     -3088.0
    ],
    "max": [
     -2940.0,
-    -1120.0,
+    -1050.0,
     -2894.0
    ],
    "inflated": true
@@ -1645,15 +1645,15 @@
    "min": [
     -2612.0,
     2901.0,
-    -1312.0
+    -1242.0
    ],
    "max": [
     -2383.0,
     3095.0,
-    -1120.0
+    -1050.0
    ],
    "inflated": true,
-   "hung": true,
+   "hung": false,
    "cleared": false,
    "trimmed": false,
    "track": 0,
@@ -1672,15 +1672,15 @@
    "min": [
     -2892.0,
     2893.0,
-    -1312.0
+    -1242.0
    ],
    "max": [
     -2663.0,
     3087.0,
-    -1120.0
+    -1050.0
    ],
    "inflated": true,
-   "hung": true,
+   "hung": false,
    "cleared": false,
    "trimmed": false,
    "track": 0,
@@ -1699,15 +1699,15 @@
    "min": [
     -3169.0,
     2894.0,
-    -1312.0
+    -1242.0
    ],
    "max": [
     -2940.0,
     3088.0,
-    -1120.0
+    -1050.0
    ],
    "inflated": true,
-   "hung": true,
+   "hung": false,
    "cleared": false,
    "trimmed": false,
    "track": 0,

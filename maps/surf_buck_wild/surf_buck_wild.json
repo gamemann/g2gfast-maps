@@ -38,7 +38,15 @@
    "ambient_brightness": 120.0
   },
   "sky_name": "sky_miramar/miramar",
-  "baked_light_count": 59
+  "baked_light_count": 59,
+  "sky_faces": {
+   "rt": "sky_rt.png",
+   "bk": "sky_bk.png",
+   "lf": "sky_lf.png",
+   "ft": "sky_ft.png",
+   "up": "sky_up.png",
+   "dn": "sky_dn.png"
+  }
  },
  "surfaces": [
   {

@@ -39,7 +39,15 @@
    "spread_degrees": 0.0
   },
   "sky_name": "mpa125",
-  "baked_light_count": 861
+  "baked_light_count": 861,
+  "sky_faces": {
+   "rt": "sky_rt.png",
+   "bk": "sky_bk.png",
+   "lf": "sky_lf.png",
+   "ft": "sky_ft.png",
+   "up": "sky_up.png",
+   "dn": "sky_dn.png"
+  }
  },
  "surfaces": [
   {

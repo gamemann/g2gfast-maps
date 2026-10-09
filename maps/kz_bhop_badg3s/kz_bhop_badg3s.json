@@ -39,7 +39,15 @@
    "spread_degrees": 5.0
   },
   "sky_name": "stormydays_",
-  "baked_light_count": 183
+  "baked_light_count": 183,
+  "sky_faces": {
+   "rt": "sky_rt.png",
+   "bk": "sky_bk.png",
+   "lf": "sky_lf.png",
+   "ft": "sky_ft.png",
+   "up": "sky_up.png",
+   "dn": "sky_dn.png"
+  }
  },
  "surfaces": [
   {

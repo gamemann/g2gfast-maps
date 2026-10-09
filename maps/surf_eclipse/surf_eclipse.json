@@ -38,7 +38,15 @@
    "ambient_brightness": 20.0
   },
   "sky_name": "eclipse_",
-  "baked_light_count": 9
+  "baked_light_count": 9,
+  "sky_faces": {
+   "rt": "sky_rt.png",
+   "bk": "sky_bk.png",
+   "lf": "sky_lf.png",
+   "ft": "sky_ft.png",
+   "up": "sky_up.png",
+   "dn": "sky_dn.png"
+  }
  },
  "surfaces": [
   {

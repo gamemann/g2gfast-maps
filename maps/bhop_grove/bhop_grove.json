@@ -1718,7 +1718,2360 @@
   "hurt": [],
   "conveyors": [],
   "ladders": [],
-  "blocks": []
+  "blocks": [
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     12288.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     12480.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     12672.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     11968.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     12160.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     12672.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     11776.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     12032.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     12672.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     11520.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     11712.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     12672.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     10624.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     10752.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     10432.0
+    ],
+    "max": [
+     4864.0,
+     34.0,
+     10560.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     10432.0
+    ],
+    "max": [
+     4800.0,
+     34.0,
+     10496.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     10240.0
+    ],
+    "max": [
+     4800.0,
+     34.0,
+     10304.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     10112.0
+    ],
+    "max": [
+     4672.0,
+     34.0,
+     10304.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     9856.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     9984.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     9792.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     9856.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     10944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     8896.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     9024.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     8576.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     8832.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     8576.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     8640.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     8256.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     8512.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     8256.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     8320.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     7872.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     8128.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     7872.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     7936.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     9216.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     7040.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     7104.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     6848.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     6912.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     6528.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     6784.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     6336.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     6400.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     6016.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     6272.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     5888.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     5952.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     7296.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     5184.0
+    ],
+    "max": [
+     5056.0,
+     34.0,
+     5248.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     4992.0
+    ],
+    "max": [
+     5056.0,
+     34.0,
+     5056.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     4800.0
+    ],
+    "max": [
+     5056.0,
+     34.0,
+     4864.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4352.0,
+     -62.0,
+     4608.0
+    ],
+    "max": [
+     4800.0,
+     34.0,
+     4672.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4352.0,
+     -62.0,
+     4416.0
+    ],
+    "max": [
+     4672.0,
+     34.0,
+     4480.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4352.0,
+     -62.0,
+     4224.0
+    ],
+    "max": [
+     4608.0,
+     34.0,
+     4288.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4352.0,
+     -62.0,
+     4032.0
+    ],
+    "max": [
+     4480.0,
+     34.0,
+     4096.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     5376.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     1280.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     1344.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     1088.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     1152.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     960.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     1024.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     832.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     896.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     640.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     704.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     512.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     576.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     384.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     448.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     192.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     256.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     -0.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     64.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -128.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -64.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     1536.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -1088.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -896.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -1600.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -1408.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -2112.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     -1920.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -7808.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -7616.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -7808.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -7744.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -7680.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -7616.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -7744.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -7680.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     -8128.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -8064.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -8128.0
+    ],
+    "max": [
+     4544.0,
+     2.0,
+     -7936.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -8320.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     -8256.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -8448.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     -8256.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -8768.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     -8576.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -9088.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -9024.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -9024.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -8960.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -8960.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -8896.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -9088.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -8896.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -7424.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -9984.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -9856.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -10176.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -9984.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     -10368.0
+    ],
+    "max": [
+     4864.0,
+     34.0,
+     -9920.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -10752.0
+    ],
+    "max": [
+     4928.0,
+     66.0,
+     -10624.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     -11008.0
+    ],
+    "max": [
+     4864.0,
+     34.0,
+     -10560.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -11200.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -10880.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -11328.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -11200.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -11200.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -11072.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -10432.0
+    ],
+    "max": [
+     4928.0,
+     66.0,
+     -10112.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -9664.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -12288.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -12096.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -12544.0
+    ],
+    "max": [
+     4928.0,
+     34.0,
+     -12352.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -12800.0
+    ],
+    "max": [
+     4672.0,
+     66.0,
+     -12608.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4416.0,
+     -62.0,
+     -13056.0
+    ],
+    "max": [
+     4544.0,
+     66.0,
+     -12928.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     -13312.0
+    ],
+    "max": [
+     4672.0,
+     66.0,
+     -13184.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -13760.0
+    ],
+    "max": [
+     4928.0,
+     2.0,
+     -13568.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -14016.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -13888.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -14272.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     -14144.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4800.0,
+     -62.0,
+     -14592.0
+    ],
+    "max": [
+     4864.0,
+     2.0,
+     -14272.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -14592.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -14528.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -14592.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     -14528.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -14784.0
+    ],
+    "max": [
+     4544.0,
+     2.0,
+     -14592.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -14912.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     -14784.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -15104.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -15040.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -15232.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -15168.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -15424.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -15360.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -15616.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -15552.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -11904.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -1280.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -1216.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     -1792.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -1728.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -2368.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -2240.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -704.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     3200.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     3264.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     3008.0
+    ],
+    "max": [
+     4992.0,
+     2.0,
+     3072.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     2944.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     3008.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     2688.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     2816.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     2432.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     2560.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     2240.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     2304.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     2176.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     2240.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     2112.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     2176.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     3456.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     15360.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     15616.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     15808.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     14976.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     15232.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     15808.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     13952.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     14208.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     14400.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     13696.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     13952.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     14400.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     13504.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     13632.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     14400.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     13248.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     13440.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     14400.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4672.0,
+     -62.0,
+     13248.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     13312.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     14400.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -3328.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -3136.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -4608.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -4544.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4544.0,
+     -62.0,
+     -4480.0
+    ],
+    "max": [
+     4608.0,
+     2.0,
+     -4416.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -4288.0
+    ],
+    "max": [
+     4800.0,
+     2.0,
+     -4096.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -3648.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -3520.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4608.0,
+     -62.0,
+     -3904.0
+    ],
+    "max": [
+     4736.0,
+     2.0,
+     -3776.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -2944.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4480.0,
+     -62.0,
+     -5568.0
+    ],
+    "max": [
+     4672.0,
+     2.0,
+     -5376.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -5184.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -6144.0
+    ],
+    "max": [
+     5056.0,
+     34.0,
+     -5856.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -5184.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -6464.0
+    ],
+    "max": [
+     5056.0,
+     66.0,
+     -6272.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -5184.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4864.0,
+     -62.0,
+     -6976.0
+    ],
+    "max": [
+     5056.0,
+     66.0,
+     -6592.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -5184.0
+    ],
+    "destination_yaw": 0.0
+   },
+   {
+    "min": [
+     4736.0,
+     -62.0,
+     -5760.0
+    ],
+    "max": [
+     4928.0,
+     34.0,
+     -5568.0
+    ],
+    "delay": 0.09,
+    "class": "trap",
+    "touch": true,
+    "destination": [
+     4704.0,
+     32.0,
+     -5184.0
+    ],
+    "destination_yaw": 0.0
+   }
+  ]
  },
  "push_volumes": [],
  "trigger_volumes": [

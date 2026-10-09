@@ -117,6 +117,12 @@
       "bytes": 11305892
     },
     {
+      "id": "bhop_sqee",
+      "author": "sQee, QuiSt, KorYouZ, l\u00f3lmarcel, dawn, Ray-on.NoOb, nairda",
+      "source": "https://gamebanana.com/mods/126077",
+      "bytes": 11213650
+    },
+    {
       "id": "bhop_supernova",
       "author": "Sonia_ (map design) and Benchmarked (gameplay); skybox Mr.Who; textures TopHATTwaffle and Sonia_; testers Juked, tricksterr, plar, samurai; Subnautica models by Unknown Worlds Entertainment",
       "source": "https://gamebanana.com/mods/313046",
@@ -171,10 +177,28 @@
       "bytes": 4603167
     },
     {
+      "id": "surf_29_12_06",
+      "author": "matrix-hetman",
+      "source": "https://gamebanana.com/mods/121540",
+      "bytes": 3210158
+    },
+    {
+      "id": "surf_adverse",
+      "author": "target practice, Archangel",
+      "source": "https://gamebanana.com/mods/137677",
+      "bytes": 3211774
+    },
+    {
       "id": "surf_akai_final",
       "author": "akai",
       "source": "https://gamebanana.com/mods/121606",
       "bytes": 8070095
+    },
+    {
+      "id": "surf_animals",
+      "author": "Razer, AmstaFF, Frizzlehead9, Robsonfire, Ton!x, Silverlol, Hellraisedsurfer, Nitro",
+      "source": "https://gamebanana.com/mods/121629",
+      "bytes": 45673007
     },
     {
       "id": "surf_aquaflow",
@@ -211,6 +235,12 @@
       "author": "buck nasty",
       "source": "https://gamebanana.com/mods/121787",
       "bytes": 5225785
+    },
+    {
+      "id": "surf_dust2_2008_final",
+      "author": "Matrix Hetman, Karatek\u00e4fer",
+      "source": "https://gamebanana.com/mods/121962",
+      "bytes": 4279532
     },
     {
       "id": "surf_eclipse",
@@ -273,6 +303,12 @@
       "bytes": 25861849
     },
     {
+      "id": "surf_japan_ptad",
+      "author": "ptad, monkeydie",
+      "source": "https://gamebanana.com/mods/137687",
+      "bytes": 1556404
+    },
+    {
       "id": "surf_kitsune",
       "author": "Arblarg",
       "source": "https://gamebanana.com/mods/122382",
@@ -303,10 +339,28 @@
       "bytes": 27733022
     },
     {
+      "id": "surf_machine2",
+      "author": "Z-machine",
+      "source": "https://gamebanana.com/mods/122478",
+      "bytes": 825303
+    },
+    {
+      "id": "surf_machine_remix_final",
+      "author": "paper-cut, z-machine(original)",
+      "source": "https://gamebanana.com/mods/122497",
+      "bytes": 1726273
+    },
+    {
       "id": "surf_mai_remix",
       "author": "Krusty",
       "source": "https://gamebanana.com/mods/122505",
       "bytes": 2122789
+    },
+    {
+      "id": "surf_matrix_v8",
+      "author": "Flippi273",
+      "source": "https://gamebanana.com/mods/122520",
+      "bytes": 1513422
     },
     {
       "id": "surf_mesa",
@@ -333,10 +387,28 @@
       "bytes": 1977691
     },
     {
+      "id": "surf_rookie",
+      "author": "Kiiru, Sacred91, Zeedz, Retarded brother",
+      "source": "https://gamebanana.com/mods/122860",
+      "bytes": 9449288
+    },
+    {
       "id": "surf_ski_2",
       "author": "Massive Boredom and Mario",
       "source": "https://gamebanana.com/mods/122953",
       "bytes": 1786491
+    },
+    {
+      "id": "surf_ski_2_source",
+      "author": "Korliki ''Angel",
+      "source": "https://gamebanana.com/mods/122956",
+      "bytes": 2187643
+    },
+    {
+      "id": "surf_skyworld",
+      "author": "Goerge",
+      "source": "https://gamebanana.com/mods/122985",
+      "bytes": 602290
     },
     {
       "id": "surf_stonework3",
@@ -349,6 +421,18 @@
       "author": "Juxtapo and Phurix",
       "source": "https://gamebanana.com/mods/137705",
       "bytes": 96196425
+    },
+    {
+      "id": "surf_the_gloaming",
+      "author": "Roosta, Teeth",
+      "source": "https://gamebanana.com/mods/123134",
+      "bytes": 5791371
+    },
+    {
+      "id": "surf_thriller",
+      "author": "buck nasty",
+      "source": "https://gamebanana.com/mods/123141",
+      "bytes": 2132859
     },
     {
       "id": "surf_vegetables",

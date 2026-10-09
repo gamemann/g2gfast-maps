@@ -1084,7 +1084,7 @@
     8417.52,
     7564.79
    ],
-   "destination_yaw": -90.0
+   "destination_yaw": 0.0
   },
   {
    "kind": "STAGE",
@@ -1106,7 +1106,7 @@
     413.0,
     10962.0
    ],
-   "destination_yaw": -90.0
+   "destination_yaw": 0.0
   },
   {
    "kind": "TELEPORT",

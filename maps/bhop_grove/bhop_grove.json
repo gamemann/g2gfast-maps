@@ -998,7 +998,13 @@
     -16.0,
     15744.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    15808.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1013,7 +1019,13 @@
     -16.0,
     14336.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    14400.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1028,7 +1040,13 @@
     -16.0,
     12608.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    12672.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1043,7 +1061,13 @@
     -16.0,
     10880.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    10944.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1058,7 +1082,13 @@
     -16.0,
     9152.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    9216.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1073,7 +1103,13 @@
     -16.0,
     7232.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    7296.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1088,7 +1124,13 @@
     -16.0,
     5312.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    5376.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1103,7 +1145,13 @@
     -16.0,
     3392.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    3456.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1118,7 +1166,13 @@
     -16.0,
     1472.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    1536.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1133,7 +1187,13 @@
     -16.0,
     -768.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -704.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1148,7 +1208,13 @@
     -16.0,
     -3008.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -2944.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1163,7 +1229,13 @@
     -16.0,
     -5248.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -5184.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1178,7 +1250,13 @@
     -16.0,
     -7488.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -7424.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1193,7 +1271,13 @@
     -16.0,
     -9728.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -9664.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1208,7 +1292,13 @@
     -16.0,
     -11968.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    4704.0,
+    32.0,
+    -11904.0
+   ],
+   "destination_yaw": 0.0
   }
  ],
  "track_names": {
@@ -1621,6 +1711,15 @@
    ]
   }
  ],
+ "mechanics": {
+  "water": [],
+  "push": [],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [],
+  "blocks": []
+ },
  "push_volumes": [],
  "trigger_volumes": [
   {

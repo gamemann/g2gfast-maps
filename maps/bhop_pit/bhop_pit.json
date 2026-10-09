@@ -1156,11 +1156,11 @@
   }
  ],
  "collision": {
-  "hull_count": 3241,
+  "hull_count": 3060,
   "hull_offset": 7632072,
-  "displacement_vertex_offset": 8018320,
+  "displacement_vertex_offset": 7999044,
   "displacement_vertex_count": 3587,
-  "displacement_index_offset": 8061364,
+  "displacement_index_offset": 8042088,
   "displacement_index_count": 20352,
   "playerclip_hulls": 3,
   "prop_hulls": 227
@@ -1771,7 +1771,13 @@
     3232.0,
     -7696.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    1024.0,
+    -600.0,
+    576.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1786,7 +1792,13 @@
     3232.0,
     -6680.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    1536.0,
+    -216.0,
+    544.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1801,7 +1813,13 @@
     3232.0,
     -7184.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    1024.0,
+    -600.0,
+    576.0
+   ],
+   "destination_yaw": 0.0
   },
   {
    "kind": "RESPAWN",
@@ -1816,7 +1834,13 @@
     3232.0,
     -8232.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    1536.0,
+    -216.0,
+    544.0
+   ],
+   "destination_yaw": 0.0
   }
  ],
  "track_names": {
@@ -1932,6 +1956,64 @@
    ]
   }
  ],
+ "mechanics": {
+  "water": [],
+  "push": [],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [
+   {
+    "min": [
+     512.0,
+     -256.0,
+     384.0
+    ],
+    "max": [
+     528.0,
+     0.0,
+     640.0
+    ]
+   },
+   {
+    "min": [
+     3536.04,
+     512.0,
+     -3648.9
+    ],
+    "max": [
+     3759.45,
+     768.0,
+     -3496.05
+    ]
+   },
+   {
+    "min": [
+     7936.0,
+     1536.0,
+     -2192.0
+    ],
+    "max": [
+     8448.0,
+     2560.0,
+     -2176.0
+    ]
+   },
+   {
+    "min": [
+     6528.0,
+     896.0,
+     -10256.0
+    ],
+    "max": [
+     6784.0,
+     1152.0,
+     -10240.0
+    ]
+   }
+  ],
+  "blocks": []
+ },
  "push_volumes": [],
  "trigger_volumes": [
   {

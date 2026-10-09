@@ -1,0 +1,10835 @@
+{
+ "id": "bhop_eazy_v2",
+ "source": "bhop_eazy_v2.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -1056.0,
+   -384.00390625,
+   256.0
+  ],
+  "max": [
+   6688.0,
+   1952.0,
+   -4192.0
+  ]
+ },
+ "lightmap": {
+  "file": "bhop_eazy_v2_lightmap.png",
+  "width": 1024,
+  "height": 1024
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 133.0,
+   "pitch_src": -60.0,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "brightness": 300.0,
+   "ambient_colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ambient_brightness": 20.0
+  },
+  "sky_name": "sky_dust",
+  "baked_light_count": 10
+ },
+ "surfaces": [
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_black_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 0,
+   "vertex_count": 3133,
+   "index_offset": 125320,
+   "index_count": 5445,
+   "colour": [
+    0.1161,
+    0.1184,
+    0.1158
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_black_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_black_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 147100,
+   "vertex_count": 3092,
+   "index_offset": 270780,
+   "index_count": 5448,
+   "colour": [
+    0.1161,
+    0.1184,
+    0.1158
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_black_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_black_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 292572,
+   "vertex_count": 78,
+   "index_offset": 295692,
+   "index_count": 120,
+   "colour": [
+    0.1161,
+    0.1184,
+    0.1158
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_black_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_blue_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 296172,
+   "vertex_count": 145,
+   "index_offset": 301972,
+   "index_count": 285,
+   "colour": [
+    0.6603,
+    0.6886,
+    0.8166
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_blue_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_clean_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 303112,
+   "vertex_count": 32,
+   "index_offset": 304392,
+   "index_count": 48,
+   "colour": [
+    0.7684,
+    0.7656,
+    0.7197
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_clean_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_clean_dark_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 304584,
+   "vertex_count": 936,
+   "index_offset": 342024,
+   "index_count": 1680,
+   "colour": [
+    0.3001,
+    0.2991,
+    0.2792
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_clean_dark_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_clean_fade_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 348744,
+   "vertex_count": 705,
+   "index_offset": 376944,
+   "index_count": 1431,
+   "colour": [
+    0.7209,
+    0.7184,
+    0.6752
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_clean_fade_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_green_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 382668,
+   "vertex_count": 89,
+   "index_offset": 386228,
+   "index_count": 189,
+   "colour": [
+    0.6685,
+    0.787,
+    0.6692
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_green_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_lines_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 386984,
+   "vertex_count": 110,
+   "index_offset": 391384,
+   "index_count": 192,
+   "colour": [
+    0.7661,
+    0.7633,
+    0.7171
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_lines_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_lines_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 392152,
+   "vertex_count": 17,
+   "index_offset": 392832,
+   "index_count": 27,
+   "colour": [
+    0.7661,
+    0.7633,
+    0.7171
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_lines_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_multi_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 392940,
+   "vertex_count": 30,
+   "index_offset": 394140,
+   "index_count": 66,
+   "colour": [
+    0.726,
+    0.7042,
+    0.6999
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_multi_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_purple_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 394404,
+   "vertex_count": 79,
+   "index_offset": 397564,
+   "index_count": 171,
+   "colour": [
+    0.6952,
+    0.6609,
+    0.8165
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_purple_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_red_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 398248,
+   "vertex_count": 87,
+   "index_offset": 401728,
+   "index_count": 183,
+   "colour": [
+    0.8173,
+    0.6536,
+    0.6606
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_red_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_floor_yellow_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 402460,
+   "vertex_count": 85,
+   "index_offset": 405860,
+   "index_count": 171,
+   "colour": [
+    0.8169,
+    0.7374,
+    0.6613
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_floor_yellow_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_blue_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 406544,
+   "vertex_count": 136,
+   "index_offset": 411984,
+   "index_count": 264,
+   "colour": [
+    0.1688,
+    0.531,
+    0.9996
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_blue_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_green_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 413040,
+   "vertex_count": 148,
+   "index_offset": 418960,
+   "index_count": 276,
+   "colour": [
+    0.3361,
+    0.8977,
+    0.2752
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_green_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_green_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 420064,
+   "vertex_count": 12,
+   "index_offset": 420544,
+   "index_count": 12,
+   "colour": [
+    0.3361,
+    0.8977,
+    0.2752
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_green_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_multi_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 420592,
+   "vertex_count": 168,
+   "index_offset": 427312,
+   "index_count": 324,
+   "colour": [
+    0.6329,
+    0.5346,
+    0.6625
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_multi_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 428608,
+   "vertex_count": 4,
+   "index_offset": 428768,
+   "index_count": 6,
+   "colour": [
+    0.6329,
+    0.5346,
+    0.6625
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_purple_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 428792,
+   "vertex_count": 148,
+   "index_offset": 434712,
+   "index_count": 276,
+   "colour": [
+    0.3735,
+    0.1688,
+    0.9996
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_purple_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_purple_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 435816,
+   "vertex_count": 12,
+   "index_offset": 436296,
+   "index_count": 12,
+   "colour": [
+    0.3735,
+    0.1688,
+    0.9996
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_purple_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_red_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 436344,
+   "vertex_count": 175,
+   "index_offset": 443344,
+   "index_count": 315,
+   "colour": [
+    0.9996,
+    0.1695,
+    0.32
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_red_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_red_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 444604,
+   "vertex_count": 12,
+   "index_offset": 445084,
+   "index_count": 12,
+   "colour": [
+    0.9996,
+    0.1695,
+    0.32
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_red_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_yellow_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 445132,
+   "vertex_count": 192,
+   "index_offset": 452812,
+   "index_count": 366,
+   "colour": [
+    0.9996,
+    0.584,
+    0.1688
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_yellow_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_yellow_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 454276,
+   "vertex_count": 6,
+   "index_offset": 454516,
+   "index_count": 12,
+   "colour": [
+    0.9996,
+    0.584,
+    0.1688
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_yellow_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_glass_yellow_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 454564,
+   "vertex_count": 12,
+   "index_offset": 455044,
+   "index_count": 12,
+   "colour": [
+    0.9996,
+    0.584,
+    0.1688
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_glass_yellow_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_blue_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 455092,
+   "vertex_count": 160,
+   "index_offset": 461492,
+   "index_count": 240,
+   "colour": [
+    0.6984,
+    0.7153,
+    0.7852
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_blue_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_green_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 462452,
+   "vertex_count": 176,
+   "index_offset": 469492,
+   "index_count": 264,
+   "colour": [
+    0.7014,
+    0.7665,
+    0.6989
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_green_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_multi_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 470548,
+   "vertex_count": 40,
+   "index_offset": 472148,
+   "index_count": 60,
+   "colour": [
+    0.7387,
+    0.7246,
+    0.7066
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_multi_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 472388,
+   "vertex_count": 180,
+   "index_offset": 479588,
+   "index_count": 270,
+   "colour": [
+    0.7387,
+    0.7246,
+    0.7066
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_purple_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 480668,
+   "vertex_count": 184,
+   "index_offset": 488028,
+   "index_count": 276,
+   "colour": [
+    0.7104,
+    0.6991,
+    0.785
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_purple_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_red_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 489132,
+   "vertex_count": 100,
+   "index_offset": 493132,
+   "index_count": 150,
+   "colour": [
+    0.7859,
+    0.6912,
+    0.6984
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_red_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_yellow_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 493732,
+   "vertex_count": 12,
+   "index_offset": 494212,
+   "index_count": 18,
+   "colour": [
+    0.7855,
+    0.7338,
+    0.6995
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_yellow_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpblock_yellow_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 494284,
+   "vertex_count": 224,
+   "index_offset": 503244,
+   "index_count": 336,
+   "colour": [
+    0.7855,
+    0.7338,
+    0.6995
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpblock_yellow_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_blue_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 504588,
+   "vertex_count": 640,
+   "index_offset": 530188,
+   "index_count": 960,
+   "colour": [
+    0.6516,
+    0.6832,
+    0.8166
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_blue_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_green_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 534028,
+   "vertex_count": 704,
+   "index_offset": 562188,
+   "index_count": 1056,
+   "colour": [
+    0.6621,
+    0.7867,
+    0.6639
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_green_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_multi_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 566412,
+   "vertex_count": 720,
+   "index_offset": 595212,
+   "index_count": 1080,
+   "colour": [
+    0.7544,
+    0.7756,
+    0.7288
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_purple_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 599532,
+   "vertex_count": 736,
+   "index_offset": 628972,
+   "index_count": 1104,
+   "colour": [
+    0.6928,
+    0.6528,
+    0.8169
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_purple_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_red_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 633388,
+   "vertex_count": 472,
+   "index_offset": 652268,
+   "index_count": 708,
+   "colour": [
+    0.8174,
+    0.6457,
+    0.6524
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_red_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_jumpsides_yellow_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 655100,
+   "vertex_count": 896,
+   "index_offset": 690940,
+   "index_count": 1344,
+   "colour": [
+    0.8172,
+    0.7366,
+    0.6529
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_jumpsides_yellow_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_laserthings_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 696316,
+   "vertex_count": 104,
+   "index_offset": 700476,
+   "index_count": 156,
+   "colour": [
+    0.7793,
+    0.7286,
+    0.7251
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_laserthings_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_map_sign_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 701100,
+   "vertex_count": 8,
+   "index_offset": 701420,
+   "index_count": 12,
+   "colour": [
+    0.8654,
+    0.8715,
+    0.8685
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_map_sign_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_mapby_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 701468,
+   "vertex_count": 8,
+   "index_offset": 701788,
+   "index_count": 12,
+   "colour": [
+    0.836,
+    0.8335,
+    0.8419
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_mapby_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_mapbytrail_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 701836,
+   "vertex_count": 4,
+   "index_offset": 701996,
+   "index_count": 6,
+   "colour": [
+    0.3026,
+    0.2734,
+    0.3148
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_mapbytrail_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_mapbytrail_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 702020,
+   "vertex_count": 4,
+   "index_offset": 702180,
+   "index_count": 6,
+   "colour": [
+    0.3026,
+    0.2734,
+    0.3148
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_mapbytrail_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_plain_white_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 702204,
+   "vertex_count": 256,
+   "index_offset": 712444,
+   "index_count": 384,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_plain_white_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_plain_white_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 713980,
+   "vertex_count": 48,
+   "index_offset": 715900,
+   "index_count": 72,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_plain_white_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_plain_white_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 716188,
+   "vertex_count": 64,
+   "index_offset": 718748,
+   "index_count": 96,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_plain_white_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_blueline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 719132,
+   "vertex_count": 623,
+   "index_offset": 744052,
+   "index_count": 1227,
+   "colour": [
+    0.8165,
+    0.8275,
+    0.8721
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_blueline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 748960,
+   "vertex_count": 311,
+   "index_offset": 761400,
+   "index_count": 579,
+   "colour": [
+    0.8566,
+    0.8552,
+    0.8537
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 763716,
+   "vertex_count": 10,
+   "index_offset": 764116,
+   "index_count": 18,
+   "colour": [
+    0.8566,
+    0.8552,
+    0.8537
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_blue_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 764188,
+   "vertex_count": 4,
+   "index_offset": 764348,
+   "index_count": 6,
+   "colour": [
+    0.3931,
+    0.5802,
+    0.9778
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_blue_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_green_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 764372,
+   "vertex_count": 4,
+   "index_offset": 764532,
+   "index_count": 6,
+   "colour": [
+    0.4655,
+    0.9066,
+    0.4627
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_green_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_purple_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 764556,
+   "vertex_count": 4,
+   "index_offset": 764716,
+   "index_count": 6,
+   "colour": [
+    0.5952,
+    0.3894,
+    0.9777
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_purple_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_red_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 764740,
+   "vertex_count": 4,
+   "index_offset": 764900,
+   "index_count": 6,
+   "colour": [
+    0.9809,
+    0.3894,
+    0.4291
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_red_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_clean_yellow_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 764924,
+   "vertex_count": 4,
+   "index_offset": 765084,
+   "index_count": 6,
+   "colour": [
+    0.9806,
+    0.7403,
+    0.3861
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_clean_yellow_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_greenline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 765108,
+   "vertex_count": 616,
+   "index_offset": 789748,
+   "index_count": 1188,
+   "colour": [
+    0.8206,
+    0.8632,
+    0.8177
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_greenline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_multiline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 794500,
+   "vertex_count": 928,
+   "index_offset": 831620,
+   "index_count": 1794,
+   "colour": [
+    0.8445,
+    0.8478,
+    0.8405
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_multiline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_multiline_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 838796,
+   "vertex_count": 11,
+   "index_offset": 839236,
+   "index_count": 15,
+   "colour": [
+    0.8445,
+    0.8478,
+    0.8405
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_multiline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_purpleline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 839296,
+   "vertex_count": 578,
+   "index_offset": 862416,
+   "index_count": 1110,
+   "colour": [
+    0.83,
+    0.815,
+    0.8721
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_purpleline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_redline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 866856,
+   "vertex_count": 872,
+   "index_offset": 901736,
+   "index_count": 1716,
+   "colour": [
+    0.8751,
+    0.815,
+    0.8157
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_redline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_redline_1",
+   "role": "RAMP",
+   "prototype": false,
+   "vertex_offset": 908600,
+   "vertex_count": 34,
+   "index_offset": 909960,
+   "index_count": 54,
+   "colour": [
+    0.8751,
+    0.815,
+    0.8157
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_redline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy2_wall_yellowline_1",
+   "role": "FLOOR",
+   "prototype": false,
+   "vertex_offset": 910176,
+   "vertex_count": 930,
+   "index_offset": 947376,
+   "index_count": 1812,
+   "colour": [
+    0.875,
+    0.8427,
+    0.8134
+   ],
+   "texture": "hammer textures_eazy2_31_eazy2_wall_yellowline_1.png",
+   "translucent": false
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_blue_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 954624,
+   "vertex_count": 108,
+   "index_offset": 958944,
+   "index_count": 174,
+   "colour": [
+    0.0888,
+    0.3717,
+    0.9048
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_blue_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_green_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 959640,
+   "vertex_count": 80,
+   "index_offset": 962840,
+   "index_count": 126,
+   "colour": [
+    0.1863,
+    0.9468,
+    0.0751
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_green_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_multi_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 963344,
+   "vertex_count": 172,
+   "index_offset": 970224,
+   "index_count": 300,
+   "colour": [
+    0.691,
+    0.701,
+    0.6964
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_multi_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_purple_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 971424,
+   "vertex_count": 108,
+   "index_offset": 975744,
+   "index_count": 174,
+   "colour": [
+    0.5219,
+    0.0751,
+    0.9468
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_purple_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_red_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 976440,
+   "vertex_count": 120,
+   "index_offset": 981240,
+   "index_count": 210,
+   "colour": [
+    0.8434,
+    0.0888,
+    0.0888
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_red_1.png",
+   "translucent": true
+  },
+  {
+   "material": "hammer textures/eazy2/31_eazy_web_yellow_1",
+   "role": "PLATFORM",
+   "prototype": false,
+   "vertex_offset": 982080,
+   "vertex_count": 148,
+   "index_offset": 988000,
+   "index_count": 252,
+   "colour": [
+    0.9468,
+    0.801,
+    0.0751
+   ],
+   "texture": "hammer textures_eazy2_31_eazy_web_yellow_1.png",
+   "translucent": true
+  }
+ ],
+ "collision": {
+  "hull_count": 828,
+  "hull_offset": 989008,
+  "displacement_vertex_offset": 1072744,
+  "displacement_vertex_count": 0,
+  "displacement_index_offset": 1072744,
+  "displacement_index_count": 0,
+  "playerclip_hulls": 16,
+  "prop_hulls": 0
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 0,
+  "drawn": 0,
+  "stock_models": 0,
+  "surfaces": 0,
+  "tinted": 0,
+  "open_sky_lit": 0
+ },
+ "brush_entities": {
+  "solid": 285,
+  "faces_drawn": 2170
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   -256,
+   90.0,
+   0
+  ],
+  "yaw": -90.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    -256.0,
+    92.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    92.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    92.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    92.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    92.0,
+    128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -192.0,
+    78.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -192.0,
+    78.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -192.0,
+    78.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -126.0,
+    66.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -126.0,
+    66.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -126.0,
+    66.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -126.0,
+    66.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -126.0,
+    66.0,
+    128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -192.0,
+    78.0,
+    128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -192.0,
+    78.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -320.0,
+    104.0,
+    128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -320.0,
+    104.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -320.0,
+    104.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -320.0,
+    104.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -320.0,
+    104.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    114.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    114.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    114.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    114.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    114.0,
+    128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    114.0,
+    -128.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    114.0,
+    -64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    114.0,
+    -0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    114.0,
+    64.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -448.0,
+    114.0,
+    128.0
+   ],
+   "yaw": -90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "START",
+   "track": 0,
+   "min": [
+    -480,
+    29.0,
+    -160
+   ],
+   "max": [
+    -96,
+    221.0,
+    160
+   ],
+   "inflated": true,
+   "comment": "the spawn room: all 30 info_player_* stand in it (x -448..-126, y -128..128, z 66..114)"
+  },
+  {
+   "kind": "SPAWN",
+   "track": 0,
+   "destination": [
+    -256,
+    90.0,
+    0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the middle of the spawn room the info_players fill, facing +x toward blue (to_blue at 128 0 is the first block, past the room)"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 2.0,
+   "min": [
+    2272.0,
+    -40.0,
+    -96.0
+   ],
+   "max": [
+    2464.0,
+    152.0,
+    96.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the arrival of blue's gate at (-12 1248)"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 3.0,
+   "min": [
+    32.0,
+    -40.0,
+    -1984.0
+   ],
+   "max": [
+    224.0,
+    152.0,
+    -1792.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the arrival of green's gate at (2228 1248)"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 4.0,
+   "min": [
+    2272.0,
+    -40.0,
+    -1984.0
+   ],
+   "max": [
+    2464.0,
+    152.0,
+    -1792.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the arrival of purple's gate at (-12 3136)"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 5.0,
+   "min": [
+    4512.0,
+    -40.0,
+    -96.0
+   ],
+   "max": [
+    4704.0,
+    152.0,
+    96.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the arrival of yellow's gate at (2228 3136)"
+  },
+  {
+   "kind": "END",
+   "track": 0,
+   "min": [
+    4672.0,
+    -40.0,
+    -2088.0
+   ],
+   "max": [
+    4864.0,
+    152.0,
+    -1896.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0,
+   "comment": "the arrival of red's gate (4468 1248): the hub room, to_end"
+  },
+  {
+   "kind": "STAGE",
+   "track": 0,
+   "number": 1.0,
+   "min": [
+    -480,
+    29.0,
+    -160
+   ],
+   "max": [
+    -96,
+    221.0,
+    160
+   ],
+   "inflated": true,
+   "destination": [
+    -288.0,
+    74.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0,
+   "comment": "the start line is stage 1"
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -108.0,
+    -16.0,
+    -1344.0
+   ],
+   "max": [
+    84.0,
+    176.0,
+    -1152.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2132.0,
+    -16.0,
+    -1344.0
+   ],
+   "max": [
+    2324.0,
+    176.0,
+    -1152.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -108.0,
+    -16.0,
+    -3232.0
+   ],
+   "max": [
+    84.0,
+    176.0,
+    -3040.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4000.0,
+    -176.0,
+    -2192.0
+   ],
+   "max": [
+    4192.0,
+    16.0,
+    -2000.0
+   ],
+   "inflated": true,
+   "destination": [
+    -960.0,
+    1784.0,
+    -2240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1056.0,
+    1576.0,
+    -2336.0
+   ],
+   "max": [
+    -864.0,
+    1768.0,
+    -2144.0
+   ],
+   "inflated": true,
+   "destination": [
+    4096.0,
+    80.0,
+    -2096.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2132.0,
+    -16.0,
+    -3232.0
+   ],
+   "max": [
+    2324.0,
+    176.0,
+    -3040.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -544.0,
+    -112.0,
+    -1472.0
+   ],
+   "max": [
+    -32.0,
+    80.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5472.0,
+    -444.0,
+    -2256.0
+   ],
+   "max": [
+    5792.0,
+    -252.0,
+    -1728.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6048.0,
+    -444.0,
+    -2256.0
+   ],
+   "max": [
+    6368.0,
+    -252.0,
+    -1728.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6400.0,
+    -544.0,
+    -2088.0
+   ],
+   "max": [
+    6592.0,
+    -352.0,
+    -1896.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4372.0,
+    -16.0,
+    -1344.0
+   ],
+   "max": [
+    4564.0,
+    176.0,
+    -1152.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4404.0,
+    -16.0,
+    -1912.0
+   ],
+   "max": [
+    4596.0,
+    176.0,
+    -1720.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    240.0,
+    -208.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4404.0,
+    -16.0,
+    -2088.0
+   ],
+   "max": [
+    4596.0,
+    176.0,
+    -1896.0
+   ],
+   "inflated": true,
+   "destination": [
+    2240.0,
+    240.0,
+    -208.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4404.0,
+    -16.0,
+    -2264.0
+   ],
+   "max": [
+    4596.0,
+    176.0,
+    -2072.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    240.0,
+    -2096.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4504.0,
+    -16.0,
+    -2364.0
+   ],
+   "max": [
+    4696.0,
+    176.0,
+    -2172.0
+   ],
+   "inflated": true,
+   "destination": [
+    2240.0,
+    240.0,
+    -2096.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4680.0,
+    -16.0,
+    -2364.0
+   ],
+   "max": [
+    4872.0,
+    176.0,
+    -2172.0
+   ],
+   "inflated": true,
+   "destination": [
+    4480.0,
+    240.0,
+    -208.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -112.0,
+    240.0,
+    -1552.0
+   ],
+   "max": [
+    80.0,
+    432.0,
+    -1360.0
+   ],
+   "inflated": true,
+   "destination": [
+    2240.0,
+    240.0,
+    -208.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2128.0,
+    240.0,
+    -1552.0
+   ],
+   "max": [
+    2320.0,
+    432.0,
+    -1360.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    240.0,
+    -2096.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -112.0,
+    240.0,
+    -3440.0
+   ],
+   "max": [
+    80.0,
+    432.0,
+    -3248.0
+   ],
+   "inflated": true,
+   "destination": [
+    2240.0,
+    240.0,
+    -2096.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2128.0,
+    240.0,
+    -3440.0
+   ],
+   "max": [
+    2320.0,
+    432.0,
+    -3248.0
+   ],
+   "inflated": true,
+   "destination": [
+    4480.0,
+    240.0,
+    -208.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4372.0,
+    -16.0,
+    -4032.0
+   ],
+   "max": [
+    4564.0,
+    176.0,
+    -3840.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4372.0,
+    -16.0,
+    -2784.0
+   ],
+   "max": [
+    4564.0,
+    176.0,
+    -2592.0
+   ],
+   "inflated": true,
+   "destination": [
+    4768.0,
+    80.0,
+    -1992.0
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4856.0,
+    -16.0,
+    -2364.0
+   ],
+   "max": [
+    5048.0,
+    176.0,
+    -2172.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4480.0,
+    -152.0,
+    -4128.0
+   ],
+   "max": [
+    6464.0,
+    40.0,
+    -2496.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5312.0,
+    -23.5,
+    -2816.0
+   ],
+   "max": [
+    5504.0,
+    168.5,
+    -2560.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4640.0,
+    -119.0,
+    -3200.0
+   ],
+   "max": [
+    4832.0,
+    73.0,
+    -3008.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5280.0,
+    -32.0,
+    -3200.0
+   ],
+   "max": [
+    5472.0,
+    160.0,
+    -3008.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5408.0,
+    -56.0,
+    -3136.0
+   ],
+   "max": [
+    5600.0,
+    136.0,
+    -2944.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5536.0,
+    -80.0,
+    -3200.0
+   ],
+   "max": [
+    5728.0,
+    112.0,
+    -3008.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5664.0,
+    -104.0,
+    -3264.0
+   ],
+   "max": [
+    5856.0,
+    88.0,
+    -3072.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5792.0,
+    -128.0,
+    -3200.0
+   ],
+   "max": [
+    5984.0,
+    64.0,
+    -3008.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4832.0,
+    -128.0,
+    -3616.0
+   ],
+   "max": [
+    5024.0,
+    64.0,
+    -3424.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4960.0,
+    -104.0,
+    -3616.0
+   ],
+   "max": [
+    5152.0,
+    88.0,
+    -3424.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5088.0,
+    -80.0,
+    -3616.0
+   ],
+   "max": [
+    5280.0,
+    112.0,
+    -3424.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5216.0,
+    -56.0,
+    -3616.0
+   ],
+   "max": [
+    5408.0,
+    136.0,
+    -3424.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5344.0,
+    -32.0,
+    -3616.0
+   ],
+   "max": [
+    5536.0,
+    160.0,
+    -3424.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5593.0,
+    92.999989087225,
+    -3617.0
+   ],
+   "max": [
+    6037.0,
+    284.999989087225,
+    -3425.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -2688.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    480.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    736.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    1056.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    608.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1312.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    1184.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    1856.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    768.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    1152.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    1280.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    512.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    640.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    672.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    928.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    800.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1408.0,
+    -152.0,
+    -1440.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -1056.0
+   ],
+   "inflated": true,
+   "destination": [
+    1856.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -1440.0
+   ],
+   "max": [
+    1152.0,
+    40.0,
+    -1056.0
+   ],
+   "inflated": true,
+   "destination": [
+    1280.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -2080.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -1696.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -2496.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -2112.0
+   ],
+   "inflated": true,
+   "destination": [
+    1856.0,
+    80.0,
+    -2304.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -2912.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -2528.0
+   ],
+   "inflated": true,
+   "destination": [
+    128.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    256.0,
+    -152.0,
+    -3328.0
+   ],
+   "max": [
+    1728.0,
+    40.0,
+    -2944.0
+   ],
+   "inflated": true,
+   "destination": [
+    1856.0,
+    80.0,
+    -3136.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    2976.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3232.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    3104.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3232.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    4096.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    2976.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    3104.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    3264.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3520.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    3392.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -1440.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    -1056.0
+   ],
+   "inflated": true,
+   "destination": [
+    4096.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -2496.0
+   ],
+   "max": [
+    4016.0,
+    40.0,
+    -1696.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3960.0,
+    -152.0,
+    -2496.0
+   ],
+   "max": [
+    4152.0,
+    40.0,
+    -2296.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4064.0,
+    -152.0,
+    -2496.0
+   ],
+   "max": [
+    4256.0,
+    40.0,
+    -2296.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4064.0,
+    -76.0,
+    -1896.0
+   ],
+   "max": [
+    4256.0,
+    116.0,
+    -1696.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3960.0,
+    -152.0,
+    -1896.0
+   ],
+   "max": [
+    4152.0,
+    40.0,
+    -1696.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -1888.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -2912.0
+   ],
+   "max": [
+    2816.0,
+    40.0,
+    -2528.0
+   ],
+   "inflated": true,
+   "destination": [
+    2368.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3072.0,
+    -152.0,
+    -2912.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    -2528.0
+   ],
+   "inflated": true,
+   "destination": [
+    2944.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3200.0,
+    -136.0,
+    -2816.0
+   ],
+   "max": [
+    3392.0,
+    56.0,
+    -2624.0
+   ],
+   "inflated": true,
+   "destination": [
+    2944.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3328.0,
+    -120.0,
+    -2816.0
+   ],
+   "max": [
+    3520.0,
+    72.0,
+    -2624.0
+   ],
+   "inflated": true,
+   "destination": [
+    2944.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3456.0,
+    -136.0,
+    -2816.0
+   ],
+   "max": [
+    3648.0,
+    56.0,
+    -2624.0
+   ],
+   "inflated": true,
+   "destination": [
+    2944.0,
+    80.0,
+    -2720.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3392.0,
+    -152.0,
+    -3328.0
+   ],
+   "max": [
+    3968.0,
+    40.0,
+    -2944.0
+   ],
+   "inflated": true,
+   "destination": [
+    4096.0,
+    80.0,
+    -3136.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2496.0,
+    -152.0,
+    -3328.0
+   ],
+   "max": [
+    3136.0,
+    40.0,
+    -2944.0
+   ],
+   "inflated": true,
+   "destination": [
+    3264.0,
+    80.0,
+    -3136.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4736.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    5632.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5888.0,
+    -152.0,
+    -192.0
+   ],
+   "max": [
+    6208.0,
+    40.0,
+    192.0
+   ],
+   "inflated": true,
+   "destination": [
+    5760.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5760.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    6208.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    6336.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4736.0,
+    -152.0,
+    -608.0
+   ],
+   "max": [
+    5504.0,
+    40.0,
+    -224.0
+   ],
+   "inflated": true,
+   "destination": [
+    5632.0,
+    80.0,
+    -416.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4736.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    5088.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4816.0,
+    -119.0,
+    -928.0
+   ],
+   "max": [
+    5008.0,
+    73.0,
+    -736.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5344.0,
+    -152.0,
+    -1024.0
+   ],
+   "max": [
+    6208.0,
+    40.0,
+    -640.0
+   ],
+   "inflated": true,
+   "destination": [
+    5216.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5600.0,
+    -23.5,
+    -960.0
+   ],
+   "max": [
+    5792.0,
+    168.5,
+    -704.0
+   ],
+   "inflated": true,
+   "destination": [
+    5216.0,
+    80.0,
+    -832.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5632.0,
+    -152.0,
+    -1440.0
+   ],
+   "max": [
+    6208.0,
+    40.0,
+    -1056.0
+   ],
+   "inflated": true,
+   "destination": [
+    6336.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5760.0,
+    -23.5,
+    -1344.0
+   ],
+   "max": [
+    6080.0,
+    168.5,
+    -1152.0
+   ],
+   "inflated": true,
+   "destination": [
+    6336.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4736.0,
+    -152.0,
+    -1440.0
+   ],
+   "max": [
+    5376.0,
+    40.0,
+    -1056.0
+   ],
+   "inflated": true,
+   "destination": [
+    5504.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5104.0,
+    -119.0,
+    -1408.0
+   ],
+   "max": [
+    5296.0,
+    73.0,
+    -1216.0
+   ],
+   "inflated": true,
+   "destination": [
+    5504.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    4816.0,
+    -119.0,
+    -1280.0
+   ],
+   "max": [
+    5008.0,
+    73.0,
+    -1088.0
+   ],
+   "inflated": true,
+   "destination": [
+    5504.0,
+    80.0,
+    -1248.0
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    5056.0,
+    57.0,
+    -96.0
+   ],
+   "max": [
+    5432.0,
+    249.0,
+    96.0
+   ],
+   "inflated": true,
+   "destination": [
+    4608.0,
+    80.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    -108.0,
+    1152.0,
+    -16.0
+   ],
+   "max": [
+    84.0,
+    1344.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -16.0,
+    1192.0,
+    48.0
+   ],
+   "original_max": [
+    -8.0,
+    1304.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    2132.0,
+    1152.0,
+    -16.0
+   ],
+   "max": [
+    2324.0,
+    1344.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2224.0,
+    1192.0,
+    48.0
+   ],
+   "original_max": [
+    2232.0,
+    1304.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    -108.0,
+    3040.0,
+    -16.0
+   ],
+   "max": [
+    84.0,
+    3232.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -16.0,
+    3080.0,
+    48.0
+   ],
+   "original_max": [
+    -8.0,
+    3192.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4000.0,
+    2000.0,
+    -176.0
+   ],
+   "max": [
+    4192.0,
+    2192.0,
+    16.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4048.0,
+    2048.0,
+    0.0
+   ],
+   "original_max": [
+    4144.0,
+    2144.0,
+    16.0
+   ]
+  },
+  {
+   "min": [
+    -1056.0,
+    2144.0,
+    1576.0
+   ],
+   "max": [
+    -864.0,
+    2336.0,
+    1768.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -1024.0,
+    2176.0,
+    1664.0
+   ],
+   "original_max": [
+    -896.0,
+    2304.0,
+    1680.0
+   ]
+  },
+  {
+   "min": [
+    2132.0,
+    3040.0,
+    -16.0
+   ],
+   "max": [
+    2324.0,
+    3232.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2224.0,
+    3080.0,
+    48.0
+   ],
+   "original_max": [
+    2232.0,
+    3192.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    -544.0,
+    224.0,
+    -112.0
+   ],
+   "max": [
+    -32.0,
+    1472.0,
+    80.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -544.0,
+    224.0,
+    -32.0
+   ],
+   "original_max": [
+    -32.0,
+    1472.0,
+    0.0
+   ]
+  },
+  {
+   "min": [
+    5472.0,
+    1728.0,
+    -444.0
+   ],
+   "max": [
+    5792.0,
+    2256.0,
+    -252.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5472.0,
+    1728.0,
+    -368.0
+   ],
+   "original_max": [
+    5792.0,
+    2256.0,
+    -328.0
+   ]
+  },
+  {
+   "min": [
+    6048.0,
+    1728.0,
+    -444.0
+   ],
+   "max": [
+    6368.0,
+    2256.0,
+    -252.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6048.0,
+    1728.0,
+    -368.0
+   ],
+   "original_max": [
+    6368.0,
+    2256.0,
+    -328.0
+   ]
+  },
+  {
+   "min": [
+    6400.0,
+    1896.0,
+    -544.0
+   ],
+   "max": [
+    6592.0,
+    2088.0,
+    -352.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    6456.0,
+    1952.0,
+    -368.0
+   ],
+   "original_max": [
+    6536.0,
+    2032.0,
+    -352.0
+   ]
+  },
+  {
+   "min": [
+    4372.0,
+    1152.0,
+    -16.0
+   ],
+   "max": [
+    4564.0,
+    1344.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4464.0,
+    1192.0,
+    48.0
+   ],
+   "original_max": [
+    4472.0,
+    1304.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4404.0,
+    1720.0,
+    -16.0
+   ],
+   "max": [
+    4596.0,
+    1912.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4496.0,
+    1768.0,
+    48.0
+   ],
+   "original_max": [
+    4504.0,
+    1864.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4404.0,
+    1896.0,
+    -16.0
+   ],
+   "max": [
+    4596.0,
+    2088.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4496.0,
+    1944.0,
+    48.0
+   ],
+   "original_max": [
+    4504.0,
+    2040.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4404.0,
+    2072.0,
+    -16.0
+   ],
+   "max": [
+    4596.0,
+    2264.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4496.0,
+    2120.0,
+    48.0
+   ],
+   "original_max": [
+    4504.0,
+    2216.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4504.0,
+    2172.0,
+    -16.0
+   ],
+   "max": [
+    4696.0,
+    2364.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4552.0,
+    2264.0,
+    48.0
+   ],
+   "original_max": [
+    4648.0,
+    2272.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4680.0,
+    2172.0,
+    -16.0
+   ],
+   "max": [
+    4872.0,
+    2364.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4728.0,
+    2264.0,
+    48.0
+   ],
+   "original_max": [
+    4824.0,
+    2272.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    -112.0,
+    1360.0,
+    240.0
+   ],
+   "max": [
+    80.0,
+    1552.0,
+    432.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -24.0,
+    1448.0,
+    320.0
+   ],
+   "original_max": [
+    -8.0,
+    1464.0,
+    352.0
+   ]
+  },
+  {
+   "min": [
+    2128.0,
+    1360.0,
+    240.0
+   ],
+   "max": [
+    2320.0,
+    1552.0,
+    432.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2216.0,
+    1448.0,
+    320.0
+   ],
+   "original_max": [
+    2232.0,
+    1464.0,
+    352.0
+   ]
+  },
+  {
+   "min": [
+    -112.0,
+    3248.0,
+    240.0
+   ],
+   "max": [
+    80.0,
+    3440.0,
+    432.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -24.0,
+    3336.0,
+    320.0
+   ],
+   "original_max": [
+    -8.0,
+    3352.0,
+    352.0
+   ]
+  },
+  {
+   "min": [
+    2128.0,
+    3248.0,
+    240.0
+   ],
+   "max": [
+    2320.0,
+    3440.0,
+    432.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2216.0,
+    3336.0,
+    320.0
+   ],
+   "original_max": [
+    2232.0,
+    3352.0,
+    352.0
+   ]
+  },
+  {
+   "min": [
+    4372.0,
+    3840.0,
+    -16.0
+   ],
+   "max": [
+    4564.0,
+    4032.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4464.0,
+    3880.0,
+    48.0
+   ],
+   "original_max": [
+    4472.0,
+    3992.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4372.0,
+    2592.0,
+    -16.0
+   ],
+   "max": [
+    4564.0,
+    2784.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4464.0,
+    2632.0,
+    48.0
+   ],
+   "original_max": [
+    4472.0,
+    2744.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4856.0,
+    2172.0,
+    -16.0
+   ],
+   "max": [
+    5048.0,
+    2364.0,
+    176.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4904.0,
+    2264.0,
+    48.0
+   ],
+   "original_max": [
+    5000.0,
+    2272.0,
+    176.0
+   ]
+  },
+  {
+   "min": [
+    4480.0,
+    2496.0,
+    -152.0
+   ],
+   "max": [
+    6464.0,
+    4128.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4480.0,
+    2496.0,
+    0.0
+   ],
+   "original_max": [
+    6464.0,
+    4128.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5312.0,
+    2560.0,
+    -23.5
+   ],
+   "max": [
+    5504.0,
+    2816.0,
+    168.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5392.0,
+    2560.0,
+    72.0
+   ],
+   "original_max": [
+    5424.0,
+    2816.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    4640.0,
+    3008.0,
+    -119.0
+   ],
+   "max": [
+    4832.0,
+    3200.0,
+    73.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4728.0,
+    3080.0,
+    72.0
+   ],
+   "original_max": [
+    4744.0,
+    3128.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    5280.0,
+    3008.0,
+    -32.0
+   ],
+   "max": [
+    5472.0,
+    3200.0,
+    160.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5344.0,
+    3072.0,
+    152.0
+   ],
+   "original_max": [
+    5408.0,
+    3136.0,
+    160.0
+   ]
+  },
+  {
+   "min": [
+    5408.0,
+    2944.0,
+    -56.0
+   ],
+   "max": [
+    5600.0,
+    3136.0,
+    136.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5472.0,
+    3008.0,
+    128.0
+   ],
+   "original_max": [
+    5536.0,
+    3072.0,
+    136.0
+   ]
+  },
+  {
+   "min": [
+    5536.0,
+    3008.0,
+    -80.0
+   ],
+   "max": [
+    5728.0,
+    3200.0,
+    112.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5600.0,
+    3072.0,
+    104.0
+   ],
+   "original_max": [
+    5664.0,
+    3136.0,
+    112.0
+   ]
+  },
+  {
+   "min": [
+    5664.0,
+    3072.0,
+    -104.0
+   ],
+   "max": [
+    5856.0,
+    3264.0,
+    88.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5728.0,
+    3136.0,
+    80.0
+   ],
+   "original_max": [
+    5792.0,
+    3200.0,
+    88.0
+   ]
+  },
+  {
+   "min": [
+    5792.0,
+    3008.0,
+    -128.0
+   ],
+   "max": [
+    5984.0,
+    3200.0,
+    64.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5856.0,
+    3072.0,
+    56.0
+   ],
+   "original_max": [
+    5920.0,
+    3136.0,
+    64.0
+   ]
+  },
+  {
+   "min": [
+    4832.0,
+    3424.0,
+    -128.0
+   ],
+   "max": [
+    5024.0,
+    3616.0,
+    64.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4896.0,
+    3488.0,
+    56.0
+   ],
+   "original_max": [
+    4960.0,
+    3552.0,
+    64.0
+   ]
+  },
+  {
+   "min": [
+    4960.0,
+    3424.0,
+    -104.0
+   ],
+   "max": [
+    5152.0,
+    3616.0,
+    88.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5024.0,
+    3488.0,
+    80.0
+   ],
+   "original_max": [
+    5088.0,
+    3552.0,
+    88.0
+   ]
+  },
+  {
+   "min": [
+    5088.0,
+    3424.0,
+    -80.0
+   ],
+   "max": [
+    5280.0,
+    3616.0,
+    112.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5152.0,
+    3488.0,
+    104.0
+   ],
+   "original_max": [
+    5216.0,
+    3552.0,
+    112.0
+   ]
+  },
+  {
+   "min": [
+    5216.0,
+    3424.0,
+    -56.0
+   ],
+   "max": [
+    5408.0,
+    3616.0,
+    136.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5280.0,
+    3488.0,
+    128.0
+   ],
+   "original_max": [
+    5344.0,
+    3552.0,
+    136.0
+   ]
+  },
+  {
+   "min": [
+    5344.0,
+    3424.0,
+    -32.0
+   ],
+   "max": [
+    5536.0,
+    3616.0,
+    160.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5408.0,
+    3488.0,
+    152.0
+   ],
+   "original_max": [
+    5472.0,
+    3552.0,
+    160.0
+   ]
+  },
+  {
+   "min": [
+    5593.0,
+    3425.0,
+    92.999989087225
+   ],
+   "max": [
+    6037.0,
+    3617.0,
+    284.999989087225
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5593.0,
+    3520.0,
+    169.0874251917873
+   ],
+   "original_max": [
+    6037.0,
+    3522.0,
+    208.91255298266267
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    480.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    480.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    736.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    1056.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    736.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    1056.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    1312.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1312.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    768.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    1152.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    768.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    1152.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    512.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    512.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    672.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    672.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    928.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    928.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    1408.0,
+    1056.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    1440.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    1408.0,
+    1056.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    1440.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    1056.0,
+    -152.0
+   ],
+   "max": [
+    1152.0,
+    1440.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    1056.0,
+    0.0
+   ],
+   "original_max": [
+    1152.0,
+    1440.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    1696.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    2080.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    1696.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    2080.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    2112.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    2496.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    2112.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    2496.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    2528.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    2912.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    2528.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    2912.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    256.0,
+    2944.0,
+    -152.0
+   ],
+   "max": [
+    1728.0,
+    3328.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    256.0,
+    2944.0,
+    0.0
+   ],
+   "original_max": [
+    1728.0,
+    3328.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    2976.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    2976.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3232.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3232.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3232.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3232.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    2976.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    2976.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    3264.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    3264.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3520.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3520.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    1056.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    1440.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    1056.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    1440.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    1696.0,
+    -152.0
+   ],
+   "max": [
+    4016.0,
+    2496.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    1696.0,
+    0.0
+   ],
+   "original_max": [
+    4016.0,
+    2496.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3960.0,
+    2296.0,
+    -152.0
+   ],
+   "max": [
+    4152.0,
+    2496.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4017.0,
+    2296.0,
+    -0.0
+   ],
+   "original_max": [
+    4095.0,
+    2496.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4064.0,
+    2296.0,
+    -152.0
+   ],
+   "max": [
+    4256.0,
+    2496.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4097.0,
+    2296.0,
+    -0.0
+   ],
+   "original_max": [
+    4223.0,
+    2496.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4064.0,
+    1696.0,
+    -76.0
+   ],
+   "max": [
+    4256.0,
+    1896.0,
+    116.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4097.0,
+    1696.0,
+    -0.0
+   ],
+   "original_max": [
+    4223.0,
+    1896.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3960.0,
+    1696.0,
+    -152.0
+   ],
+   "max": [
+    4152.0,
+    1896.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4017.0,
+    1696.0,
+    -0.0
+   ],
+   "original_max": [
+    4095.0,
+    1896.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    2528.0,
+    -152.0
+   ],
+   "max": [
+    2816.0,
+    2912.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    2528.0,
+    0.0
+   ],
+   "original_max": [
+    2816.0,
+    2912.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3072.0,
+    2528.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    2912.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3072.0,
+    2528.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    2912.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    3200.0,
+    2624.0,
+    -136.0
+   ],
+   "max": [
+    3392.0,
+    2816.0,
+    56.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3264.0,
+    2688.0,
+    48.0
+   ],
+   "original_max": [
+    3328.0,
+    2752.0,
+    56.0
+   ]
+  },
+  {
+   "min": [
+    3328.0,
+    2624.0,
+    -120.0
+   ],
+   "max": [
+    3520.0,
+    2816.0,
+    72.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3392.0,
+    2688.0,
+    64.0
+   ],
+   "original_max": [
+    3456.0,
+    2752.0,
+    72.0
+   ]
+  },
+  {
+   "min": [
+    3456.0,
+    2624.0,
+    -136.0
+   ],
+   "max": [
+    3648.0,
+    2816.0,
+    56.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3520.0,
+    2688.0,
+    48.0
+   ],
+   "original_max": [
+    3584.0,
+    2752.0,
+    56.0
+   ]
+  },
+  {
+   "min": [
+    3392.0,
+    2944.0,
+    -152.0
+   ],
+   "max": [
+    3968.0,
+    3328.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    3392.0,
+    2944.0,
+    0.0
+   ],
+   "original_max": [
+    3968.0,
+    3328.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    2496.0,
+    2944.0,
+    -152.0
+   ],
+   "max": [
+    3136.0,
+    3328.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    2496.0,
+    2944.0,
+    0.0
+   ],
+   "original_max": [
+    3136.0,
+    3328.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4736.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    5632.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4736.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    5632.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5888.0,
+    -192.0,
+    -152.0
+   ],
+   "max": [
+    6208.0,
+    192.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5888.0,
+    -192.0,
+    0.0
+   ],
+   "original_max": [
+    6208.0,
+    192.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5760.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    6208.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5760.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    6208.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4736.0,
+    224.0,
+    -152.0
+   ],
+   "max": [
+    5504.0,
+    608.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4736.0,
+    224.0,
+    0.0
+   ],
+   "original_max": [
+    5504.0,
+    608.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4736.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    5088.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4736.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    5088.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    4816.0,
+    736.0,
+    -119.0
+   ],
+   "max": [
+    5008.0,
+    928.0,
+    73.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4904.0,
+    808.0,
+    72.0
+   ],
+   "original_max": [
+    4920.0,
+    856.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    5344.0,
+    640.0,
+    -152.0
+   ],
+   "max": [
+    6208.0,
+    1024.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5344.0,
+    640.0,
+    0.0
+   ],
+   "original_max": [
+    6208.0,
+    1024.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5600.0,
+    704.0,
+    -23.5
+   ],
+   "max": [
+    5792.0,
+    960.0,
+    168.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5680.0,
+    704.0,
+    72.0
+   ],
+   "original_max": [
+    5712.0,
+    960.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    5632.0,
+    1056.0,
+    -152.0
+   ],
+   "max": [
+    6208.0,
+    1440.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5632.0,
+    1056.0,
+    0.0
+   ],
+   "original_max": [
+    6208.0,
+    1440.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5760.0,
+    1152.0,
+    -23.5
+   ],
+   "max": [
+    6080.0,
+    1344.0,
+    168.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5760.0,
+    1240.0,
+    72.0
+   ],
+   "original_max": [
+    6080.0,
+    1256.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    4736.0,
+    1056.0,
+    -152.0
+   ],
+   "max": [
+    5376.0,
+    1440.0,
+    40.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4736.0,
+    1056.0,
+    0.0
+   ],
+   "original_max": [
+    5376.0,
+    1440.0,
+    40.0
+   ]
+  },
+  {
+   "min": [
+    5104.0,
+    1216.0,
+    -119.0
+   ],
+   "max": [
+    5296.0,
+    1408.0,
+    73.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5192.0,
+    1288.0,
+    72.0
+   ],
+   "original_max": [
+    5208.0,
+    1336.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    4816.0,
+    1088.0,
+    -119.0
+   ],
+   "max": [
+    5008.0,
+    1280.0,
+    73.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    4904.0,
+    1160.0,
+    72.0
+   ],
+   "original_max": [
+    4920.0,
+    1208.0,
+    73.0
+   ]
+  },
+  {
+   "min": [
+    5056.0,
+    -96.0,
+    57.0
+   ],
+   "max": [
+    5432.0,
+    96.0,
+    249.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    5056.0,
+    -1.0,
+    152.0
+   ],
+   "original_max": [
+    5432.0,
+    1.0,
+    154.0
+   ]
+  }
+ ],
+ "mechanics": {
+  "water": [],
+  "push": [],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [
+   {
+    "min": [
+     -424.0,
+     -0.0,
+     -24.0
+    ],
+    "max": [
+     -400.0,
+     88.0,
+     -0.0
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "min": [
+     288.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     352.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     384.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     448.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     768.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     832.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     864.0,
+     40.0,
+     -64.0
+    ],
+    "max": [
+     928.0,
+     48.0,
+     -0.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     960.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     1024.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1344.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     1408.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1184.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1440.0,
+     40.0,
+     -0.0
+    ],
+    "max": [
+     1504.0,
+     48.0,
+     64.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1184.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1184.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1632.0,
+     40.0,
+     -0.0
+    ],
+    "max": [
+     1696.0,
+     48.0,
+     64.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1184.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1632.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     1696.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -512.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -448.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1440.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     1504.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1056.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     1120.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     960.0,
+     40.0,
+     -496.0
+    ],
+    "max": [
+     1024.0,
+     48.0,
+     -432.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     896.0,
+     40.0,
+     -400.0
+    ],
+    "max": [
+     960.0,
+     48.0,
+     -336.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     800.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     864.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     400.0,
+     40.0,
+     -400.0
+    ],
+    "max": [
+     464.0,
+     48.0,
+     -336.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     640.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     304.0,
+     40.0,
+     -496.0
+    ],
+    "max": [
+     368.0,
+     48.0,
+     -432.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     640.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -384.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -320.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     288.0,
+     40.0,
+     -800.0
+    ],
+    "max": [
+     352.0,
+     48.0,
+     -736.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     288.0,
+     40.0,
+     -928.0
+    ],
+    "max": [
+     352.0,
+     48.0,
+     -864.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     384.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     448.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     480.0,
+     40.0,
+     -928.0
+    ],
+    "max": [
+     544.0,
+     48.0,
+     -864.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     480.0,
+     40.0,
+     -800.0
+    ],
+    "max": [
+     544.0,
+     48.0,
+     -736.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     576.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     640.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     960.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     1024.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1056.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     1120.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1152.0,
+     40.0,
+     -800.0
+    ],
+    "max": [
+     1216.0,
+     48.0,
+     -736.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1440.0,
+     40.0,
+     -928.0
+    ],
+    "max": [
+     1504.0,
+     48.0,
+     -864.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -896.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -832.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1632.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     1696.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     800.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1632.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     1696.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -1376.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -1312.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1440.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     1504.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -1184.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -1120.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1040.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     1104.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     944.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     1008.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     848.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     912.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     752.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     816.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     656.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     720.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1280.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2528.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     2592.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2656.0,
+     40.0,
+     -64.0
+    ],
+    "max": [
+     2720.0,
+     48.0,
+     -0.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2752.0,
+     40.0,
+     -0.0
+    ],
+    "max": [
+     2816.0,
+     48.0,
+     64.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2880.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     2944.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3376.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     3440.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3472.0,
+     40.0,
+     -96.0
+    ],
+    "max": [
+     3536.0,
+     48.0,
+     -32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3568.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     3632.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3664.0,
+     40.0,
+     32.0
+    ],
+    "max": [
+     3728.0,
+     48.0,
+     96.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3760.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     3824.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3856.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     3920.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3280.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     3344.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -512.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -448.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -384.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -320.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3712.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     3776.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3616.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     3680.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3520.0,
+     40.0,
+     -512.0
+    ],
+    "max": [
+     3584.0,
+     48.0,
+     -448.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3520.0,
+     40.0,
+     -384.0
+    ],
+    "max": [
+     3584.0,
+     48.0,
+     -320.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3424.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     3488.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3296.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     3360.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2848.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     2912.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2752.0,
+     40.0,
+     -512.0
+    ],
+    "max": [
+     2816.0,
+     48.0,
+     -448.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2656.0,
+     40.0,
+     -384.0
+    ],
+    "max": [
+     2720.0,
+     48.0,
+     -320.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3104.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2656.0,
+     40.0,
+     -896.0
+    ],
+    "max": [
+     2720.0,
+     48.0,
+     -832.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2784.0,
+     40.0,
+     -896.0
+    ],
+    "max": [
+     2848.0,
+     48.0,
+     -832.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2912.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     2976.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3040.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     3104.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3136.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     3200.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3584.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     3648.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3392.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3712.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     3776.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3392.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3392.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3776.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     3840.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3680.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     3744.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3584.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     3648.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3488.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     3552.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3392.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     3456.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3296.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     3360.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3872.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     3936.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2992.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     3056.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2896.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     2960.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2768.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     2832.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2640.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     2704.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2544.0,
+     40.0,
+     -1280.0
+    ],
+    "max": [
+     2608.0,
+     48.0,
+     -1216.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     320.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     384.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     448.0,
+     40.0,
+     -1952.0
+    ],
+    "max": [
+     512.0,
+     48.0,
+     -1888.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     544.0,
+     40.0,
+     -1888.0
+    ],
+    "max": [
+     608.0,
+     48.0,
+     -1824.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     672.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     736.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     768.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     832.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     864.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     928.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     992.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     1056.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     992.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     1056.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1120.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     1184.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1472.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     1536.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1600.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     1664.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1472.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     1536.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1344.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     1408.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1216.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     1280.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     832.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     896.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     704.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     768.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     576.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     640.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     448.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     512.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     320.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     384.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -2304.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1600.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     1664.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     288.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     352.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     384.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     448.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     480.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     544.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     576.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     640.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     672.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     736.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     768.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     832.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     864.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     928.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     960.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     1024.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1056.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     1120.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1152.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     1216.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1248.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     1312.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1344.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     1408.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1440.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     1504.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1536.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     1600.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1632.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     1696.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     128.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     1600.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     1664.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1472.0,
+     40.0,
+     -3200.0
+    ],
+    "max": [
+     1536.0,
+     48.0,
+     -3136.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1344.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     1408.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1216.0,
+     40.0,
+     -3136.0
+    ],
+    "max": [
+     1280.0,
+     48.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     1088.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     1152.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     960.0,
+     40.0,
+     -3200.0
+    ],
+    "max": [
+     1024.0,
+     48.0,
+     -3136.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     832.0,
+     40.0,
+     -3232.0
+    ],
+    "max": [
+     896.0,
+     48.0,
+     -3168.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     704.0,
+     40.0,
+     -3200.0
+    ],
+    "max": [
+     768.0,
+     48.0,
+     -3136.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     576.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     640.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     448.0,
+     40.0,
+     -3136.0
+    ],
+    "max": [
+     512.0,
+     48.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     320.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     384.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     1856.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2656.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     2720.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2784.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     2848.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2880.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     2944.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2976.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     3040.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3104.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     3168.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3200.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     3264.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3328.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     3392.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3424.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     3488.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3520.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     3584.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3616.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     3680.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3712.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     3776.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3808.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     3872.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3904.0,
+     40.0,
+     -1856.0
+    ],
+    "max": [
+     3968.0,
+     48.0,
+     -1792.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4000.0,
+     40.0,
+     -1920.0
+    ],
+    "max": [
+     4064.0,
+     48.0,
+     -1856.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4096.0,
+     40.0,
+     -1984.0
+    ],
+    "max": [
+     4160.0,
+     48.0,
+     -1920.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4032.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     4096.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3936.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     4000.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3744.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     3808.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3648.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     3712.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3520.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     3584.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3424.0,
+     40.0,
+     -2272.0
+    ],
+    "max": [
+     3488.0,
+     48.0,
+     -2208.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3328.0,
+     40.0,
+     -2400.0
+    ],
+    "max": [
+     3392.0,
+     48.0,
+     -2336.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3232.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     3296.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3104.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     3168.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2976.0,
+     40.0,
+     -2304.0
+    ],
+    "max": [
+     3040.0,
+     48.0,
+     -2240.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2848.0,
+     40.0,
+     -2368.0
+    ],
+    "max": [
+     2912.0,
+     48.0,
+     -2304.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2720.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     2784.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2592.0,
+     40.0,
+     -2336.0
+    ],
+    "max": [
+     2656.0,
+     48.0,
+     -2272.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -1888.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2688.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     2752.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     2688.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     2752.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2368.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3136.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     3200.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3264.0,
+     56.0,
+     -2752.0
+    ],
+    "max": [
+     3328.0,
+     64.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3392.0,
+     72.0,
+     -2752.0
+    ],
+    "max": [
+     3456.0,
+     80.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3520.0,
+     56.0,
+     -2752.0
+    ],
+    "max": [
+     3584.0,
+     64.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3680.0,
+     40.0,
+     -2816.0
+    ],
+    "max": [
+     3744.0,
+     48.0,
+     -2752.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3616.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     3680.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3776.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     3840.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3872.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     3936.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     2944.0,
+     80.0,
+     -2720.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -3264.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -3200.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3840.0,
+     40.0,
+     -3072.0
+    ],
+    "max": [
+     3904.0,
+     48.0,
+     -3008.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3712.0,
+     40.0,
+     -3072.0
+    ],
+    "max": [
+     3776.0,
+     48.0,
+     -3008.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3584.0,
+     40.0,
+     -3072.0
+    ],
+    "max": [
+     3648.0,
+     48.0,
+     -3008.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3584.0,
+     40.0,
+     -3264.0
+    ],
+    "max": [
+     3648.0,
+     48.0,
+     -3200.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3712.0,
+     40.0,
+     -3264.0
+    ],
+    "max": [
+     3776.0,
+     48.0,
+     -3200.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3456.0,
+     40.0,
+     -3264.0
+    ],
+    "max": [
+     3520.0,
+     48.0,
+     -3200.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3456.0,
+     40.0,
+     -3072.0
+    ],
+    "max": [
+     3520.0,
+     48.0,
+     -3008.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4096.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     3008.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     3072.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2880.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     2944.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2688.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     2752.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2560.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     2624.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2784.0,
+     40.0,
+     -3104.0
+    ],
+    "max": [
+     2848.0,
+     48.0,
+     -3040.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     2784.0,
+     40.0,
+     -3232.0
+    ],
+    "max": [
+     2848.0,
+     48.0,
+     -3168.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     3264.0,
+     80.0,
+     -3136.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     4864.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4928.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     4992.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5504.0,
+     40.0,
+     -32.0
+    ],
+    "max": [
+     5568.0,
+     48.0,
+     32.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5952.0,
+     40.0,
+     -128.0
+    ],
+    "max": [
+     6016.0,
+     48.0,
+     -64.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5760.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6080.0,
+     40.0,
+     64.0
+    ],
+    "max": [
+     6144.0,
+     48.0,
+     128.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5760.0,
+     80.0,
+     -0.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5952.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     6016.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     6080.0,
+     40.0,
+     -448.0
+    ],
+    "max": [
+     6144.0,
+     48.0,
+     -384.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5824.0,
+     40.0,
+     -544.0
+    ],
+    "max": [
+     5888.0,
+     48.0,
+     -480.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -432.0
+    ],
+    "max": [
+     5440.0,
+     48.0,
+     -400.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5632.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -496.0
+    ],
+    "max": [
+     5440.0,
+     48.0,
+     -464.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5632.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -368.0
+    ],
+    "max": [
+     5440.0,
+     48.0,
+     -336.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5632.0,
+     80.0,
+     -416.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     4864.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4960.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     5024.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5600.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     5664.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5728.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     5792.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5472.0,
+     40.0,
+     -896.0
+    ],
+    "max": [
+     5536.0,
+     48.0,
+     -832.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5376.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     5440.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5856.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     5920.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5984.0,
+     40.0,
+     -864.0
+    ],
+    "max": [
+     6048.0,
+     48.0,
+     -800.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6112.0,
+     40.0,
+     -832.0
+    ],
+    "max": [
+     6176.0,
+     48.0,
+     -768.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5216.0,
+     80.0,
+     -832.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     4864.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5504.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4960.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     5024.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5504.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5088.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     5152.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5504.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5248.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     5312.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     5504.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5936.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     6000.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5840.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     5904.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     5712.0,
+     40.0,
+     -1216.0
+    ],
+    "max": [
+     5776.0,
+     48.0,
+     -1152.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     6064.0,
+     40.0,
+     -1344.0
+    ],
+    "max": [
+     6128.0,
+     48.0,
+     -1280.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     6336.0,
+     80.0,
+     -1248.0
+    ],
+    "destination_yaw": 90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -2720.0
+    ],
+    "max": [
+     4864.0,
+     48.0,
+     -2656.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4960.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     5024.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5120.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     5184.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5280.0,
+     40.0,
+     -2720.0
+    ],
+    "max": [
+     5344.0,
+     48.0,
+     -2656.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6248.0,
+     40.0,
+     -2928.0
+    ],
+    "max": [
+     6312.0,
+     48.0,
+     -2864.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6376.0,
+     40.0,
+     -2928.0
+    ],
+    "max": [
+     6440.0,
+     48.0,
+     -2864.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5472.0,
+     40.0,
+     -2720.0
+    ],
+    "max": [
+     5536.0,
+     48.0,
+     -2656.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5632.0,
+     40.0,
+     -2720.0
+    ],
+    "max": [
+     5696.0,
+     48.0,
+     -2656.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5792.0,
+     40.0,
+     -2784.0
+    ],
+    "max": [
+     5856.0,
+     48.0,
+     -2720.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5952.0,
+     40.0,
+     -2720.0
+    ],
+    "max": [
+     6016.0,
+     48.0,
+     -2656.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6112.0,
+     40.0,
+     -2688.0
+    ],
+    "max": [
+     6176.0,
+     48.0,
+     -2624.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6272.0,
+     40.0,
+     -2752.0
+    ],
+    "max": [
+     6336.0,
+     48.0,
+     -2688.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6304.0,
+     40.0,
+     -3104.0
+    ],
+    "max": [
+     6368.0,
+     48.0,
+     -3040.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6144.0,
+     40.0,
+     -3168.0
+    ],
+    "max": [
+     6208.0,
+     48.0,
+     -3104.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5984.0,
+     40.0,
+     -3104.0
+    ],
+    "max": [
+     6048.0,
+     48.0,
+     -3040.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5856.0,
+     64.0,
+     -3136.0
+    ],
+    "max": [
+     5920.0,
+     72.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5728.0,
+     88.0,
+     -3200.0
+    ],
+    "max": [
+     5792.0,
+     96.0,
+     -3136.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5600.0,
+     112.0,
+     -3136.0
+    ],
+    "max": [
+     5664.0,
+     120.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5472.0,
+     136.0,
+     -3072.0
+    ],
+    "max": [
+     5536.0,
+     144.0,
+     -3008.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5344.0,
+     160.0,
+     -3136.0
+    ],
+    "max": [
+     5408.0,
+     168.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5088.0,
+     40.0,
+     -3136.0
+    ],
+    "max": [
+     5152.0,
+     48.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4944.0,
+     40.0,
+     -3232.0
+    ],
+    "max": [
+     5008.0,
+     48.0,
+     -3168.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4800.0,
+     40.0,
+     -3136.0
+    ],
+    "max": [
+     4864.0,
+     48.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4944.0,
+     40.0,
+     -3040.0
+    ],
+    "max": [
+     5008.0,
+     48.0,
+     -2976.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4608.0,
+     40.0,
+     -3136.0
+    ],
+    "max": [
+     4672.0,
+     48.0,
+     -3072.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4576.0,
+     40.0,
+     -3296.0
+    ],
+    "max": [
+     4640.0,
+     48.0,
+     -3232.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4608.0,
+     40.0,
+     -3456.0
+    ],
+    "max": [
+     4672.0,
+     48.0,
+     -3392.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4768.0,
+     40.0,
+     -3552.0
+    ],
+    "max": [
+     4832.0,
+     48.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4896.0,
+     64.0,
+     -3552.0
+    ],
+    "max": [
+     4960.0,
+     72.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5024.0,
+     88.0,
+     -3552.0
+    ],
+    "max": [
+     5088.0,
+     96.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5152.0,
+     112.0,
+     -3552.0
+    ],
+    "max": [
+     5216.0,
+     120.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5280.0,
+     136.0,
+     -3552.0
+    ],
+    "max": [
+     5344.0,
+     144.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5408.0,
+     160.0,
+     -3552.0
+    ],
+    "max": [
+     5472.0,
+     168.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6208.0,
+     40.0,
+     -3552.0
+    ],
+    "max": [
+     6272.0,
+     48.0,
+     -3488.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6304.0,
+     40.0,
+     -3744.0
+    ],
+    "max": [
+     6368.0,
+     48.0,
+     -3680.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6272.0,
+     40.0,
+     -3936.0
+    ],
+    "max": [
+     6336.0,
+     48.0,
+     -3872.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     6048.0,
+     40.0,
+     -4032.0
+    ],
+    "max": [
+     6112.0,
+     48.0,
+     -3968.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5888.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     5952.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5728.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     5792.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5568.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     5632.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5408.0,
+     40.0,
+     -3904.0
+    ],
+    "max": [
+     5472.0,
+     48.0,
+     -3840.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5248.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     5312.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     5088.0,
+     40.0,
+     -4032.0
+    ],
+    "max": [
+     5152.0,
+     48.0,
+     -3968.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4928.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     4992.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   },
+   {
+    "min": [
+     4768.0,
+     40.0,
+     -3968.0
+    ],
+    "max": [
+     4832.0,
+     48.0,
+     -3904.0
+    ],
+    "delay": 0.4,
+    "class": "func_door",
+    "destination": [
+     4608.0,
+     80.0,
+     -2688.0
+    ],
+    "destination_yaw": -90.0
+   }
+  ]
+ },
+ "push_volumes": [],
+ "trigger_volumes": [],
+ "author": "31K4L",
+ "notes": "A section-chain map like bhop_eazy, in colours: blue (b2..b10), green (g2..g7), purple (p2..p4), yellow (y2..y5), red (r2..r8), each a run of lanes whose floor pits return you to the start of that lane, joined by door-sized gates (8x112x128): blue's last lane ends at (-12 1248) -> to_green, green's at (2228 1248) -> to_purple, purple's at (-12 3136) -> to_yellow, yellow's at (2228 3136) -> to_red, red's at (4468 1248) -> to_end. to_end (4768 1992, facing 270) is a hub room whose teleports go to the 'top' copy of each section (to_*_top) and the bonus -- the map's own menu, as in v1 -- so it is the finish. The bonus (to_bonus, ending at another gate into to_end at 4468 3936) and the top routes are not timed tracks yet. gb-maps-1 batch of 2026-10-09. Not published."
+}

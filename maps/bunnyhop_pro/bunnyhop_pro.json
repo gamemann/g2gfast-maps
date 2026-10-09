@@ -1,0 +1,850 @@
+{
+ "id": "bunnyhop_pro",
+ "source": "bunnyhop_pro.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -1651.0,
+   68.0,
+   1544.0
+  ],
+  "max": [
+   1687.0,
+   578.9810791015625,
+   -3744.4599609375
+  ]
+ },
+ "lightmap": {
+  "file": "bunnyhop_pro_lightmap.png",
+  "width": 1024,
+  "height": 512
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 284.0,
+   "pitch_src": -90.0,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "brightness": 200.0,
+   "ambient_colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ambient_brightness": 20.0
+  },
+  "sky_name": "sky_dust",
+  "baked_light_count": 4
+ },
+ "surfaces": [
+  {
+   "material": "building_template/courtyard_template001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 0,
+   "vertex_count": 1475,
+   "index_offset": 59000,
+   "index_count": 2229,
+   "colour": [
+    0.8511,
+    0.8333,
+    0.7741
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "building_template/courtyard_template001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 67916,
+   "vertex_count": 368,
+   "index_offset": 82636,
+   "index_count": 552,
+   "colour": [
+    0.8511,
+    0.8333,
+    0.7741
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cable/red",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 84844,
+   "vertex_count": 18,
+   "index_offset": 85564,
+   "index_count": 30,
+   "colour": [
+    0.7428,
+    0.0292,
+    0.0292
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cable/red",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 85684,
+   "vertex_count": 6,
+   "index_offset": 85924,
+   "index_count": 12,
+   "colour": [
+    0.7428,
+    0.0292,
+    0.0292
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "concrete/concretefloor033k",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 85972,
+   "vertex_count": 156,
+   "index_offset": 92212,
+   "index_count": 288,
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "concrete/concretefloor033k",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 93364,
+   "vertex_count": 78,
+   "index_offset": 96484,
+   "index_count": 144,
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/black",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 97060,
+   "vertex_count": 3771,
+   "index_offset": 247900,
+   "index_count": 5937,
+   "colour": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/black",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 271648,
+   "vertex_count": 841,
+   "index_offset": 305288,
+   "index_count": 1341,
+   "colour": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/black",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 310652,
+   "vertex_count": 31,
+   "index_offset": 311892,
+   "index_count": 54,
+   "colour": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/ironmetal01",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 312108,
+   "vertex_count": 832,
+   "index_offset": 345388,
+   "index_count": 1788,
+   "colour": [
+    0.082,
+    0.0761,
+    0.0418
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/ironmetal01",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 352540,
+   "vertex_count": 144,
+   "index_offset": 358300,
+   "index_count": 252,
+   "colour": [
+    0.082,
+    0.0761,
+    0.0418
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/yellow",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 359308,
+   "vertex_count": 864,
+   "index_offset": 393868,
+   "index_count": 1404,
+   "colour": [
+    1.0,
+    0.9506,
+    0.5976
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/yellow",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 399484,
+   "vertex_count": 232,
+   "index_offset": 408764,
+   "index_count": 678,
+   "colour": [
+    1.0,
+    0.9506,
+    0.5976
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/concrete02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 411476,
+   "vertex_count": 1196,
+   "index_offset": 459316,
+   "index_count": 1860,
+   "colour": [
+    0.5234,
+    0.5289,
+    0.5088
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/concrete02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 466756,
+   "vertex_count": 212,
+   "index_offset": 475236,
+   "index_count": 324,
+   "colour": [
+    0.5234,
+    0.5289,
+    0.5088
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/groundsand_blend",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 476532,
+   "vertex_count": 549,
+   "index_offset": 498492,
+   "index_count": 867,
+   "colour": [
+    0.647,
+    0.5779,
+    0.4544
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/groundsand_blend",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 501960,
+   "vertex_count": 3642,
+   "index_offset": 647640,
+   "index_count": 7302,
+   "colour": [
+    0.647,
+    0.5779,
+    0.4544
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/residwall02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 676848,
+   "vertex_count": 1100,
+   "index_offset": 720848,
+   "index_count": 1860,
+   "colour": [
+    0.8073,
+    0.7849,
+    0.7465
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/residwall02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 728288,
+   "vertex_count": 240,
+   "index_offset": 737888,
+   "index_count": 390,
+   "colour": [
+    0.8073,
+    0.7849,
+    0.7465
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/templewall02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 739448,
+   "vertex_count": 1164,
+   "index_offset": 786008,
+   "index_count": 2061,
+   "colour": [
+    0.7826,
+    0.7233,
+    0.6174
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/templewall02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 794252,
+   "vertex_count": 444,
+   "index_offset": 812012,
+   "index_count": 774,
+   "colour": [
+    0.7826,
+    0.7233,
+    0.6174
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/tilefloor02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 815108,
+   "vertex_count": 90,
+   "index_offset": 818708,
+   "index_count": 168,
+   "colour": [
+    0.5362,
+    0.4881,
+    0.4264
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_dust/tilefloor02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 819380,
+   "vertex_count": 69,
+   "index_offset": 822140,
+   "index_count": 135,
+   "colour": [
+    0.5362,
+    0.4881,
+    0.4264
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "decals/offsignb",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 822680,
+   "vertex_count": 4,
+   "index_offset": 822840,
+   "index_count": 6,
+   "colour": [
+    0.4086,
+    0.4344,
+    0.3877
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_hazzardstripe01a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 822864,
+   "vertex_count": 326,
+   "index_offset": 835904,
+   "index_count": 576,
+   "colour": [
+    0.4987,
+    0.4149,
+    0.0411
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_hazzardstripe01a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 838208,
+   "vertex_count": 180,
+   "index_offset": 845408,
+   "index_count": 354,
+   "colour": [
+    0.4987,
+    0.4149,
+    0.0411
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_hazzardstripe01a",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 846824,
+   "vertex_count": 24,
+   "index_offset": 847784,
+   "index_count": 42,
+   "colour": [
+    0.4987,
+    0.4149,
+    0.0411
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "glass/glasswindow020a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 847952,
+   "vertex_count": 98,
+   "index_offset": 851872,
+   "index_count": 174,
+   "colour": [
+    0.2933,
+    0.48,
+    0.3206
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "glass/glasswindow070c",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 852568,
+   "vertex_count": 510,
+   "index_offset": 872968,
+   "index_count": 966,
+   "colour": [
+    0.0001,
+    0.1292,
+    0.1817
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "glass/glasswindow070c",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 876832,
+   "vertex_count": 56,
+   "index_offset": 879072,
+   "index_count": 90,
+   "colour": [
+    0.0001,
+    0.1292,
+    0.1817
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "ground/blendsnow_tracks",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 879432,
+   "vertex_count": 40,
+   "index_offset": 881032,
+   "index_count": 60,
+   "colour": [
+    0.8307,
+    0.853,
+    0.868
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "ground/blendsnow_tracks",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 881272,
+   "vertex_count": 8,
+   "index_offset": 881592,
+   "index_count": 12,
+   "colour": [
+    0.8307,
+    0.853,
+    0.868
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "halflife/lab1_w6a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 881640,
+   "vertex_count": 956,
+   "index_offset": 919880,
+   "index_count": 1434,
+   "colour": [
+    0.5869,
+    0.6232,
+    0.5756
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "halflife/lab1_w6a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 925616,
+   "vertex_count": 192,
+   "index_offset": 933296,
+   "index_count": 288,
+   "colour": [
+    0.5869,
+    0.6232,
+    0.5756
+   ],
+   "texture": null,
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 468,
+  "hull_offset": 934448,
+  "displacement_vertex_offset": 988112,
+  "displacement_vertex_count": 0,
+  "displacement_index_offset": 988112,
+  "displacement_index_count": 0,
+  "playerclip_hulls": 0,
+  "prop_hulls": 0
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 4,
+  "drawn": 0,
+  "stock_models": 4,
+  "surfaces": 0,
+  "tinted": 0,
+  "open_sky_lit": 0
+ },
+ "brush_entities": {
+  "solid": 0,
+  "faces_drawn": 0
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   -1120.0,
+   97.0,
+   1359.0
+  ],
+  "yaw": 0.5
+ },
+ "spawns": [
+  {
+   "origin": [
+    -1460.04,
+    99.6745,
+    1382.01
+   ],
+   "yaw": -1.1510999999999996
+  },
+  {
+   "origin": [
+    -288.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    352.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    1133.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    -128.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    -1120.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    -864.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    -712.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.5
+  },
+  {
+   "origin": [
+    -1400.0,
+    97.0,
+    1359.0
+   ],
+   "yaw": 0.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1504.0,
+    47.0,
+    -3663.0
+   ],
+   "max": [
+    -1312.0,
+    239.0,
+    -3471.0
+   ],
+   "inflated": true,
+   "destination": [
+    -1387.0,
+    328.0,
+    1112.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1563.0,
+    258.0,
+    1053.0
+   ],
+   "max": [
+    -1388.0,
+    450.0,
+    1245.0
+   ],
+   "inflated": true,
+   "destination": [
+    -1408.0,
+    136.0,
+    -3448.0
+   ],
+   "destination_yaw": 180.0
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    -1504.0,
+    3471.0,
+    47.0
+   ],
+   "max": [
+    -1312.0,
+    3663.0,
+    239.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -1432.0,
+    3543.0,
+    79.0
+   ],
+   "original_max": [
+    -1384.0,
+    3591.0,
+    207.0
+   ]
+  },
+  {
+   "min": [
+    -1563.0,
+    -1245.0,
+    258.0
+   ],
+   "max": [
+    -1388.0,
+    -1053.0,
+    450.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": true,
+   "trimmed": true,
+   "track": 0,
+   "original_min": [
+    -1481.0,
+    -1163.0,
+    290.0
+   ],
+   "original_max": [
+    -1453.0,
+    -1135.0,
+    418.0
+   ]
+  }
+ ],
+ "mechanics": {
+  "water": [],
+  "push": [],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [
+   {
+    "min": [
+     -1497.0,
+     139.0,
+     1188.0
+    ],
+    "max": [
+     -1305.0,
+     289.0,
+     1190.0
+    ]
+   },
+   {
+    "min": [
+     -1302.0,
+     139.0,
+     1129.0
+    ],
+    "max": [
+     -1300.0,
+     289.0,
+     1184.0
+    ]
+   },
+   {
+    "min": [
+     -744.0,
+     139.0,
+     1186.0
+    ],
+    "max": [
+     -680.0,
+     289.0,
+     1188.0
+    ]
+   }
+  ],
+  "blocks": []
+ },
+ "push_volumes": [],
+ "trigger_volumes": [],
+ "author": "win32",
+ "notes": "Credit only, no start or finish, on purpose (gb-maps-1, 2026-10-09): a walled practice yard of parallel block lanes of different spacing, looked at from the spawn and from above. Nothing in the file marks a route: two teleports only, one at the far end of the yard (-1408 3567) back to the near end and one raised by the spawn (-1467 -1149, z 354) to the far end, and no triggers, buttons or doors. A finish line guessed from the yard would time a route the map does not have. The map's own info_players are the spawn. Not published."
+}

@@ -6443,36 +6443,6 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    7456.0,
-    12406.0,
-    459.0
-   ],
-   "max": [
-    7701.0,
-    12598.0,
-    704.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    7456.0,
-    12405.0,
-    459.0
-   ],
-   "max": [
-    7701.0,
-    12597.0,
-    704.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
     8288.0,
     -11336.0,
     -14240.0
@@ -28313,36 +28283,6 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    7456.0,
-    12405.9,
-    -704.0
-   ],
-   "max": [
-    7701.0,
-    12597.9,
-    -459.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    7456.0,
-    12405.0,
-    -704.0
-   ],
-   "max": [
-    7701.0,
-    12597.0,
-    -459.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
     -14624.0,
     -14312.0,
     -15112.0
@@ -35383,60 +35323,6 @@
     -3080.0,
     15416.0,
     -1128.0
-   ]
-  },
-  {
-   "min": [
-    7456.0,
-    -704.0,
-    12406.0
-   ],
-   "max": [
-    7701.0,
-    -459.0,
-    12598.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    7456.0,
-    -704.0,
-    12462.0
-   ],
-   "original_max": [
-    7701.0,
-    -459.0,
-    12542.0
-   ]
-  },
-  {
-   "min": [
-    7456.0,
-    -704.0,
-    12405.0
-   ],
-   "max": [
-    7701.0,
-    -459.0,
-    12597.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    7456.0,
-    -704.0,
-    12461.0
-   ],
-   "original_max": [
-    7701.0,
-    -459.0,
-    12541.0
    ]
   },
   {
@@ -63521,60 +63407,6 @@
   },
   {
    "min": [
-    7456.0,
-    459.0,
-    12405.9
-   ],
-   "max": [
-    7701.0,
-    704.0,
-    12597.9
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    7456.0,
-    459.0,
-    12461.9
-   ],
-   "original_max": [
-    7701.0,
-    704.0,
-    12541.9
-   ]
-  },
-  {
-   "min": [
-    7456.0,
-    459.0,
-    12405.0
-   ],
-   "max": [
-    7701.0,
-    704.0,
-    12597.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    7456.0,
-    459.0,
-    12461.0
-   ],
-   "original_max": [
-    7701.0,
-    704.0,
-    12541.0
-   ]
-  },
-  {
-   "min": [
     -14624.0,
     14920.0,
     -14312.0
@@ -66445,5 +66277,5 @@
  ],
  "author": "Roosta, Teeth",
  "kind": "arena",
- "notes": "Credit only, and deliberately no zones: a combat surf map with no finish (see maps/zones/README.md). 38 placed weapons, jails (jail1, jail2, jailt), a control room and a scout round -- combat. gb-maps-1 batch of 2026-10-09. Not published."
+ "notes": "Credit only, and deliberately no zones: a combat surf map with no finish (see maps/zones/README.md). 38 placed weapons, jails (jail1, jail2, jailt), a control room and a scout round -- combat. gb-maps-1 batch of 2026-10-09. Not published. The scout round's start-disabled teleports over the spawns are dropped (round_teleports)."
 }
